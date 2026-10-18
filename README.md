@@ -1,12 +1,14 @@
 # India Capability Map
 
-A static field guide to India's position across 26 critical-mineral value chains, with 18 shared capabilities, 10 chemistry foundations and 105 sources. The overview pairs existing capabilities with proposed actions. Mineral detail pages show the four-stage World/India value chain. The map links to the related dashboard at [indiacriticalminerals.com](https://indiacriticalminerals.com).
+A static field guide to India's position across 26 critical-mineral value chains, with 18 shared capabilities, 10 chemistry foundations and 186 source entries (105 from the workbook and 81 added by the technology research). The overview pairs existing capabilities with proposed actions. Mineral detail pages show the four-stage World/India value chain. The map links to the related dashboard at [indiacriticalminerals.com](https://indiacriticalminerals.com).
 
 ## Content
 
-`source-data/India_Capability_Map.xlsx` is the source of truth for research content. During each build, the workbook importer refreshes the value chains, capability descriptions, chemistry, notes and source URLs in `capability_map.json`. The JSON also holds presentation mappings supplied in the original site kit: stable IDs, element symbols, group labels, presence levels, next-move stages, and relationships between records. Update those mappings when a workbook change requires it. There is no automatic live sync with the main dashboard.
+`source-data/India_Capability_Map.xlsx` is the source of truth for the original map dataset. During each build, the workbook importer refreshes the value chains, capability descriptions, chemistry, notes and source URLs in `capability_map.json`. The JSON also holds presentation mappings supplied in the original site kit: stable IDs, element symbols, group labels, presence levels, next-move stages, and relationships between records. Update those mappings when a workbook change requires it. There is no automatic live sync with the main dashboard.
 
-Costs, timelines, confidence labels and estimates retain the workbook's meaning. The site does not independently revalidate the research. The supplied JSON retains its original presence ratings and next-move stage mappings for provenance; these are not displayed or used to rank minerals.
+`research/technology-guides.json` separately expands all ten chemistry capabilities with newly sourced technology explanations, process routes, organisations, mineral connections and proposed Indian expansion paths. The build merges these guides and their sources into the deployed data; it preserves the original workbook. See [the research notes](research/README.md) for evidence and update conventions.
+
+Costs, timelines, confidence labels and estimates retain the workbook's meaning. The new technology guides add separate, dated research; they do not retroactively revalidate every workbook estimate. The supplied JSON retains its original presence ratings and next-move stage mappings for provenance; these are not displayed or used to rank minerals.
 
 ## Run locally
 
@@ -27,4 +29,4 @@ The workbook labels this an internal resource. Standard GitHub Pages hosting is 
 
 ## Use
 
-Select a mineral name or its details link for the full two-lane chain and proposed action. The overview shows full workbook descriptions; filters hide unmatched minerals. The strategies page includes a capability matrix and time horizons. Existing capabilities is a separate section containing all 10 chemistry foundations, their mineral links and sources. Press `/` to search all content, `Esc` to close search, and left/right arrows to move between minerals. Each mineral page has an A4 landscape print stylesheet.
+Select a mineral name or its details link for the full two-lane chain and proposed action. The overview shows full workbook descriptions; filters hide unmatched minerals. The strategies page includes a capability matrix and time horizons. Existing capabilities contains ten clickable technology guides, with explanations of how each mineral benefits, dated operator evidence and direct source references. The mineral pages also link to these guides. Press `/` to search the workbook, expanded guides and all references, `Esc` to close search, and left/right arrows to move between minerals. Each mineral page has an A4 landscape print stylesheet.

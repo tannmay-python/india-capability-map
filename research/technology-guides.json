@@ -1,0 +1,2816 @@
+{
+  "k01": {
+    "summary": "Fluorine chemistry is a shared industrial foundation for battery salts, selected mineral-purification routes and electronic chemicals. India's existing HF plants provide a starting point, but each application needs its own process, purity controls and customer qualification.",
+    "what": [
+      {
+        "text": "Hydrogen fluoride, HF, is the main industrial starting material for many fluorine compounds. Anhydrous HF contains essentially no water; hydrofluoric acid is HF dissolved in water. These are different products with different handling and process requirements. In the conventional route, acid-grade fluorspar, containing calcium fluoride, reacts with sulphuric acid: CaF2 + H2SO4 → 2HF + CaSO4. The useful product is recovered from a gas stream, rather than simply filtering an acid from crushed ore.",
+        "refs": [
+          "tech_k01_01"
+        ]
+      },
+      {
+        "text": "The transferable capability is the ability to make, purify and handle fluorine chemicals in equipment that resists corrosion, controls moisture and contains emissions. It is not a ready-made graphite refinery or semiconductor chemical business. BUSS ChemTech separately offers technologies for HF, lithium fluoride and LiPF6: sharing a chemical family does not remove the need for a dedicated process at each step.",
+        "refs": [
+          "tech_k01_05"
+        ]
+      }
+    ],
+    "value_chain": [
+      {
+        "name": "Fluorspar → crude HF",
+        "description": "Dry and prepare acid-grade calcium-fluoride feed, react it with concentrated sulphuric acid in a heated reactor, then collect the HF-bearing gas. Calcium sulphate remains as a solid coproduct. Feed moisture and impurity management affect corrosion and purification loads.",
+        "refs": [
+          "tech_k01_01"
+        ]
+      },
+      {
+        "name": "Crude HF → specified HF grade",
+        "description": "Condensation, scrubbing and distillation separate HF from water and volatile contaminants. Industrial AHF is an intermediate. Electronic wet chemicals add application-specific purification, dilution or blending and clean delivery; a bulk HF assay alone does not demonstrate wafer-process suitability.",
+        "refs": [
+          "tech_k01_01",
+          "tech_k01_07"
+        ]
+      },
+      {
+        "name": "HF → battery and metallurgical chemicals",
+        "description": "Lithium fluoride and phosphorus-fluorine chemistry support LiPF6 electrolyte salt production. A different branch converts already-separated rare-earth compounds into fluorides for metal production. Neither branch produces lithium ore or separates a mixed rare-earth deposit into individual elements.",
+        "refs": [
+          "tech_k01_05",
+          "tech_k01_08"
+        ]
+      },
+      {
+        "name": "HF → purification and surface treatment",
+        "description": "In graphite processing, HF attacks silicate-rich impurities; the purified carbon still needs particle shaping, coating and battery testing. In electronics, high-purity HF and buffered fluoride mixtures etch or clean selected surface films. The application consumes a process reagent rather than incorporating HF as the device's active mineral.",
+        "refs": [
+          "tech_k01_09",
+          "tech_k01_07"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "Gujarat Fluorochemicals / GFCL EV",
+        "location": "Gujarat, India; fluorspar asset in Morocco",
+        "role": "Integrated fluoropolymer producer and developer of battery materials at Jolva.",
+        "status": "August 2026 filing describes LiPF6 capacity expansion and customer commercialisation in progress; electrolyte qualification continues. Product presence is not evidence that every grade is fully commercial.",
+        "evidence_date": "2026-08-12",
+        "refs": [
+          "tech_k01_02"
+        ]
+      },
+      {
+        "name": "Navin Fluorine Advanced Sciences",
+        "location": "Dahej, Gujarat, India",
+        "role": "Industrial AHF producer with a separately announced electronic/solar HF technology partnership.",
+        "status": "Dated exchange disclosure confirms its new 40,000 tonnes/year AHF plant began commercial production on 6 February 2026. The disclosure recalls ₹450 crore of announced project expenditure; it does not certify semiconductor customer approvals.",
+        "evidence_date": "2026-02-06",
+        "refs": [
+          "tech_k01_03",
+          "tech_k01_04"
+        ]
+      },
+      {
+        "name": "BUSS ChemTech",
+        "location": "Pratteln, Switzerland",
+        "role": "Process licensor for HF from fluorspar or fluorosilicic acid, lithium fluoride and LiPF6; Navin's announced partner for high-purity HF.",
+        "status": "Commercial technology offering; Navin's May 2025 call describes a partnership to commercialise solar and electronic grades.",
+        "evidence_date": "2025-05-09 partnership; technology page undated",
+        "refs": [
+          "tech_k01_04",
+          "tech_k01_05"
+        ]
+      },
+      {
+        "name": "Orbia Koura / Kanto Denka Kogyo",
+        "location": "North America / Japan",
+        "role": "A useful comparison: an integrated fluorine producer licensing established LiPF6 manufacturing know-how.",
+        "status": "Technology agreement announced 2 February 2023 for a planned Louisiana salt plant. This agreement is evidence of a development route, not confirmation that the plant is operating today.",
+        "evidence_date": "2023-02-02",
+        "refs": [
+          "tech_k01_06"
+        ]
+      },
+      {
+        "name": "Stella Chemifa",
+        "location": "Japan",
+        "role": "Supplier of ultra-high-purity HF, ammonium fluoride and buffered HF for semiconductor wet processing.",
+        "status": "Commercial product catalogue; illustrates distinct electronic chemical formulations rather than interchangeable bulk acid.",
+        "evidence_date": "Undated product catalogue, accessed 2026-10-19",
+        "refs": [
+          "tech_k01_07"
+        ]
+      }
+    ],
+    "mineral_links": [
+      {
+        "minerals": [
+          "lithium"
+        ],
+        "how": "Fluorine reagents enable lithium fluoride and LiPF6, the conducting salt used in many liquid electrolytes. This captures chemical conversion value downstream of lithium supply; lithium feedstock must still be procured.",
+        "fit": "Direct chemical input; separate battery-grade qualification",
+        "refs": [
+          "tech_k01_05",
+          "tech_k01_06"
+        ]
+      },
+      {
+        "minerals": [
+          "graphite"
+        ],
+        "how": "HF can remove silicate impurities from natural graphite. KIGAM-led experiments on one Korean ore found large purity improvements with HF, but this is feed-specific laboratory evidence, not a performance guarantee for Indian ores or a qualified anode product.",
+        "fit": "Adjacent purification capability",
+        "refs": [
+          "tech_k01_09"
+        ]
+      },
+      {
+        "minerals": [
+          "neodymium",
+          "praseodymium",
+          "dysprosium",
+          "terbium",
+          "gadolinium"
+        ],
+        "how": "Rare-earth fluorides are intermediates or bath components in selected metal-making routes. Existing fluorination skills could support their preparation after individual rare earths have been separated. Nd, Pr, Dy and Tb connect particularly to magnets; Gd's inclusion is a chemical adjacency, not a claim that it has identical demand or processing economics.",
+        "fit": "Adjacent; element-specific process work remains",
+        "refs": [
+          "tech_k01_08"
+        ]
+      },
+      {
+        "minerals": [
+          "silicon"
+        ],
+        "how": "High-purity HF and buffered HF serve silicon-wafer cleaning and oxide etching. This supports device processing; it does not turn quartz into silicon metal or electronic-grade polysilicon.",
+        "fit": "Downstream process chemical",
+        "refs": [
+          "tech_k01_07"
+        ]
+      },
+      {
+        "minerals": [
+          "gallium"
+        ],
+        "how": "Fluoride chemistry is relevant to selected compound-semiconductor surface treatments. A GaN study removed native surface oxide using dilute HF. That supports a narrow process connection, not a claim that HF produces gallium metal or that a supplier is qualified for a commercial GaN fabrication line.",
+        "fit": "Application-specific adjacency",
+        "refs": [
+          "tech_k01_10"
+        ]
+      }
+    ],
+    "expansion": [
+      {
+        "title": "Choose a product and a buyer before adding capacity",
+        "text": "Build separate cases for industrial HF, electronic wet chemicals and battery-salt intermediates. Each case should identify feedstock, delivered specification and the customer trial required. The Orbia–Kanto Denka licensing model suggests that combining Indian plant-operating experience with licensed process know-how is plausible; ownership of HF assets alone is insufficient.",
+        "refs": [
+          "tech_k01_06",
+          "tech_k01_07"
+        ]
+      },
+      {
+        "title": "Pilot the mineral connection on real material",
+        "text": "For graphite, test representative Indian concentrates and measure impurity removal, carbon recovery and waste generation before selecting an HF route. For rare earths, start with a specific separated oxide and a metal maker's specification. Compare alternative salt-preparation routes: Ames researchers demonstrated neodymium metal using a fluoride precursor prepared without HF in 2025, still a research result rather than an established Indian plant.",
+        "refs": [
+          "tech_k01_09",
+          "tech_k01_08"
+        ]
+      },
+      {
+        "title": "Expand what passes qualification",
+        "text": "Prioritise repeatable saleable batches, traceable quality and practical delivery arrangements. The economic question is the cost of accepted product, including rejected material and treatment costs. Navin's ₹450 crore disclosure concerns its specific AHF project; it is not a defensible capital estimate for a semiconductor HF line or an integrated LiPF6 complex.",
+        "refs": [
+          "tech_k01_03",
+          "tech_k01_05"
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "title": "Containment is part of the process",
+        "text": "Gas cleaning, corrosion control and moisture exclusion must be designed into the plant. These affect reliability and operating cost, not just compliance. Equipment suitable for one concentration or water content cannot be presumed suitable for every fluoride service.",
+        "refs": [
+          "tech_k01_01",
+          "tech_k01_05"
+        ]
+      },
+      {
+        "title": "A chemical relationship is not a complete supply chain",
+        "text": "Fluorination does not solve rare-earth separation, graphite particle engineering or semiconductor fabrication. The opportunity is to supply a missing intermediate within a larger chain; its value depends on whether the neighbouring operations and buyers exist.",
+        "refs": [
+          "tech_k01_08",
+          "tech_k01_09",
+          "tech_k01_07"
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "AHF",
+        "meaning": "Anhydrous hydrogen fluoride: HF with essentially no water, used as an industrial intermediate."
+      },
+      {
+        "term": "Buffered HF",
+        "meaning": "A formulated fluoride etchant, commonly combining HF and ammonium fluoride to control surface treatment."
+      },
+      {
+        "term": "Fluorination",
+        "meaning": "Introducing fluorine into a compound or converting a material into a fluoride."
+      }
+    ],
+    "related_strategies": [
+      "s02",
+      "s06",
+      "s09",
+      "s13"
+    ],
+    "sources": [
+      {
+        "id": "tech_k01_01",
+        "title": "US EPA, AP-42 Section 8.7: Hydrofluoric Acid",
+        "url": "https://www.epa.gov/sites/default/files/2020-09/documents/8.7_hydrofluoric_acid.pdf",
+        "type": "Government",
+        "published": "July 1993; reformatted January 1995"
+      },
+      {
+        "id": "tech_k01_02",
+        "title": "Gujarat Fluorochemicals: Investor Presentation Q1FY27",
+        "url": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_12082026150128_GFCL_Investor_Presentation_12August2026.pdf",
+        "type": "Companies",
+        "published": "2026-08-12"
+      },
+      {
+        "id": "tech_k01_03",
+        "title": "Navin Fluorine: Commencement of commercial production of new 40,000 tonnes per annum hydrofluoric acid capacity at Dahej",
+        "url": "https://www.nfil.in/investor/pdf/2026/IntimationunderReg30Feb2026.pdf",
+        "type": "Companies",
+        "published": "2026-02-06"
+      },
+      {
+        "id": "tech_k01_04",
+        "title": "Navin Fluorine: Q4FY25 Earnings Conference Call, 9 May 2025",
+        "url": "https://www.nfil.in/investor/ip/NFILIntimationoftranscriptforQ4FY25signed.pdf",
+        "type": "Companies",
+        "published": "2025-05-16 filing; 2025-05-09 call"
+      },
+      {
+        "id": "tech_k01_05",
+        "title": "BUSS ChemTech: Base Fluorine Chemicals",
+        "url": "https://www.buss-ct.com/fluorine-chemistry/",
+        "type": "Companies",
+        "published": "Undated; accessed 2026-10-19"
+      },
+      {
+        "id": "tech_k01_06",
+        "title": "Orbia Koura signs technology licensing agreement with Kanto Denka Kogyo for LiPF6",
+        "url": "https://www.orbia.com/48fa98/siteassets/3.-news--stories/orbias-fluorinated-solutions-business-koura-signs-technology-licensing-agreement-with-kanto-denka-kogyo-to-supply-critical-electrolyte-salt-to-north-american-battery-market/koura-kd-licensing-agreement-release.pdf",
+        "type": "Companies",
+        "published": "2023-02-02"
+      },
+      {
+        "id": "tech_k01_07",
+        "title": "Stella Chemifa: Semiconductor-Related Products",
+        "url": "https://www.stella-chemifa.co.jp/english/products/cat1/",
+        "type": "Companies",
+        "published": "Undated; accessed 2026-10-19"
+      },
+      {
+        "id": "tech_k01_08",
+        "title": "Karati et al., Rare earth metals production using alternative feedstock that eliminates HF",
+        "url": "https://www.nature.com/articles/s41467-025-59468-w.pdf",
+        "type": "Research and public sector",
+        "published": "2025-05-15"
+      },
+      {
+        "id": "tech_k01_09",
+        "title": "Experimental Study on Flotation-Chemical Purification for High-Purity Graphite Production from Domestic Natural Graphite Ore",
+        "url": "https://j-kirr.or.kr/articles/article/roKG/",
+        "type": "Research and public sector",
+        "published": "2025-12-31"
+      },
+      {
+        "id": "tech_k01_10",
+        "title": "Guo et al., Effect of Native Oxide Layer on Mechanochemical Reaction at the GaN–Al2O3 Interface",
+        "url": "https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2021.672240/full",
+        "type": "Research and public sector",
+        "published": "2021-05-04"
+      }
+    ],
+    "value_chain_note": "After HF production and purification, battery chemicals, metallurgical reagents and electronic chemicals form different downstream branches."
+  },
+  "k02": {
+    "summary": "Battery electrolyte is an engineered liquid that carries lithium ions and helps control electrode surfaces. India can make salts, formulate electrolyte and support cell qualification as separate businesses; progress in one does not automatically establish the others.",
+    "what": [
+      {
+        "text": "A lithium-ion cell stores energy in its electrodes. During charging and discharging, lithium ions travel through an electrolyte while electrons move through the external circuit. In a conventional liquid electrolyte, a lithium salt such as LiPF6 dissolves in organic carbonate solvents. The solvent surrounds the lithium ions and changes how easily they move. Argonne's X-ray studies show why a mixture's microscopic behaviour matters: electrolyte is more than a liquid carrier chosen by price alone.",
+        "refs": [
+          "tech_k02_01"
+        ]
+      },
+      {
+        "text": "Salt, solvent, additive and finished electrolyte are different products. The salt supplies conducting ions; solvents determine transport and dissolution; small quantities of additives influence reactions at electrode surfaces. MU Ionic Solutions designs formulations around customer performance requirements and uses additive know-how to suppress unwanted reactions. A formulation for one cell design cannot simply be presumed suitable for a different cathode, anode, voltage or temperature range.",
+        "refs": [
+          "tech_k02_03"
+        ]
+      },
+      {
+        "text": "The electrode remains a separate manufacturing problem: LiPF6 is not lithium iron phosphate cathode powder, and electrolyte blending is not lithium mining or cathode production. LiPF6 also has moisture and thermal limitations. Freiburg's electrolyte research identifies hydrolysis that can form HF and thermal decomposition as motivations for developing alternative conducting salts. This makes dry processing and chemical stability central to production and storage.",
+        "refs": [
+          "tech_k02_02"
+        ]
+      }
+    ],
+    "value_chain": [
+      {
+        "name": "Lithium and fluorine inputs → conducting salt",
+        "description": "Obtain suitable lithium and fluorine-based intermediates, manufacture and purify the chosen salt, and validate it for the customer's electrolyte process. LiPF6 uses lithium, phosphorus and fluorine; a salt plant is a chemical conversion asset, distinct from the formulation plant that consumes its output.",
+        "refs": [
+          "tech_k02_02",
+          "tech_k02_09"
+        ]
+      },
+      {
+        "name": "Organic chemicals → specified solvents and additives",
+        "description": "Secure the required carbonate solvents and functional additives at suitable purity. EC, DEC, EMC and related molecules affect ion solvation differently; a chemically similar substitute can change the finished electrolyte's behaviour.",
+        "refs": [
+          "tech_k02_01",
+          "tech_k02_03"
+        ]
+      },
+      {
+        "name": "Salt + solvents + additives → electrolyte formulation",
+        "description": "Prepare the prescribed blend, protect its quality during handling and deliver a consistent product. A formulator can buy its salt rather than manufacture it. Soulbrain's model combines inventories of high-purity ingredients with customised development and production batches.",
+        "refs": [
+          "tech_k02_08"
+        ]
+      },
+      {
+        "name": "Electrolyte → approved cell design",
+        "description": "The buyer evaluates the formulation in the actual cell. The supplier must connect ingredient specifications with cycle performance, gas generation and the intended operating conditions. Audits and provisional approval are intermediate milestones: Neogen's July 2026 disclosure explicitly places commercial salt supplies after final plant-trial approvals.",
+        "refs": [
+          "tech_k02_03",
+          "tech_k02_05"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "Neogen Chemicals / Neogen Ionics",
+        "location": "Dahej and Pakhajan, Gujarat, India",
+        "role": "Electrolyte manufacturer and developer of lithium electrolyte salts/additives; larger expansion uses Japanese technology partnerships.",
+        "status": "26 July 2026: 2,000 tonnes/year electrolyte commissioned; 200 tonnes/year salts/additives commissioned; 1,300 tonnes/year in trial production. Pakhajan electrolyte trials/customer validation were ongoing, with larger salt facilities targeted for H2 FY27. These are separate statuses.",
+        "evidence_date": "2026-07-26",
+        "refs": [
+          "tech_k02_05"
+        ]
+      },
+      {
+        "name": "MU Ionic Solutions",
+        "location": "Japan; manufacturing network described across Japan, China, UK and US in 2023",
+        "role": "Electrolyte developer and technology licensor to Neogen.",
+        "status": "Confirmed the Indian manufacturing-technology licensing agreement in April 2023. This transfers electrolyte-process know-how; it is not proof of an operating Indian salt plant.",
+        "evidence_date": "2023-04-14",
+        "refs": [
+          "tech_k02_04"
+        ]
+      },
+      {
+        "name": "Morita Chemical Industries",
+        "location": "Japan and China",
+        "role": "Fluorine and LiPF6 producer; a source of established salt-manufacturing expertise.",
+        "status": "Its corporate site lists LiPF6 manufacturing at Zhangjiagang, including 3,700 tonnes/year capacity, while Neogen reports Morita's committed equity contribution toward their Indian venture. Listed capacity does not establish current utilisation.",
+        "evidence_date": "Undated site; Indian venture update 2026-07-26",
+        "refs": [
+          "tech_k02_07",
+          "tech_k02_05"
+        ]
+      },
+      {
+        "name": "GFCL EV",
+        "location": "Jolva, Gujarat, India",
+        "role": "Integrated battery-materials developer covering LiPF6 and formulated electrolyte.",
+        "status": "August 2026 filing reports progress on salt expansion/customer commercialisation and electrolyte qualification with Indian cell makers. It should not be read as proof that every product is already delivering large commercial volumes.",
+        "evidence_date": "2026-08-12",
+        "refs": [
+          "tech_k02_06"
+        ]
+      },
+      {
+        "name": "Soulbrain MI",
+        "location": "Kokomo, Indiana, US",
+        "role": "Custom electrolyte development and production; a comparison for customer-facing formulation rather than mining integration.",
+        "status": "Company describes a production/R&D operation supplying both development samples and production quantities, with automotive quality-system certification.",
+        "evidence_date": "Undated company page, accessed 2026-10-19",
+        "refs": [
+          "tech_k02_08"
+        ]
+      }
+    ],
+    "mineral_links": [
+      {
+        "minerals": [
+          "lithium"
+        ],
+        "how": "Converts lithium-containing feed into a high-value conducting salt, or incorporates purchased salt into a cell-specific electrolyte. It adds a domestic processing/customer interface even if lithium feed is imported. It does not by itself provide lithium reserves, refining capacity for all lithium grades, or the cathode's lithium inventory.",
+        "fit": "Direct downstream conversion and formulation",
+        "refs": [
+          "tech_k02_01",
+          "tech_k02_02"
+        ]
+      },
+      {
+        "minerals": [
+          "phosphorus"
+        ],
+        "how": "Phosphorus is part of the PF6 anion in LiPF6. That link concerns phosphorus-fluorine salt chemistry. It is distinct from the phosphate chemistry used for FePO4 and LFP cathodes, so an electrolyte-salt plant cannot be counted as a battery-grade phosphoric-acid plant.",
+        "fit": "Direct for LiPF6; distinct from LFP precursor chemistry",
+        "refs": [
+          "tech_k02_02"
+        ]
+      }
+    ],
+    "expansion": [
+      {
+        "title": "Begin with customer-linked formulation",
+        "text": "A plausible expansion begins with a small number of actual cell programmes and locally supplied development batches. Initially buying qualified salt and solvents can separate learning about formulation and delivery from the risks of commissioning a salt reactor. The commercial asset is the ability to troubleshoot alongside the buyer and reproduce an approved blend, illustrated by Soulbrain's custom-development model.",
+        "refs": [
+          "tech_k02_08",
+          "tech_k02_03"
+        ]
+      },
+      {
+        "title": "Add salt capacity against specific demand",
+        "text": "Develop salt manufacture where feed availability, process know-how and committed demand support it. Neogen's public sequence—commissioning, trial production and buyer approval—provides more useful milestones than treating announced tonnes as immediately saleable supply. Keep separate records for installed equipment, qualified capacity, repeat orders and actual output; track electrolyte and salt independently.",
+        "refs": [
+          "tech_k02_05",
+          "tech_k02_04"
+        ]
+      },
+      {
+        "title": "Build application expertise before broadening the portfolio",
+        "text": "Use joint testing with cell makers to identify which additives and solvent grades genuinely need localisation. Research alternatives to LiPF6 where the target application justifies them, while validating stability, compatibility and production economics. A stronger Indian capability could eventually serve domestic cells and export markets, but it requires customer acceptance rather than assuming all announced gigafactories become orders.",
+        "refs": [
+          "tech_k02_02",
+          "tech_k02_03",
+          "tech_k02_08"
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "title": "Chemical purity does not replace cell validation",
+        "text": "Impurity control matters, but the buyer also needs the full formulation to behave correctly at both electrodes. A laboratory sample that passes a chemical assay is therefore one milestone; a durable, reproducible cell result is another.",
+        "refs": [
+          "tech_k02_03",
+          "tech_k02_02"
+        ]
+      },
+      {
+        "title": "Do not divide a combined project cost by one product's tonnes",
+        "text": "Neogen disclosed ₹1,795 crore for its Dahej Phase 1 and Pakhajan Phase 2 battery-material projects together in July 2026. Their scope spans multiple products and sites. This is context for the investment programme, not a stand-alone per-tonne estimate for electrolyte blending or LiPF6 synthesis.",
+        "refs": [
+          "tech_k02_05"
+        ]
+      },
+      {
+        "title": "Local formulation can still depend on imported ingredients",
+        "text": "A domestic blend changes where the final liquid is made; it does not establish the origin of its lithium, salt, solvents or additives. Supply resilience should be evaluated ingredient by ingredient, with more than one acceptable source where the cell specification permits.",
+        "refs": [
+          "tech_k02_08",
+          "tech_k02_07"
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Electrolyte salt",
+        "meaning": "An ion-conducting compound dissolved in the electrolyte, such as lithium hexafluorophosphate (LiPF6)."
+      },
+      {
+        "term": "Electrode interface",
+        "meaning": "The boundary between electrode and electrolyte, where unwanted reactions or useful protective layers can form."
+      },
+      {
+        "term": "Qualification",
+        "meaning": "A customer's process for accepting a material and its manufacturing site for a specific intended use."
+      }
+    ],
+    "related_strategies": [
+      "s06"
+    ],
+    "sources": [
+      {
+        "id": "tech_k02_01",
+        "title": "Argonne APS Science 2018 Vol. 2: Unexpected Nanoclusters in Lithium-Ion Battery Electrolytes, pp.104–105",
+        "url": "https://www-dev.aps.anl.gov/sites/www.aps.anl.gov/files/APS-Uploads/APS-Science/18%20ann%20rep_2%20col_VOL%202.pdf",
+        "type": "Research and public sector",
+        "published": "July 2019"
+      },
+      {
+        "id": "tech_k02_02",
+        "title": "University of Freiburg, BASF Battery Materials Laboratory: Lithium Ion Electrolytes",
+        "url": "https://www.molchem.uni-freiburg.de/research/li-ion/li-ion-intro",
+        "type": "Research and public sector",
+        "published": "Undated research introduction; accessed 2026-10-19"
+      },
+      {
+        "id": "tech_k02_03",
+        "title": "Mitsubishi Chemical / MU Ionic Solutions: Sol-Rite formulated electrolyte",
+        "url": "https://www.m-chemical.co.jp/en/products/departments/group/muis/product/1211431_9448.html",
+        "type": "Companies",
+        "published": "Undated; accessed 2026-10-19"
+      },
+      {
+        "id": "tech_k02_04",
+        "title": "MU Ionic Solutions: Licensing of lithium-ion battery electrolyte manufacturing technology in India",
+        "url": "https://www.muis.co.jp/news/20230414/",
+        "type": "Companies",
+        "published": "2023-04-14"
+      },
+      {
+        "id": "tech_k02_05",
+        "title": "Neogen Chemicals: Earnings Presentation Q1FY27",
+        "url": "https://nsearchives.nseindia.com/corporate/NEOGEN_26072026165930_EP.pdf",
+        "type": "Companies",
+        "published": "2026-07-26"
+      },
+      {
+        "id": "tech_k02_06",
+        "title": "Gujarat Fluorochemicals: Investor Presentation Q1FY27",
+        "url": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_12082026150128_GFCL_Investor_Presentation_12August2026.pdf",
+        "type": "Companies",
+        "published": "2026-08-12"
+      },
+      {
+        "id": "tech_k02_07",
+        "title": "Morita Chemical Industries: Domestic and overseas bases",
+        "url": "https://www.morita-kagaku.co.jp/company/base/",
+        "type": "Companies",
+        "published": "Undated; accessed 2026-10-19"
+      },
+      {
+        "id": "tech_k02_08",
+        "title": "Soulbrain MI: Electrolyte development and manufacturing",
+        "url": "https://soulbrainmi.com/",
+        "type": "Companies",
+        "published": "Undated; accessed 2026-10-19"
+      },
+      {
+        "id": "tech_k02_09",
+        "title": "Orbia Koura / Kanto Denka Kogyo: LiPF6 technology licensing announcement",
+        "url": "https://www.orbia.com/48fa98/siteassets/3.-news--stories/orbias-fluorinated-solutions-business-koura-signs-technology-licensing-agreement-with-kanto-denka-kogyo-to-supply-critical-electrolyte-salt-to-north-american-battery-market/koura-kd-licensing-agreement-release.pdf",
+        "type": "Companies",
+        "published": "2023-02-02"
+      }
+    ],
+    "value_chain_note": "Salt manufacture and solvent/additive supply are separate inputs that meet at electrolyte formulation."
+  },
+  "k03": {
+    "summary": "India's fertiliser-acid infrastructure and specialist iron-phosphate chemistry can support an LFP materials chain. The missing steps must be assessed separately: purified acid, engineered FePO4 precursor and qualified lithium iron phosphate cathode powder are different products.",
+    "what": [
+      {
+        "text": "Phosphate chemistry turns phosphorus-bearing rock into acid and useful phosphate compounds. A fertiliser plant needs acid that meets its fertiliser process requirements. A battery-materials producer needs a controlled impurity profile and repeatable precursor behaviour. Concentrating an acid removes water; purifying it separates unwanted substances. High acid strength therefore does not by itself establish battery suitability.",
+        "refs": [
+          "tech_k03_01",
+          "tech_k03_02"
+        ]
+      },
+      {
+        "text": "The main battery connection is lithium iron phosphate, LiFePO4 or LFP. Its phosphorus-containing framework hosts lithium that moves in and out during cycling. Iron phosphate, FePO4, is an upstream precursor rather than the completed cathode. One industrial route combines FePO4 with lithium carbonate and a carbon source, then mixes, mills, dries and heat-treats the material. The finished powder must have the right chemistry and physical properties for electrode manufacture.",
+        "refs": [
+          "tech_k03_11"
+        ]
+      },
+      {
+        "text": "This is partly a particle-engineering business. Small particles shorten lithium transport distances, but excessively fine material can compromise packing and slurry handling. Sudeep describes controlling precipitation, drying, surface characteristics and particle classification. Experience making pharmaceutical iron phosphate can help, but it must be translated into cathode performance rather than treating pharmaceutical and battery specifications as equivalent.",
+        "refs": [
+          "tech_k03_03"
+        ]
+      }
+    ],
+    "value_chain": [
+      {
+        "name": "Phosphate rock + sulphuric acid → wet-process acid",
+        "description": "Digest prepared rock with sulphuric acid, crystallise calcium sulphate and filter it from the acid. Wash solids to recover entrained acid, then concentrate the liquid. This creates a large gypsum stream and requires fluoride-emission and water management.",
+        "refs": [
+          "tech_k03_01"
+        ]
+      },
+      {
+        "name": "Merchant acid → purified phosphoric acid",
+        "description": "Remove unwanted contaminants and separate the required acid product; solvent extraction is an established purification route. Alternatively, thermal acid starts with elemental phosphorus, which is oxidised and hydrated. These are different flowsheets: thermal acid is not just a cleaner operating mode of the fertiliser digester.",
+        "refs": [
+          "tech_k03_01",
+          "tech_k03_02"
+        ]
+      },
+      {
+        "name": "Purified phosphate + iron source → FePO4",
+        "description": "Produce iron phosphate with controlled composition, particle distribution and morphology; separate, wash and dry it consistently. The precursor's structure and impurities influence what the later LFP process can achieve. A qualified acid feed alone is therefore insufficient.",
+        "refs": [
+          "tech_k03_03",
+          "tech_k03_11"
+        ]
+      },
+      {
+        "name": "FePO4 + lithium source + carbon → LFP cathode material",
+        "description": "Combine precursor, lithium and carbon inputs through the selected synthesis and heat-treatment route. Carbon surface modification can improve conductivity. Cathode powder then goes into electrode and cell manufacture; successful powder production does not establish a qualified cell.",
+        "refs": [
+          "tech_k03_11",
+          "tech_k03_12"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "IFFCO / Jordan India Fertiliser Company",
+        "location": "India / Eshidiya, Jordan",
+        "role": "Existing fertiliser supply relationships and overseas phosphoric-acid production.",
+        "status": "IFFCO reports JIFCO capacity of 475,000 tonnes/year on a P2O5 basis and actual 2025 output of 511,000 tonnes. IFFCO and its subsidiary together hold 52%. This is overseas acid production, not domestic battery-grade acid capacity.",
+        "evidence_date": "2025 operating results, company page accessed 2026-10-19",
+        "refs": [
+          "tech_k03_07"
+        ]
+      },
+      {
+        "name": "IMACID / Chambal / Tata / OCP",
+        "location": "Jorf Lasfar, Morocco",
+        "role": "Merchant phosphoric-acid production supported by phosphate, port and utility infrastructure.",
+        "status": "Chambal describes the operating acid complex and its debottlenecking. Useful existing industrial relationships, but merchant fertiliser acid should not be counted as qualified battery feed.",
+        "evidence_date": "Undated company description; accessed 2026-10-19",
+        "refs": [
+          "tech_k03_08"
+        ]
+      },
+      {
+        "name": "Sudeep Advanced Materials",
+        "location": "Gujarat, India",
+        "role": "Iron-phosphate precursor developer building on pharmaceutical/food phosphate production.",
+        "status": "21 May 2026 filing reports upgrade of existing capacity to 5,000 tonnes/year of battery-grade material. A separate 25,000 tonnes/year Phase 1 project was under construction, then estimated for March 2027 completion. These capacities must not be added as if both are operating.",
+        "evidence_date": "2026-05-21",
+        "refs": [
+          "tech_k03_04"
+        ]
+      },
+      {
+        "name": "Himadri Speciality Chemical",
+        "location": "India",
+        "role": "LFP cathode-material development, alongside anode and carbon-material expertise.",
+        "status": "FY2025–26 annual report describes a pilot plant and a first 2,000 tonnes/year milestone targeted for Q3 FY27, within a planned 40,000 tonnes/year Phase 1. These are development targets subject to customer approvals, not proof of full commercial operation.",
+        "evidence_date": "FY2025–26 annual report",
+        "refs": [
+          "tech_k03_05"
+        ]
+      },
+      {
+        "name": "GFCL EV",
+        "location": "Jolva, Gujarat, India",
+        "role": "Developer of LFP cathode material within an integrated battery-material complex.",
+        "status": "August 2026 filing describes initial customer approvals and commercial sales expected soon for LFP/binders. That does not establish completed commercial ramp-up.",
+        "evidence_date": "2026-08-12",
+        "refs": [
+          "tech_k03_06"
+        ]
+      },
+      {
+        "name": "Prayon / First Phosphate",
+        "location": "Belgium / Quebec, Canada",
+        "role": "Process and product examples for connecting phosphate feed to purified acid and LFP.",
+        "status": "First Phosphate reports pilot conversion of its merchant acid into PPA meeting Prayon food/battery specifications in February 2024. Prayon separately markets industrial LFP through its materials business. A feed-specific pilot result is distinct from a new commercial acid refinery.",
+        "evidence_date": "2024-02-13 pilot milestone; product pages undated",
+        "refs": [
+          "tech_k03_09",
+          "tech_k03_10"
+        ]
+      }
+    ],
+    "mineral_links": [
+      {
+        "minerals": [
+          "phosphorus"
+        ],
+        "how": "Moves phosphate into purified acid, engineered FePO4 and finally the phosphate framework of LFP. India's fertiliser relationships can help with feed procurement and operating knowledge, but do not automatically provide purification yields, a battery impurity specification or a cell maker's approval.",
+        "fit": "Direct; distinct purification and precursor steps",
+        "refs": [
+          "tech_k03_02",
+          "tech_k03_03",
+          "tech_k03_07"
+        ]
+      },
+      {
+        "minerals": [
+          "lithium"
+        ],
+        "how": "LFP manufacture consumes a lithium chemical such as lithium carbonate alongside iron phosphate. A domestic cathode producer adds processing value and demand for qualified lithium supply. It does not remove the requirement to secure lithium feed or establish domestic lithium mining.",
+        "fit": "Direct cathode-material link",
+        "refs": [
+          "tech_k03_11"
+        ]
+      }
+    ],
+    "expansion": [
+      {
+        "title": "Qualify existing precursor production first",
+        "text": "Use small, traceable FePO4 batches with a specific LFP producer. Evaluate precursor chemistry alongside particle behaviour and cell results; establish which properties must remain stable between batches. Sudeep's upgraded line creates a plausible starting platform, but the performance of new downstream formulations still requires buyer testing.",
+        "refs": [
+          "tech_k03_03",
+          "tech_k03_04"
+        ]
+      },
+      {
+        "title": "Test acid purification on an identified feed",
+        "text": "A domestic purification project should start with a contracted acid or rock stream and impurity analysis, then pilot the treatment and establish acid recovery and waste disposition. It may initially be rational to import qualified PPA while building precursor demand. The First Phosphate–Prayon work illustrates the need to demonstrate the actual rock-to-acid route before extrapolating from an acid plant's size.",
+        "refs": [
+          "tech_k03_02",
+          "tech_k03_09"
+        ]
+      },
+      {
+        "title": "Link precursor, cathode and cell projects through trials",
+        "text": "Co-development between Indian FePO4, LFP and cell producers could reveal whether a local precursor works in a customer's manufacturing line. Expand against repeat orders and demonstrated yields; retain the distinction between precursor tonnes and finished cathode tonnes. Cathode synthesis, coating and electrode processing should have separate acceptance milestones, even where one group owns several steps.",
+        "refs": [
+          "tech_k03_05",
+          "tech_k03_12"
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "title": "Acid concentration and acid purity are different",
+        "text": "P2O5 is often the reporting basis for phosphoric-acid capacity, rather than tonnes of acid solution. Comparing a P2O5 capacity with tonnes of FePO4 or LFP without conversion is misleading. Further concentration cannot substitute for removing the contaminants that matter to the chosen product.",
+        "refs": [
+          "tech_k03_01",
+          "tech_k03_07"
+        ]
+      },
+      {
+        "title": "Impurities and particle structure both matter",
+        "text": "A 2025 experiment found that different FePO4 impurities affected LFP differently; some controlled magnesium improved performance in the tested formulation. The goal is a specified, reproducible impurity profile, rather than the highest aggregate purity at any cost. Particle engineering likewise balances transport, packing and processing.",
+        "refs": [
+          "tech_k03_11",
+          "tech_k03_03"
+        ]
+      },
+      {
+        "title": "Do not turn development milestones into operating supply",
+        "text": "Pilot output, upgraded nameplate capacity, a project under construction and a customer-qualified commercial line represent different levels of evidence. Indian expansion is credible precisely because these intermediate steps exist; counting all announced capacity as current output would conceal the remaining work.",
+        "refs": [
+          "tech_k03_04",
+          "tech_k03_05",
+          "tech_k03_06"
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "PPA",
+        "meaning": "Purified phosphoric acid; an acid product cleaned to a specified impurity profile."
+      },
+      {
+        "term": "FePO4",
+        "meaning": "Iron phosphate: a precursor used in one important route to lithium iron phosphate."
+      },
+      {
+        "term": "LFP / CAM",
+        "meaning": "Lithium iron phosphate / cathode active material: the functional powder incorporated into the positive electrode."
+      },
+      {
+        "term": "P2O5 basis",
+        "meaning": "A conventional way to report phosphate content or acid capacity; it is not the mass of the acid solution."
+      }
+    ],
+    "related_strategies": [
+      "s10"
+    ],
+    "sources": [
+      {
+        "id": "tech_k03_01",
+        "title": "US EPA, AP-42 Section 8.9: Phosphoric Acid",
+        "url": "https://www.epa.gov/sites/default/files/2020-09/documents/8.9_phosphoric_acid.pdf",
+        "type": "Government",
+        "published": "July 1993; reformatted January 1995"
+      },
+      {
+        "id": "tech_k03_02",
+        "title": "US EPA: Water Treatment Chemical Supply Chain Profile—Phosphoric Acid",
+        "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1017BNF.TXT",
+        "type": "Government",
+        "published": "December 2022"
+      },
+      {
+        "id": "tech_k03_03",
+        "title": "Sudeep Advanced Materials: The Critical Role of Particle Size and Morphology in Iron Phosphate for LFP Batteries",
+        "url": "https://www.sudeepadvancedmaterials.com/2025/05/10/the-critical-role-of-particle-size-and-morphology-in-iron-phosphate-for-lfp-batteries/",
+        "type": "Companies",
+        "published": "2025-05-10"
+      },
+      {
+        "id": "tech_k03_04",
+        "title": "Sudeep Pharma: Investor Presentation, Q4 and FY26",
+        "url": "https://nsearchives.nseindia.com/corporate/SUDEEPPHARMALIMITED_21052026202921_Submission_of_presentation_21052026.pdf",
+        "type": "Companies",
+        "published": "2026-05-21"
+      },
+      {
+        "id": "tech_k03_05",
+        "title": "Himadri Speciality Chemical: Integrated Annual Report 2025–26",
+        "url": "https://www.himadri.com/home/uploads/performance/annual_report_doc/1778839995_Himadri_Annual_Report_FY_2025-26.pdf",
+        "type": "Companies",
+        "published": "FY2025–26"
+      },
+      {
+        "id": "tech_k03_06",
+        "title": "Gujarat Fluorochemicals: Investor Presentation Q1FY27",
+        "url": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_12082026150128_GFCL_Investor_Presentation_12August2026.pdf",
+        "type": "Companies",
+        "published": "2026-08-12"
+      },
+      {
+        "id": "tech_k03_07",
+        "title": "IFFCO: Jordan India Fertiliser Company",
+        "url": "https://www.iffco.in/en/jordan?hl=en-US",
+        "type": "Companies",
+        "published": "Undated; includes 2025 production; accessed 2026-10-19"
+      },
+      {
+        "id": "tech_k03_08",
+        "title": "Chambal Fertilisers: Indo Maroc Phosphore SA joint venture",
+        "url": "https://chambalfertilisers.com/index399a.html?Itemid=269&option=com_content&view=category",
+        "type": "Companies",
+        "published": "Undated; accessed 2026-10-19"
+      },
+      {
+        "id": "tech_k03_09",
+        "title": "First Phosphate: Purified Phosphoric Acid Pilot Plant",
+        "url": "https://firstphosphate.com/projects/ppa-production/",
+        "type": "Companies",
+        "published": "Undated page; records 2024-02-13 pilot milestone"
+      },
+      {
+        "id": "tech_k03_10",
+        "title": "Prayon: Energy—LFP cathode materials",
+        "url": "https://www.prayon.com/en/products/energy/",
+        "type": "Companies",
+        "published": "Undated; accessed 2026-10-19"
+      },
+      {
+        "id": "tech_k03_11",
+        "title": "Effect of impurities in FePO4 raw materials on the performance of LiFePO4 cathode materials",
+        "url": "https://www.nature.com/articles/s41598-025-99729-8.pdf",
+        "type": "Research and public sector",
+        "published": "2025-04-29"
+      },
+      {
+        "id": "tech_k03_12",
+        "title": "Yoon et al., Conductive surface modification of LiFePO4 with nitrogen doped carbon layers for lithium-ion batteries",
+        "url": "https://www.ornl.gov/publications/conductive-surface-modification-of-lifepo4-with-nitrogen-doped-carbon-layers-for-lithium-ion-batteries/",
+        "type": "Research and public sector",
+        "published": "March 2012"
+      }
+    ]
+  },
+  "k04": {
+    "summary": "A reusable separation skill: move selected molecules or metal ions between two liquids, then recover a purified product. India has chemical equipment suppliers and actual mineral-separation operators; transferring pharmaceutical experience to a new mineral still requires a qualified flowsheet.",
+    "what": [
+      {
+        "text": "Liquid–liquid extraction separates dissolved substances that a filter cannot catch. Two liquids that remain as separate phases are mixed so the desired substance transfers preferentially into one of them, then allowed to separate again. An extractant is the chemical that provides this preference; the solvent system also needs a suitable carrier liquid. Selectivity is the valuable part: recovering one saleable substance from the mixture.",
+        "refs": [
+          "tech_k04_01"
+        ]
+      },
+      {
+        "text": "In mineral refining, extraction is followed by scrubbing, which removes unwanted co-extracted species, and stripping, which transfers the product into a fresh liquid. The extractant can return to the circuit. For similar rare-earth ions, a small preference at one contact must be amplified through a designed sequence of contacts. The difficult asset is the complete operating flowsheet, including acidity, impurities and recycle streams, rather than a mixing vessel alone.",
+        "refs": [
+          "tech_k04_02"
+        ]
+      },
+      {
+        "text": "Pharmaceutical and agrochemical manufacturing supplies relevant experience in solvent handling, phase separation and corrosion-resistant equipment. It does not automatically supply rare-earth separation factors, a stable multistage cascade or metal-product qualification. Sudeep is a more concrete example of adjacent capability: its August 2026 filing reports an existing pharmaceutical iron-phosphate line upgraded for battery materials. That is evidence of chemical-product transfer, not proof that the company operates rare-earth extraction.",
+        "refs": [
+          "tech_k04_04",
+          "tech_k04_05"
+        ]
+      }
+    ],
+    "value_chain": [
+      {
+        "name": "Feed solution → clarified, conditioned liquor",
+        "description": "A mineral concentrate or recycled material first needs dissolution and impurity control. IREL receives mixed rare-earth chloride concentrate at Aluva; its listed outputs include Nd-Pr, Sm, Gd and Y oxides. The extraction section therefore sits between making a mixed solution and delivering separated compounds.",
+        "refs": [
+          "tech_k04_06"
+        ]
+      },
+      {
+        "name": "Mixed liquor + organic phase → loaded extract + raffinate",
+        "description": "Mixer-settlers or extraction columns provide contact and phase separation. The loaded organic carries extracted material; raffinate is the liquid left behind. Equipment must be selected for the actual chemical mixture and duty, including corrosion and flammability requirements.",
+        "refs": [
+          "tech_k04_01"
+        ]
+      },
+      {
+        "name": "Loaded organic → scrubbed material → stripped product solution",
+        "description": "A sequence of extraction, cleanup and stripping establishes the split. NFC provides an Indian industrial example: TBP in kerosene selectively extracts zirconium from nitric-acid feed, leaving hafnium in the aqueous stream; zirconium is then stripped back into water.",
+        "refs": [
+          "tech_k04_07"
+        ]
+      },
+      {
+        "name": "Purified solution → oxide or acid → customer material",
+        "description": "Rare-earth products can be precipitated and calcined into oxides. Phosphoric acid uses a different flowsheet: wet-process acid is purified to remove unwanted material before downstream phosphate manufacture. Tenova markets dedicated solvent-extraction technology for this duty; phosphate chemistry should not inherit a rare-earth plant design.",
+        "refs": [
+          "tech_k04_06",
+          "tech_k04_08"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "IREL Rare Earths Division and research teams",
+        "location": "Aluva and Kollam, India",
+        "role": "Operating mixed-chloride refining base and element-specific development. The March 2025 project list names P. Narayanan on Gd/Eu extraction using P507 and records separate Y purification work.",
+        "status": "Operating refinery; individual development projects retain their listed research status",
+        "evidence_date": "31 March 2025 project register; operator page undated",
+        "refs": [
+          "tech_k04_03",
+          "tech_k04_06"
+        ]
+      },
+      {
+        "name": "Heavy Water Board",
+        "location": "Mumbai, India",
+        "role": "Industrial solvent-extraction experience and in-house solvent supply. Its Mumbai facility lists valuable-metal recovery and nickel/cobalt recovery among development activities.",
+        "status": "Industrial extraction experience; named new recovery work described as technology development",
+        "evidence_date": "18 June 2025 page update",
+        "refs": [
+          "tech_k04_02"
+        ]
+      },
+      {
+        "name": "GMM Pfaudler / Pfaudler Normag",
+        "location": "India-based engineering group with international operations",
+        "role": "Extraction columns, mixer-settlers and pilot equipment; a potential equipment partner rather than evidence of a mineral-producing plant.",
+        "status": "Equipment and engineering offering",
+        "evidence_date": "Undated operator descriptions",
+        "refs": [
+          "tech_k04_01",
+          "tech_k04_04"
+        ]
+      },
+      {
+        "name": "Sudeep Pharma / Sudeep Advanced Materials",
+        "location": "Gujarat, India",
+        "role": "Adjacent phosphate-manufacturing base: mineral ingredients and FePO4 production transferring into battery materials. Its FePO4 capacity does not establish solvent-extraction capacity.",
+        "status": "Existing 5,000 t/year capacity upgrade reported; separate 25,000 t/year Dahej project targeted for March 2027",
+        "evidence_date": "4 August 2026",
+        "refs": [
+          "tech_k04_05"
+        ]
+      },
+      {
+        "name": "Solvay La Rochelle",
+        "location": "France",
+        "role": "Commercial rare-earth separation and materials for permanent magnets; demonstrates the importance of feed and customer partnerships.",
+        "status": "New magnet-material production line inaugurated; company states commercial production started",
+        "evidence_date": "8 April 2025 release",
+        "refs": [
+          "tech_k04_09"
+        ]
+      },
+      {
+        "name": "Tenova Advanced Technologies / Prayon Technologies",
+        "location": "International / Belgium",
+        "role": "Process development and licensing for phosphate acid and its purification; possible technology partners, subject to feed-specific testing.",
+        "status": "Technology and engineering suppliers; no Indian battery-acid commissioning inferred",
+        "evidence_date": "Undated supplier pages",
+        "refs": [
+          "tech_k04_08",
+          "tech_k04_10"
+        ]
+      }
+    ],
+    "mineral_links": [
+      {
+        "minerals": [
+          "neodymium",
+          "praseodymium",
+          "samarium",
+          "gadolinium",
+          "yttrium"
+        ],
+        "how": "Separates rare earths from mixed chloride feeds into distinct products. IREL lists Nd-Pr, Sm, Gd and Y outputs, although mixed Nd-Pr is not independently separated Nd and Pr. Required purity depends on the intended customer.",
+        "fit": "Direct mineral-separation base; pharma contribution is adjacent",
+        "refs": [
+          "tech_k04_06"
+        ]
+      },
+      {
+        "minerals": [
+          "dysprosium",
+          "terbium",
+          "erbium",
+          "holmium",
+          "thulium",
+          "ytterbium",
+          "lutetium"
+        ],
+        "how": "The same separation principle applies to the remaining heavy rare earths in the workbook. Each needs a suitable feed and element-specific cascade. Their inclusion here expresses a technology connection, not a claim that India already commercially separates every listed element. A pharmaceutical plant cannot be counted as that capacity.",
+        "fit": "Adjacent; commercial element-by-element Indian coverage unverified",
+        "refs": [
+          "tech_k04_03",
+          "tech_k04_09"
+        ]
+      },
+      {
+        "minerals": [
+          "phosphorus"
+        ],
+        "how": "Purification converts impure wet-process acid into a suitable input for higher-value phosphate manufacture. The target is a written customer impurity specification; making fertiliser acid or iron phosphate alone does not establish an operating purified-acid circuit.",
+        "fit": "Adjacent process transfer; dedicated acid-purification flowsheet required",
+        "refs": [
+          "tech_k04_08",
+          "tech_k04_10"
+        ]
+      },
+      {
+        "minerals": [
+          "gadolinium"
+        ],
+        "how": "Purified Gd compounds are an upstream input, not a finished contrast agent. The workbook’s pharmaceutical opportunity requires additional chelation, formulation and customer qualification; the IREL project register establishes oxide-separation development rather than an approved medicine.",
+        "fit": "Oxide purification supported; pharmaceutical-product expansion remains a proposal",
+        "refs": [
+          "tech_k04_03"
+        ]
+      }
+    ],
+    "expansion": [
+      {
+        "title": "First: choose a product and secure representative feed",
+        "text": "Proposed pathway: begin with either a defined rare-earth split at an experienced mineral operator or a phosphate-acid purification project. Set feed-composition limits and a customer specification before buying extraction equipment. Test variability and recycling streams; average feed chemistry alone is insufficient for designing a reliable circuit.",
+        "refs": [
+          "tech_k04_08"
+        ]
+      },
+      {
+        "title": "Then: prove continuous operation and customer acceptance",
+        "text": "Proposed pathway: use Indian equipment and analytical suppliers around a specialist process team. Run a continuous pilot long enough to observe solvent losses, impurity accumulation and product consistency. Expand only after customer samples meet specification. This links adjacent manufacturing skills to a proven mineral flowsheet without treating sector size as proof of readiness.",
+        "refs": [
+          "tech_k04_04",
+          "tech_k04_05"
+        ]
+      },
+      {
+        "title": "Finally: add selective products rather than every element at once",
+        "text": "Proposed pathway: match a phased product basket to contracted feed and buyers. Solvay’s operating model illustrates partnerships with mining and recycling suppliers. A commercially useful Indian expansion might start with a small number of saleable products and add harder splits once their feed and offtake are demonstrated.",
+        "refs": [
+          "tech_k04_09"
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "title": "Similar ions and mixed products",
+        "text": "Rare-earth chemistry does not guarantee an economical split between every pair. IREL’s own register gives different development projects different maturity levels. Reporting all rare-earth names as one established capability hides the difference between making a mixed intermediate and consistently supplying separated products.",
+        "refs": [
+          "tech_k04_03"
+        ]
+      },
+      {
+        "title": "Specification, waste and economics",
+        "text": "Project appraisal must include acid and base consumption, solvent replacement, contaminated aqueous streams and actual product acceptance. Prayon offers different impurity-removal treatments for different contaminants, illustrating why “purified” is not one universal specification. No comparable public Indian extraction-plant cost was established here; pharmaceutical-sector scale is not a cost benchmark.",
+        "refs": [
+          "tech_k04_11"
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Raffinate",
+        "meaning": "The liquid phase remaining after a selected substance has been extracted."
+      },
+      {
+        "term": "Scrubbing and stripping",
+        "meaning": "Scrubbing cleans the loaded extract; stripping removes the desired material into a new product solution."
+      },
+      {
+        "term": "Cascade",
+        "meaning": "A connected sequence of separation contacts that magnifies small chemical preferences."
+      }
+    ],
+    "related_strategies": [
+      "s01",
+      "s10",
+      "s15"
+    ],
+    "sources": [
+      {
+        "id": "tech_k04_01",
+        "title": "GMM Pfaudler: Extraction Systems",
+        "url": "https://www.gmmpfaudler.com/systems-processes/process-systems-packages/extraction-systems",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k04_02",
+        "title": "Heavy Water Board: About HWBF Mumbai",
+        "url": "https://hwb.gov.in/about-hwbf-mumbai-0",
+        "type": "Government",
+        "published": "18 June 2025 page update"
+      },
+      {
+        "id": "tech_k04_03",
+        "title": "IREL: completed R&D project register as on 31 March 2025",
+        "url": "https://www.irel.co.in/documents/20126/127391/IRELTDC%2Bcompleted%2Bprojects%2Bas%2Bon%2B31.03.2025.pdf/3c6bee19-fdb1-f152-b778-0533a6e2379c?t=1749812712182",
+        "type": "Research and public sector",
+        "published": "31 March 2025"
+      },
+      {
+        "id": "tech_k04_04",
+        "title": "GMM Pfaudler Normag: Extraction equipment and scale range",
+        "url": "https://www.gmmpfaudler.com/lab-and-process-glass/extraction",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k04_05",
+        "title": "Sudeep Pharma: Q1 FY27 investor presentation filed with NSE",
+        "url": "https://nsearchives.nseindia.com/corporate/SUDEEPPHARMALIMITED_04082026190407_Submission_of_Investor_Presentation_04082026.pdf",
+        "type": "Companies",
+        "published": "4 August 2026"
+      },
+      {
+        "id": "tech_k04_06",
+        "title": "IREL: Rare Earths Division Aluva",
+        "url": "https://irel.co.in/rare-earths-division-aluva",
+        "type": "Research and public sector",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k04_07",
+        "title": "Nuclear Fuel Complex: Nuclear Grade Reactor Material",
+        "url": "https://www.nfc.gov.in/nuclear-grade-reactor-material.html",
+        "type": "Research and public sector",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k04_08",
+        "title": "Tenova: Purified Phosphoric Acid Solvent Extraction",
+        "url": "https://tenova.com/technologies/purified-phosphoric-acid-solvent-extraction",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k04_09",
+        "title": "Solvay: European rare-earth production line starts at La Rochelle",
+        "url": "https://www.solvay.com/en/press-release/solvay-advances-european-rare-earths-production-through-capacity-expansion",
+        "type": "Companies",
+        "published": "8 April 2025"
+      },
+      {
+        "id": "tech_k04_10",
+        "title": "Prayon Technologies: Processes and phosphate-production licensing",
+        "url": "https://www.prayon.com/en/process/",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k04_11",
+        "title": "Prayon: Heavy metals removal from phosphoric acid",
+        "url": "https://www.prayon.com/en/processes/heavy-metals-removal/",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      }
+    ]
+  },
+  "k05": {
+    "summary": "Selective resin beads capture dissolved ions, then release them into a cleaner stream. India manufactures resins and has a gallium-recovery demonstration project, but each mineral application needs its own chemistry, feed testing and operating evidence.",
+    "what": [
+      {
+        "text": "An ion-exchange resin is a solid, usually a cross-linked polymer bead, carrying chemical sites that interact with dissolved ions. Liquid flows through a packed bed: some ions remain on the bead while others pass through. When capacity is exhausted, another solution releases the captured ions and prepares the resin for reuse. This is a chemical separation, not ordinary filtration of suspended particles.",
+        "refs": [
+          "tech_k05_01"
+        ]
+      },
+      {
+        "text": "Selectivity matters more than the mere ability to capture a metal. A general resin may collect many competing ions; a chelating resin uses specific binding groups, while an impregnated resin carries a selective extractant within a solid support. Choosing a product requires knowing the metal’s chemical form, the acid or caustic medium and all major competitors. Ion Exchange India’s catalogue lists distinct media for distinct metal-recovery and acid-cleanup duties.",
+        "refs": [
+          "tech_k05_02"
+        ]
+      },
+      {
+        "text": "Several different jobs are often conflated: capture a dilute metal, remove impurities from an already concentrated solution, or separate similar metals from one another. They demand different process designs. DuPont’s lithium guidance is a useful warning: conventional cation resin has weak relative affinity for lithium, so salt-removal capability is not evidence of selective lithium extraction from a brine.",
+        "refs": [
+          "tech_k05_03"
+        ]
+      }
+    ],
+    "value_chain": [
+      {
+        "name": "Process liquor → resin-ready feed",
+        "description": "Start with Bayer liquor for gallium, a residue leachate for scandium or a brine/intermediate for lithium. Remove or manage solids and competing impurities before the selective stage. A 2024 scandium study used actual bauxite-residue leach solution and found different column behaviour from its cleaner simulated solution.",
+        "refs": [
+          "tech_k05_04"
+        ]
+      },
+      {
+        "name": "Conditioned feed → loaded resin + depleted liquid",
+        "description": "Column loading concentrates a target ion on the bead. Measure the breakthrough curve: it shows when metal begins escaping rather than assuming a fresh-resin laboratory capacity persists in service. Resin choice, flow, acidity and contaminant loading determine useful capacity.",
+        "refs": [
+          "tech_k05_01",
+          "tech_k05_04"
+        ]
+      },
+      {
+        "name": "Loaded resin → eluate + regenerated bed",
+        "description": "Wash and elute the bed to recover a more concentrated solution, then return it to service. For rare-earth chromatography, carefully chosen eluents can produce separate element bands, with mixed fractions recycled. This may deliver purity at the expense of liquid volume and cycle time.",
+        "refs": [
+          "tech_k05_05"
+        ]
+      },
+      {
+        "name": "Eluate → purified salt, oxide or metal",
+        "description": "Capture is not the final product. Lithium still needs concentration and chemical conversion; gallium needs further recovery and high-purity refining; scandium solutions need downstream product isolation. DuPont’s 2026 DLE portfolio explicitly combines selective adsorbents, membranes and polishing resins across different duties.",
+        "refs": [
+          "tech_k05_06"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "Ion Exchange (India)",
+        "location": "Ankleshwar, Gujarat, India",
+        "role": "Manufactures cation, anion and speciality resins, supported by engineering and applications capability. Its metal-recovery catalogue establishes a domestic supplier base, not verified operation of every mineral process.",
+        "status": "Operating resin manufacturing and hydrometallurgy product offering",
+        "evidence_date": "Undated manufacturing page; 2024 brochure",
+        "refs": [
+          "tech_k05_02",
+          "tech_k05_07"
+        ]
+      },
+      {
+        "name": "Heavy Water Board, BARC and NALCO",
+        "location": "Damanjodi, Odisha, India",
+        "role": "Developing recovery of “Metal-G” from spent alumina-refinery liquor using an indigenous special resin and solvent.",
+        "status": "Construction started; demonstration project, with commercial output and subsequent commissioning not verified here",
+        "evidence_date": "Groundbreaking 20 November 2025; release 24 November 2025",
+        "refs": [
+          "tech_k05_08"
+        ]
+      },
+      {
+        "name": "DuPont Water Solutions",
+        "location": "United States / international",
+        "role": "Resin, membrane and lithium-selective adsorbent supplier; explicitly distinguishes extraction from impurity polishing.",
+        "status": "DLE product portfolio launched; this announcement is not a completed customer plant",
+        "evidence_date": "15 July 2026",
+        "refs": [
+          "tech_k05_06"
+        ]
+      },
+      {
+        "name": "Ecolab Purolite",
+        "location": "International supplier",
+        "role": "Hydrometallurgical resins and pilot-testing support, including rare-earth and scandium development resources. Product and manufacturing origin need project-specific checks.",
+        "status": "Commercial resin supplier; not evidence that a given Indian recovery plant operates",
+        "evidence_date": "Undated supplier page",
+        "refs": [
+          "tech_k05_09"
+        ]
+      },
+      {
+        "name": "Julia Napol’skikh, Andrei Shoppert and collaborators",
+        "location": "Ural Federal University / Vernadsky Institute, Russia",
+        "role": "Primary research on scandium capture from real sulfate leachate using Puromet MTS9580.",
+        "status": "Laboratory and column research, not a commercial scandium plant",
+        "evidence_date": "15 February 2024",
+        "refs": [
+          "tech_k05_04"
+        ]
+      }
+    ],
+    "mineral_links": [
+      {
+        "minerals": [
+          "gallium"
+        ],
+        "how": "The workbook’s most concrete application is selective recovery from alumina-refinery liquor. HWB’s release reports a demonstration project beginning construction, using domestic resin and solvent. It does not disclose a sustained production rate, resin lifetime or finished semiconductor-grade product output.",
+        "fit": "Specific Indian demonstration project; operating commercial recovery unverified",
+        "refs": [
+          "tech_k05_08"
+        ]
+      },
+      {
+        "minerals": [
+          "scandium"
+        ],
+        "how": "Chelating resin can capture scandium from a suitable residue leachate while rejecting some bulk constituents. The 2024 primary study demonstrates why the actual leachate matters: useful column capacity was lower with contaminants than in simulated feed. It does not establish the economics of treating Indian red mud.",
+        "fit": "Research-supported connection; Indian feed and economics require proof",
+        "refs": [
+          "tech_k05_04"
+        ]
+      },
+      {
+        "minerals": [
+          "yttrium",
+          "dysprosium",
+          "terbium",
+          "erbium",
+          "holmium",
+          "thulium",
+          "ytterbium",
+          "lutetium"
+        ],
+        "how": "Selective loading, elution and chromatography can concentrate or polish rare-earth fractions and, in designed systems, separate individual elements. The U.S. Bureau of Mines demonstrated heavy-rare-earth separation with sulfonic and chelating resins. Its experimental results are evidence of mechanism, not contemporary Indian industrial capacity for each workbook-linked element.",
+        "fit": "Established separation principle; element-specific Indian scale unverified",
+        "refs": [
+          "tech_k05_05"
+        ]
+      },
+      {
+        "minerals": [
+          "lithium"
+        ],
+        "how": "Useful roles include removing boron or divalent impurities from lithium-enriched solutions. Selectively extracting lithium from raw brine needs an appropriate lithium-selective sorbent and a complete process. A general-purpose resin business does not establish direct-lithium-extraction technology or access to an economic brine.",
+        "fit": "Adjacent for selective extraction; useful purification role",
+        "refs": [
+          "tech_k05_03",
+          "tech_k05_06"
+        ]
+      }
+    ],
+    "expansion": [
+      {
+        "title": "First: qualify the resin on the real stream",
+        "text": "Proposed pathway: a refinery and resin supplier jointly test representative liquor through repeated loading, washing and elution cycles. Publish metal recovery, useful capacity, impurity rejection and degradation together. Choose the stream and product first; purchasing a catalogue resin is only the beginning of process development.",
+        "refs": [
+          "tech_k05_07",
+          "tech_k05_09"
+        ]
+      },
+      {
+        "title": "Then: integrate a demonstration with the host refinery",
+        "text": "Proposed pathway: use the Damanjodi project as a test of dependable operation and liquor return, rather than counting its announced construction as production. Expansion should require evidence that taking a side-stream does not destabilise alumina operations and that recovered material can be processed to a buyer’s required grade.",
+        "refs": [
+          "tech_k05_08"
+        ]
+      },
+      {
+        "title": "Expand by duty, with different proof for each mineral",
+        "text": "Proposed pathway: consider impurity-polishing services for lithium refiners separately from raw-brine DLE, and evaluate small scandium or heavy-REE circuits against committed customers. Indian bead manufacture, process equipment and service support could support several niches without assuming one resin chemistry will serve them all.",
+        "refs": [
+          "tech_k05_02",
+          "tech_k05_09"
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "title": "Resin life, fouling and regeneration",
+        "text": "Economic assessment must include replacing degraded beads, regenerant chemicals, wastewater and lost metal during wash/elution. Useful operating capacity differs from the number of chemical sites in a fresh resin. Resin suppliers identify stability, swelling and kinetics alongside capacity, because throughput depends on these properties together.",
+        "refs": [
+          "tech_k05_01"
+        ]
+      },
+      {
+        "title": "Capture can simply move the bottleneck",
+        "text": "A metal-rich eluate can still require several purification steps before sale. Historic heavy-REE research included mixed-band recycle and reagent recovery, showing that a promising column separation remains part of a larger plant. No robust like-for-like Indian resin recovery cost benchmark was established here; recovery percentage alone cannot establish viability.",
+        "refs": [
+          "tech_k05_05"
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Elution",
+        "meaning": "Releasing captured material from resin into a liquid stream."
+      },
+      {
+        "term": "Breakthrough",
+        "meaning": "The point during loading when the target starts escaping from a resin bed."
+      },
+      {
+        "term": "Chelating resin",
+        "meaning": "A resin with binding groups designed to hold particular dissolved metals."
+      },
+      {
+        "term": "DLE",
+        "meaning": "Direct lithium extraction: several technologies for extracting lithium from brine, requiring more than a generic ion-exchange bed."
+      }
+    ],
+    "related_strategies": [
+      "s01",
+      "s06",
+      "s08",
+      "s16"
+    ],
+    "sources": [
+      {
+        "id": "tech_k05_01",
+        "title": "DuPont: Ion Exchange technology and resin characteristics",
+        "url": "https://www.dupont.com/water/technologies/ion-exchange-ix.html/",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k05_02",
+        "title": "Ion Exchange India: speciality chemical and metal-recovery brochure",
+        "url": "https://ionexchangeglobal.com/app/uploads/2024/07/Chemical-Brochure.pdf",
+        "type": "Companies",
+        "published": "2024 brochure URL"
+      },
+      {
+        "id": "tech_k05_03",
+        "title": "DuPont: Lithium separation from liquid media",
+        "url": "https://www.dupont.com/water/periodic-table/lithium.html",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k05_04",
+        "title": "Napol’skikh et al.: Selective Recovery of Scandium from Bauxite Residue Leachate",
+        "url": "https://mdpi-res.com/d_attachment/metals/metals-14-00234/article_deploy/metals-14-00234.pdf",
+        "type": "Research and public sector",
+        "published": "15 February 2024"
+      },
+      {
+        "id": "tech_k05_05",
+        "title": "U.S. Bureau of Mines: Rapid Separation of Heavy Rare-Earth Elements",
+        "url": "https://stacks.cdc.gov/view/cdc/10214/cdc_10214_DS1.pdf",
+        "type": "Government",
+        "published": "1995"
+      },
+      {
+        "id": "tech_k05_06",
+        "title": "DuPont launches end-to-end DLE portfolio",
+        "url": "https://www.dupont.com/news/dupont-launches-end-to-end-portfolio-to-advance-direct-lithium-extraction.html",
+        "type": "Companies",
+        "published": "15 July 2026"
+      },
+      {
+        "id": "tech_k05_07",
+        "title": "Ion Exchange India: Manufacturing facilities",
+        "url": "https://ionexchangeglobal.com/manufacturing/",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k05_08",
+        "title": "HWB: Damanjodi Metal-G ion-exchange demonstration groundbreaking",
+        "url": "https://hwb.gov.in/sites/default/files/Press/HWB_Press_Release_for_Metal-G20112025.pdf",
+        "type": "Government",
+        "published": "24 November 2025"
+      },
+      {
+        "id": "tech_k05_09",
+        "title": "Ecolab Purolite: Hydrometallurgical products and testing",
+        "url": "https://www.purolite.com/index/core-technologies/industry/hydrometallurgy",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      }
+    ]
+  },
+  "k06": {
+    "summary": "Chloride chemistry makes otherwise difficult-to-purify elements transportable as chemical intermediates. India already applies it to titanium and nuclear zirconium; chlorosilanes for polysilicon demand a separate technology and purity system.",
+    "what": [
+      {
+        "text": "Chlorination converts an oxide feed into a chloride intermediate. For titanium, chlorine and carbon convert titanium-bearing feed into crude titanium tetrachloride, TiCl4. Turning the element into a transportable chemical lets the refinery separate impurities before converting it back into pigment or metal. Chloride chemistry is therefore a processing bridge: the customer usually wants titanium dioxide or titanium metal, rather than chlorine in the final material.",
+        "refs": [
+          "tech_k06_01"
+        ]
+      },
+      {
+        "text": "Silicon uses hydrogen chloride to make trichlorosilane, which is distilled and deposited as high-purity silicon. Its flowsheet, equipment and quality requirements differ from a titanium-chloride circuit. This is an adjacent technology connection, not evidence that a TiCl4 producer already makes polysilicon.",
+        "refs": [
+          "tech_k06_03"
+        ]
+      },
+      {
+        "text": "India’s strongest transfer is direct within titanium: pigment-grade TiCl4 already exists at KMML and is further purified for sponge production. Chlor-alkali and bulk-acid experience can provide supporting utilities and handling skills, but it cannot be counted as nuclear Zr-Hf separation or semiconductor-quality silicon production. The missing intellectual property is often selective purification and reliable impurity control rather than simply obtaining chlorine.",
+        "refs": [
+          "tech_k06_04",
+          "tech_k06_05"
+        ]
+      }
+    ],
+    "value_chain": [
+      {
+        "name": "Titanium feed + carbon + chlorine → crude TiCl4",
+        "description": "KMML chlorinates beneficiated ilmenite in a fluidised-bed reactor. Impurity oxides also form chlorides, so the output is a mixture requiring cleanup. The feed specification affects both chloride production and the load on downstream purification.",
+        "refs": [
+          "tech_k06_01"
+        ]
+      },
+      {
+        "name": "Crude TiCl4 → purified TiCl4 → pigment or sponge",
+        "description": "Distillation separates impurities. Oxidation produces TiO2 pigment; magnesium reduction produces titanium sponge and MgCl2. Metal-grade TiCl4 needs additional purification beyond the pigment intermediate. These two branches share an intermediate but deliver different products.",
+        "refs": [
+          "tech_k06_01",
+          "tech_k06_04"
+        ]
+      },
+      {
+        "name": "Zircon → separated ZrO2 → ZrCl4 → zirconium sponge",
+        "description": "NFC’s route removes silica, dissolves Zr/Hf into nitric-acid solution, separates them with TBP, and makes purified ZrO2. Chlorination and Kroll reduction follow. Hafnium recovery is a separate product opportunity from the rejected stream, not a by-product automatically recovered by chlorinating zircon.",
+        "refs": [
+          "tech_k06_02"
+        ]
+      },
+      {
+        "name": "Silicon metal → chlorosilanes → polysilicon → wafers",
+        "description": "Metallurgical silicon reacts with HCl to form trichlorosilane. Distillation purifies the intermediate; deposition produces polysilicon, followed by clean handling. Wafer and cell or chip manufacturing are further stages with their own specifications and equipment.",
+        "refs": [
+          "tech_k06_03"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "Kerala Minerals and Metals Ltd",
+        "location": "Chavara, Kerala, India",
+        "role": "Integrated mineral separation, chloride-route pigment and TiCl4-to-sponge operations. The operator describes additional two-stage distillation for metal-grade TiCl4.",
+        "status": "Operating process described; website specifies 500 t/year sponge design capacity, not actual annual output",
+        "evidence_date": "Undated operating-process pages",
+        "refs": [
+          "tech_k06_01",
+          "tech_k06_04"
+        ]
+      },
+      {
+        "name": "Nuclear Fuel Complex",
+        "location": "Hyderabad and Zirconium Complex, Tamil Nadu, India",
+        "role": "Separate zirconium purification, chloride conversion, sponge and nuclear-material manufacturing capabilities.",
+        "status": "Operating zirconium chain; detailed process is described by the operator",
+        "evidence_date": "Undated operator process pages",
+        "refs": [
+          "tech_k06_02",
+          "tech_k06_06"
+        ]
+      },
+      {
+        "name": "C-MET with VSSC / ISRO",
+        "location": "Hyderabad, India",
+        "role": "Indigenous hafnium separation, chlorination and sponge development for specialised users.",
+        "status": "Commissioned 320 kg/year extended pilot reported; source does not establish a larger commercial commodity plant",
+        "evidence_date": "Undated project page; describes 2009 sanction and 2014 recognition",
+        "refs": [
+          "tech_k06_07"
+        ]
+      },
+      {
+        "name": "Toho Titanium",
+        "location": "Japan",
+        "role": "Commercial chlorination, TiCl4 purification, magnesium reduction and titanium ingot production, with magnesium/chlorine recycling.",
+        "status": "Established producer; company profile describes its integrated process",
+        "evidence_date": "Undated company profile",
+        "refs": [
+          "tech_k06_08"
+        ]
+      },
+      {
+        "name": "OSAKA Titanium technologies",
+        "location": "Japan",
+        "role": "Commercial Kroll sponge producer; primary technical paper discusses batch productivity, feedstock selection and aircraft-grade reliability.",
+        "status": "Industrial producer; cited technical results are historical, not 2026 capacity confirmation",
+        "evidence_date": "2017 technical paper",
+        "refs": [
+          "tech_k06_05"
+        ]
+      },
+      {
+        "name": "WACKER Polysilicon",
+        "location": "Germany and United States",
+        "role": "Chlorosilane synthesis, distillation and deposition for solar and semiconductor polysilicon.",
+        "status": "Commercial production described at Burghausen, Nünchritz and Charleston",
+        "evidence_date": "2022 annual report",
+        "refs": [
+          "tech_k06_03"
+        ]
+      }
+    ],
+    "mineral_links": [
+      {
+        "minerals": [
+          "titanium"
+        ],
+        "how": "Purified TiCl4 connects existing mineral/pigment operations to metal sponge. This is a real Indian operating adjacency. A titanium expansion still requires reliable sponge quality and the downstream melting, alloying and customer approval needed for the intended aerospace, industrial or other use.",
+        "fit": "Direct, demonstrated Indian process base",
+        "refs": [
+          "tech_k06_04",
+          "tech_k06_05"
+        ]
+      },
+      {
+        "minerals": [
+          "zirconium"
+        ],
+        "how": "Chlorination creates the ZrCl4 intermediate used in the existing nuclear zirconium chain. Hafnium is connected to this workbook mineral because it accompanies zircon: the workbook has no standalone hafnium record. India already separates Zr/Hf, but expanding a saleable hafnium product needs its own recovery and qualification circuit.",
+        "fit": "Direct zirconium base; hafnium is separately recovered and qualified",
+        "refs": [
+          "tech_k06_06",
+          "tech_k06_07"
+        ]
+      },
+      {
+        "minerals": [
+          "silicon"
+        ],
+        "how": "Chlorosilane synthesis and distillation provide the chemical purification stage before polysilicon deposition. Relevant skills overlap with corrosive chemical handling, but TiCl4 experience does not establish trichlorosilane synthesis, contaminant removal or electronic-grade silicon. Solar and semiconductor grades should be assessed separately.",
+        "fit": "Adjacent skills; separate silicon process and qualification required",
+        "refs": [
+          "tech_k06_03"
+        ]
+      }
+    ],
+    "expansion": [
+      {
+        "title": "First: deepen the existing titanium operation",
+        "text": "Proposed pathway: improve TiCl4-to-sponge consistency and plant utilisation with end users specifying the impurity limits they need. Examine reduction, vacuum separation, handling and recycling together. Japan’s industry shows that controlling raw-material quality and batch operation is central to competitiveness; simply installing more chlorination does not finish that task.",
+        "refs": [
+          "tech_k06_05",
+          "tech_k06_08"
+        ]
+      },
+      {
+        "title": "Then: develop hafnium around an identified stream and buyer",
+        "text": "Proposed pathway: assay the actual hafnium-bearing stream and evaluate recovery without weakening the zirconium product specification. Use C-MET/VSSC’s pilot and user qualification as a starting point for engineering and commercial assessment. Do not treat the amount rejected by Zr separation as automatically saleable hafnium sponge.",
+        "refs": [
+          "tech_k06_06",
+          "tech_k06_07"
+        ]
+      },
+      {
+        "title": "Treat silicon as a distinct investment decision",
+        "text": "Proposed pathway: secure a technology package and qualified silicon-metal feed, then demonstrate chlorosilane purification, recycle operation and product acceptance before claiming integrated polysilicon capability. Evaluate power, clean handling and customer contracts together. WACKER’s long-established process illustrates the depth of operating knowledge involved; it is not a simple conversion of a chlorine plant.",
+        "refs": [
+          "tech_k06_09"
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "title": "Different chlorides and different purity demands",
+        "text": "A common chemical family does not make every separation interchangeable. NFC performs an aqueous Zr-Hf split before chlorination. Expansion depends on the actual impurity profile and required final material, rather than a single “chloride capability” label.",
+        "refs": [
+          "tech_k06_02"
+        ]
+      },
+      {
+        "title": "Closed loops and contamination determine economics",
+        "text": "Toho recovers magnesium and chlorine from MgCl2 for reuse. Equivalent recycling and impurity management must be appraised explicitly for an Indian design. Waste handling, corrosion-resistant equipment and clean product handling add costs that a bulk chlorine price cannot represent. No new like-for-like plant cost is assigned here.",
+        "refs": [
+          "tech_k06_08",
+          "tech_k06_09"
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "TiCl4 / ZrCl4",
+        "meaning": "Titanium / zirconium tetrachloride: intermediates purified or reduced to make useful materials."
+      },
+      {
+        "term": "Kroll process",
+        "meaning": "Magnesium reduction of a purified chloride, followed by removal of residual magnesium and magnesium chloride."
+      },
+      {
+        "term": "Trichlorosilane",
+        "meaning": "A silicon, chlorine and hydrogen compound purified before silicon deposition."
+      },
+      {
+        "term": "Sponge",
+        "meaning": "Porous metal produced by reduction, before melting into ingots or alloys."
+      }
+    ],
+    "related_strategies": [
+      "s11",
+      "s12",
+      "s13"
+    ],
+    "sources": [
+      {
+        "id": "tech_k06_01",
+        "title": "KMML: chloride-route pigment and sponge process",
+        "url": "https://www.kmml.com/process",
+        "type": "Research and public sector",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k06_02",
+        "title": "Nuclear Fuel Complex: Nuclear Grade Reactor Material",
+        "url": "https://www.nfc.gov.in/nuclear-grade-reactor-material.html",
+        "type": "Research and public sector",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k06_03",
+        "title": "WACKER: Purity Is Our Recipe for Success",
+        "url": "https://reports.wacker.com/2022/annual-report/sustainable-solutions/purity-is-our-recipe-for-success.html",
+        "type": "Companies",
+        "published": "2022 annual report"
+      },
+      {
+        "id": "tech_k06_04",
+        "title": "KMML: Manufacturing facility and metal-grade TiCl4 purification",
+        "url": "https://www.kmml.com/manufacturing-facility",
+        "type": "Research and public sector",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k06_05",
+        "title": "OSAKA Titanium: Titanium Sponge Production Method by Kroll Process",
+        "url": "https://www.jstage.jst.go.jp/article/matertrans/58/3/58_MK201634/_html/-char/ja/",
+        "type": "Research and public sector",
+        "published": "2017"
+      },
+      {
+        "id": "tech_k06_06",
+        "title": "Nuclear Fuel Complex: Zirconium Complex",
+        "url": "https://www.nfc.gov.in/zirconium-complex.html",
+        "type": "Research and public sector",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k06_07",
+        "title": "C-MET: 320 kg/year hafnium extended pilot project HD/SP/022",
+        "url": "https://www.cmet.gov.in/hdsp022-0",
+        "type": "Research and public sector",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k06_08",
+        "title": "Toho Titanium: Company profile and integrated titanium flowsheet",
+        "url": "https://www.toho-titanium.co.jp/pdf/company/companyprofile_en.pdf",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k06_09",
+        "title": "WACKER: Polysilicon production, distillation and deposition",
+        "url": "https://reports.wacker.com/2018/sustainability-report/servicepages/downloads/files/Polysilicon_7416_EN.pdf",
+        "type": "Companies",
+        "published": "June 2017 brochure reprint (hosted with 2018 report)"
+      }
+    ],
+    "value_chain_note": "Titanium, zirconium and silicon follow separate chloride-based routes; they do not pass through one shared production line."
+  },
+  "k07": {
+    "summary": "India's electrode industry supplies furnace engineering and carbon-processing experience. Battery anodes require a separate product chain: controlled powders, purification, coatings and qualification in customers' cells. Silicon–carbon composites are another extension, with additional materials and performance requirements.",
+    "what": [
+      {
+        "text": "Graphite is carbon arranged in stacked layers. In a lithium-ion battery, lithium moves into and out of those layers as the cell charges and discharges. Natural graphite starts in a mineral deposit; synthetic graphite starts with a carbon precursor that is heat-treated to create the required crystal structure. These are alternative feed routes into anode material, with different processing costs and environmental burdens.",
+        "refs": [
+          "tech_k07_01"
+        ]
+      },
+      {
+        "text": "Graphitisation is the very high temperature conversion of a suitable carbon precursor into graphite. India's experience making large graphite electrodes therefore provides useful furnace, power-management and raw-material skills. An electrode that conducts electricity into a steel furnace is nevertheless a different product from the fine active powder inside a battery. The industrial experience transfers; a finished electrode does not become qualified anode material merely by being crushed.",
+        "refs": [
+          "tech_k07_02",
+          "tech_k07_03"
+        ]
+      }
+    ],
+    "value_chain": [
+      {
+        "name": "Synthetic route: select and prepare the carbon",
+        "description": "Petroleum-derived coke is an established starting material. Feed preparation and heat treatment establish a carbon structure suitable for graphitisation. The precursor's impurities and behaviour during heating affect the product, so a furnace cannot compensate for arbitrary feedstock.",
+        "refs": [
+          "tech_k07_02"
+        ]
+      },
+      {
+        "name": "Graphitise, purify and engineer the powder",
+        "description": "High temperature treatment develops the graphite structure; purification removes unwanted elements. Milling, particle control and surface treatment turn the material into an anode product. Epsilon's product range illustrates the deliberate engineering of graphite morphology rather than the sale of undifferentiated carbon.",
+        "refs": [
+          "tech_k07_02",
+          "tech_k07_04"
+        ]
+      },
+      {
+        "name": "Natural route: concentrate, mill and purify",
+        "description": "Flake graphite is mined and concentrated, then processed into a clean, controlled powder. Chemical or thermal purification must be assessed together with wastewater and energy requirements. Natural and synthetic products can serve the same cell market, but their production flowsheets are different.",
+        "refs": [
+          "tech_k07_01",
+          "tech_k07_02"
+        ]
+      },
+      {
+        "name": "Validate the material in a battery",
+        "description": "The powder must work in the customer’s electrode and complete cell. Syrah describes iterative testing with battery manufacturers and vehicle companies, alongside supply agreements. Capacity built, product sampled, product approved and regular commercial sales are separate milestones.",
+        "refs": [
+          "tech_k07_05"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "HEG",
+        "location": "Mandideep, Madhya Pradesh, India",
+        "role": "Industrial graphite-electrode manufacturer and a source of graphitisation skills.",
+        "status": "Its July 2026 presentation reports 100,000 tonnes/year of electrode capacity operating since November 2023. That is electrode capacity, not battery-anode output.",
+        "evidence_date": "23 July 2026",
+        "refs": [
+          "tech_k07_03"
+        ]
+      },
+      {
+        "name": "Graphite India",
+        "location": "Durgapur and Nashik, India",
+        "role": "Electrodes, carbon processing and a separate synthetic-graphite anode project.",
+        "status": "The FY2026 results presentation describes established electrode production and says the anode project continues. It does not establish commercial anode deliveries.",
+        "evidence_date": "FY2026 results presentation, May 2026",
+        "refs": [
+          "tech_k07_06"
+        ]
+      },
+      {
+        "name": "TACC",
+        "location": "Dewas, Madhya Pradesh, India",
+        "role": "Developing synthetic-graphite anode material using the wider group's carbon experience.",
+        "status": "Company website reports an operating 200-metric-ton demonstration plant for customer validation; its 20,000-tonne/year first phase is a 2027 roadmap target.",
+        "evidence_date": "Undated company page, accessed 19 October 2026",
+        "refs": [
+          "tech_k07_07"
+        ]
+      },
+      {
+        "name": "Epsilon Advanced Materials and Daejoo Electronic Materials",
+        "location": "Karnataka, India; South Korea",
+        "role": "Indian graphite-anode developer partnering with a Korean silicon-anode producer.",
+        "status": "Epsilon’s August 2026 release identifies an operating EAM-ONE customer-qualification plant in Karnataka and a 30,000-tonne/year target for 2028. Its Daejoo partnership, announced in 2024, concerns composite development; these statements do not establish full-scale commercial composite production.",
+        "evidence_date": "18 August 2026; partnership announced 7 November 2024",
+        "refs": [
+          "tech_k07_08",
+          "tech_k07_10"
+        ]
+      }
+    ],
+    "mineral_links": [
+      {
+        "minerals": [
+          "graphite"
+        ],
+        "how": "Adds the conversion steps between carbon feedstock or flake concentrate and anode active material. This is where carbon-processing capability can serve domestic cell production rather than only metallurgical applications.",
+        "fit": "Direct processing opportunity; customer qualification required",
+        "refs": [
+          "tech_k07_01",
+          "tech_k07_05"
+        ]
+      },
+      {
+        "minerals": [
+          "silicon"
+        ],
+        "how": "Carbon and graphite can form part of silicon-containing anode composites. Silicon offers more lithium-storage capacity but expands during charging; the composite must manage that behaviour. This connection concerns engineered anode materials, not proof of an integrated Indian silicon-metal-to-battery chain.",
+        "fit": "Adjacent product development",
+        "refs": [
+          "tech_k07_01",
+          "tech_k07_08"
+        ]
+      }
+    ],
+    "expansion": [
+      {
+        "title": "First: agree a product with a cell customer",
+        "text": "A plausible Indian expansion would begin with one specified anode grade and a customer testing programme. Decide the feed route, targeted cell chemistry and approval criteria before choosing nameplate capacity. Use existing demonstration facilities to establish repeatability; an attractive powder sample alone is an insufficient basis for a large plant.",
+        "refs": [
+          "tech_k07_05",
+          "tech_k07_07"
+        ]
+      },
+      {
+        "title": "Then: demonstrate the complete production route",
+        "text": "The proposed next step is to measure yield, electricity, reagent use, water treatment and off-spec production across connected operations. India's electrode companies offer industrial foundations, but dedicated powder-handling, cleanliness and cell-testing work still needs to be built around them. This is an expansion analysis, not a claim that every named company already provides those operations.",
+        "refs": [
+          "tech_k07_03",
+          "tech_k07_06",
+          "tech_k07_09"
+        ]
+      },
+      {
+        "title": "Scale approved grades; develop silicon composites separately",
+        "text": "Expansion should follow reproducible customer-approved batches and purchase commitments. Silicon-containing grades can be developed alongside that base, with separate testing rather than assumed interchangeability. Partnership with an experienced silicon-material producer is a way to acquire the missing formulation and application knowledge; it does not remove the need for Indian production validation.",
+        "refs": [
+          "tech_k07_05",
+          "tech_k07_08"
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "title": "Power and environmental performance",
+        "text": "Synthetic graphite is energy intensive. For the natural route, purification and reagent recovery matter alongside mining. A 2026 US pilot programme explicitly targets lower heat-treatment energy, reusable water and acid, and lower chemical waste; these are useful questions for an Indian feasibility study too.",
+        "refs": [
+          "tech_k07_01",
+          "tech_k07_09"
+        ]
+      },
+      {
+        "title": "Anode performance cannot be read from electrode tonnage",
+        "text": "The relevant commercial evidence is a repeatable approved anode product and delivery record. HEG's electrode capacity and TACC's demonstration and planned anode capacities describe different products and development stages; adding those figures together would misrepresent supply.",
+        "refs": [
+          "tech_k07_03",
+          "tech_k07_07"
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Anode active material",
+        "meaning": "The material in the battery's negative electrode that stores lithium."
+      },
+      {
+        "term": "Graphitisation",
+        "meaning": "Heat treatment that creates an ordered graphite structure from a suitable carbon."
+      },
+      {
+        "term": "Qualification",
+        "meaning": "A customer's testing and approval of a material for its own manufacturing process and product."
+      }
+    ],
+    "related_strategies": [
+      "s09",
+      "s13",
+      "s15"
+    ],
+    "sources": [
+      {
+        "id": "tech_k07_01",
+        "title": "US Department of Energy: 2023 Critical Materials Assessment, graphite",
+        "url": "https://www.energy.gov/sites/default/files/2023-05/2023-critical-materials-assessment.pdf",
+        "type": "Government",
+        "published": "2023"
+      },
+      {
+        "id": "tech_k07_02",
+        "title": "North Carolina State University / DOE: commercial graphite routes in Scaling Up Biocrude Derived Anode Material",
+        "url": "https://www.energy.gov/sites/default/files/2023-05/beto-12-project-peer-review-sdi-est-apr-2023-park.pdf",
+        "type": "Research and public sector",
+        "published": "April 2023"
+      },
+      {
+        "id": "tech_k07_03",
+        "title": "HEG: Q1 FY2026-27 investor presentation filed with NSE",
+        "url": "https://nsearchives.nseindia.com/corporate/HEG_23072026190629_Stxintimation_Presentation230726.pdf",
+        "type": "Companies",
+        "published": "23 July 2026"
+      },
+      {
+        "id": "tech_k07_04",
+        "title": "Epsilon Advanced Materials: graphite-anode products",
+        "url": "https://www.epsilonam.com/products.html",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k07_05",
+        "title": "Syrah Resources: active-anode materials and customer qualification",
+        "url": "https://www.syrahresources.com.au/our-business/products-and-technology",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k07_06",
+        "title": "Graphite India: FY2026 results presentation",
+        "url": "https://investors.graphiteindia.com/documents/6a184388ebfc8GILEP31032026.pdf",
+        "type": "Companies",
+        "published": "May 2026"
+      },
+      {
+        "id": "tech_k07_07",
+        "title": "TACC: demonstration plant and production roadmap",
+        "url": "https://www.tacclimited.com/",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k07_08",
+        "title": "Epsilon and Daejoo: silicon–graphite composite development announcement",
+        "url": "https://www.epsilonam.com/images/press-release/Press_Release_-_Epsilon_and_Korea.pdf",
+        "type": "Companies",
+        "published": "7 November 2024"
+      },
+      {
+        "id": "tech_k07_09",
+        "title": "DOE: flexible pilot plant for natural and recycled synthetic graphite anode material",
+        "url": "https://www.energy.gov/nepa/articles/cx-035434-flexible-pilot-plant-producing-graphite-anode-material-north-american",
+        "type": "Government",
+        "published": "24 February 2026"
+      },
+      {
+        "id": "tech_k07_10",
+        "title": "Epsilon: anode-project ECMS approval and latest manufacturing roadmap",
+        "url": "https://www.epsilonam.com/images/press-release/Anode_Material_Project_Receives_Approval_under_MeitY_Electronics_Components_Manufacturing.pdf",
+        "type": "Companies",
+        "published": "18 August 2026"
+      }
+    ],
+    "value_chain_note": "Natural and synthetic graphite are alternative feed routes. Both must reach an engineered powder that passes customer qualification."
+  },
+  "k08": {
+    "summary": "Spent catalysts are concentrated secondary sources of useful metals. India already has industrial experience recovering molybdenum and other metals, alongside precious-metal refining. The opportunity is to connect traceable waste collection, selective recovery and customer-approved products, while distinguishing regeneration from destruction and metal recovery.",
+    "what": [
+      {
+        "text": "A catalyst accelerates a reaction while its active material cycles through the reaction rather than acting as a bulk consumable. Refinery hydrotreating uses metal-containing catalysts to help remove unwanted compounds from fuels. Topsoe's commercial portfolio includes nickel–molybdenum and cobalt–molybdenum formulations. After service, catalysts can retain valuable metals even when deposits or contamination make them unsuitable for continued use.",
+        "refs": [
+          "tech_k08_01",
+          "tech_k08_02"
+        ]
+      },
+      {
+        "text": "There are two different circular routes. Regeneration removes deposits and restores an existing catalyst for reuse where its condition permits. Metal recovery breaks down the spent material, separates its elements and produces fresh chemical or metallurgical feed. The right route depends on contamination, mechanical condition and performance testing. Recovering molybdenum, cobalt or nickel does not by itself manufacture a complete new catalyst or a battery-grade salt.",
+        "refs": [
+          "tech_k08_02",
+          "tech_k08_03"
+        ]
+      }
+    ],
+    "value_chain": [
+      {
+        "name": "Use, unload, sample and segregate",
+        "description": "The refinery generates spent material. Individual containers can differ in contamination, so representative sampling and segregation determine whether a batch is a candidate for regeneration or requires metals reclamation. The service begins before a chemical plant receives a mixed pile.",
+        "refs": [
+          "tech_k08_02"
+        ]
+      },
+      {
+        "name": "Regenerate reusable material",
+        "description": "Controlled treatment removes carbon and sulphur deposits; catalyst activity and physical properties are then assessed. Eurecat offers regeneration and licensed rejuvenation services for several hydroprocessing catalyst families. This preserves the catalyst's embodied manufacturing work instead of immediately extracting its metals.",
+        "refs": [
+          "tech_k08_02"
+        ]
+      },
+      {
+        "name": "Recover metals from exhausted material",
+        "description": "In Rubamin's described route, roasting precedes leaching and chemical separation. Solvent extraction or selective precipitation separates valuable elements from the mixed solution. Feed composition dictates the separation sequence; oil, sulphur and unwanted metals create treatment duties as well as recoverable value.",
+        "refs": [
+          "tech_k08_04"
+        ]
+      },
+      {
+        "name": "Sell a specified chemical or alloy",
+        "description": "Rubamin lists ammonium molybdates, molybdenum trioxide and sodium molybdate among its products. Another valid route is AMG's production of nickel–molybdenum alloy for steelmaking. These are different endpoints: a steel alloy, a catalyst precursor and a battery chemical are not interchangeable products.",
+        "refs": [
+          "tech_k08_05",
+          "tech_k08_06"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "Rubamin",
+        "location": "Gujarat, India",
+        "role": "Industrial spent-catalyst recycler and supplier of recovered molybdenum chemicals.",
+        "status": "Company history records molybdenum recovery from catalysts from 2011 and a 35,000-tonne/year catalyst-recycling milestone in 2024. Its catalyst page separately describes an original handling line and a resid-catalyst addition; those figures should not be combined into a metal-output claim.",
+        "evidence_date": "Company history and operating pages accessed 19 October 2026",
+        "refs": [
+          "tech_k08_03",
+          "tech_k08_07"
+        ]
+      },
+      {
+        "name": "Hindustan Platinum",
+        "location": "India",
+        "role": "Precious-metal catalyst manufacturing, used-catalyst recovery and PGM refining.",
+        "status": "Its 2024 brochure describes a catalyst-development process involving laboratory and pilot testing and a precious-metal recovery cycle. This is relevant industrial capability in another catalyst family, not evidence that it operates a cobalt–molybdenum recovery line.",
+        "evidence_date": "2024 company brochure",
+        "refs": [
+          "tech_k08_08"
+        ]
+      },
+      {
+        "name": "Topsoe",
+        "location": "Denmark; international refinery supply",
+        "role": "Catalyst and process-technology supplier, illustrating the demanding downstream customer.",
+        "status": "Commercial portfolio includes NiMo and CoMo hydrotreating catalysts with application-specific performance requirements.",
+        "evidence_date": "Undated product page, accessed 19 October 2026",
+        "refs": [
+          "tech_k08_01"
+        ]
+      },
+      {
+        "name": "AMG Vanadium",
+        "location": "Cambridge and Zanesville, Ohio, United States",
+        "role": "Non-China industrial example of spent-catalyst processing into ferroalloys.",
+        "status": "Describes operating roasting and melting technology producing ferrovanadium and nickel–molybdenum alloy for steel customers. It illustrates an alternative commercial output rather than a battery-salt plant.",
+        "evidence_date": "Undated company page, accessed 19 October 2026",
+        "refs": [
+          "tech_k08_06"
+        ]
+      }
+    ],
+    "mineral_links": [
+      {
+        "minerals": [
+          "molybdenum"
+        ],
+        "how": "Hydroprocessing catalysts supply a secondary feed for molybdenum recovery. The resulting molybdates or oxides can enter industrial chemical and catalyst supply chains, adding domestic conversion capability without requiring a new molybdenum mine.",
+        "fit": "Direct, with existing Indian industrial evidence",
+        "refs": [
+          "tech_k08_03",
+          "tech_k08_05"
+        ]
+      },
+      {
+        "minerals": [
+          "cobalt",
+          "nickel"
+        ],
+        "how": "Some catalyst families contain these metals as active components or accumulated contaminants. Recovery depends on the actual feed and its assay. Rubamin identifies both among recoverable catalyst metals, but its battery-recycling compounds are described as industrial and technical grades; battery qualification must be established separately.",
+        "fit": "Direct for suitable feeds; final grade remains product-specific",
+        "refs": [
+          "tech_k08_01",
+          "tech_k08_04"
+        ]
+      }
+    ],
+    "expansion": [
+      {
+        "title": "Start with the waste stream and the customer",
+        "text": "An Indian expansion could secure named refinery streams, establish independent sampling and agree whether the customer wants regenerated catalyst, molybdenum chemical or another product. Collection, metal ownership and settlement terms belong in the project design. Feed tonnage alone does not establish the amount of recoverable metal or the value of the output.",
+        "refs": [
+          "tech_k08_02",
+          "tech_k08_03"
+        ]
+      },
+      {
+        "title": "Demonstrate separation on representative campaigns",
+        "text": "The proposed technical work is to test the full impurity range, account for each metal and establish off-gas, water and residue treatment. Existing Indian recovery operators offer a stronger starting point than assuming an entirely new industry. However, a process demonstrated on one catalyst family should be revalidated before accepting chemically different feeds.",
+        "refs": [
+          "tech_k08_03",
+          "tech_k08_04"
+        ]
+      },
+      {
+        "title": "Add higher-value products only after qualification",
+        "text": "A further expansion could supply catalyst manufacturers with approved precursors or develop separately purified nickel and cobalt chemicals. That requires customer specifications and testing, not simply a higher advertised purity. Hindustan Platinum's laboratory-to-pilot catalyst-development sequence shows why product development remains a separate task after the metal has been recovered.",
+        "refs": [
+          "tech_k08_05",
+          "tech_k08_08"
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "title": "Feed mix, plant capacity and product output differ",
+        "text": "A treatment plant processes metal plus support material, deposits and contaminants. Published waste-handling capacity cannot be reported as recovered-metal capacity. Rubamin's different capacity statements also need to retain their line and date context rather than being mechanically summed.",
+        "refs": [
+          "tech_k08_03",
+          "tech_k08_07"
+        ]
+      },
+      {
+        "title": "Recovery is not the same as final-product performance",
+        "text": "The recovered material must suit its buyer. AMG's alloy route and Rubamin's chemical route demonstrate commercially meaningful but different outcomes. A project should evaluate revenues, refining cost and residue liabilities for the chosen endpoint; no universal margin or Indian capital-cost estimate follows from these examples.",
+        "refs": [
+          "tech_k08_05",
+          "tech_k08_06"
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Regeneration",
+        "meaning": "Treatment that allows an existing catalyst to be used again."
+      },
+      {
+        "term": "Leaching",
+        "meaning": "Dissolving selected components of a solid into a process liquid."
+      },
+      {
+        "term": "PGM",
+        "meaning": "Platinum-group metals: a separate family from cobalt, nickel and molybdenum."
+      }
+    ],
+    "related_strategies": [
+      "s05",
+      "s15"
+    ],
+    "sources": [
+      {
+        "id": "tech_k08_01",
+        "title": "Topsoe: diesel hydrotreating and NiMo / CoMo catalysts",
+        "url": "https://www.topsoe.com/solutions/outputs/conventional-fuels/hydrotreating/diesel-hydrotreating",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k08_02",
+        "title": "Eurecat: catalyst regeneration, segregation and rejuvenation",
+        "url": "https://www.eurecat.com/catalyst-regeneration-catalyst-rejuvenation/",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k08_03",
+        "title": "Rubamin: spent-catalyst recycling and reported facilities",
+        "url": "https://www.rubamin.com/spent-catalyst-recycling",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k08_04",
+        "title": "Rubamin: recycling process, recovered metals and product-grade distinctions",
+        "url": "https://www.rubamin.com/frequently-asked-questions",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k08_05",
+        "title": "Rubamin: molybdenum chemical products",
+        "url": "https://www.rubamin.com/catalyst-products",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k08_06",
+        "title": "AMG Vanadium: spent-catalyst roasting, melting and ferroalloy products",
+        "url": "https://amg-v.com/about-us/",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k08_07",
+        "title": "Rubamin: company milestones in catalyst and battery recycling",
+        "url": "https://www.rubamin.com/who-we-are-critical-metals-recycling-company",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k08_08",
+        "title": "Hindustan Platinum: homogeneous catalyst brochure and recovery cycle",
+        "url": "https://hindustanplatinum.com/wp-content/uploads/2024/10/HOMOGENEOUS_CATALYST_BROCHURE.pdf",
+        "type": "Companies",
+        "published": "2024"
+      }
+    ],
+    "value_chain_note": "Regeneration returns a reusable catalyst to service. Metal recovery is a separate route for exhausted material."
+  },
+  "k09": {
+    "summary": "Electronic and optical materials turn small quantities of very clean substances into high-value components. India has documented gallium and tellurium purification work and rare-earth-doped optical-fibre technologies. These are distinct chains: metal purity, semiconductor manufacture and fibre-device manufacture should each be assessed on their own evidence.",
+    "what": [
+      {
+        "text": "High-purity refining removes the last unwanted elements after bulk extraction. Six-nines or 6N purity denotes 99.9999% of the principal substance; 7N denotes 99.99999%. Which impurities remain also matters. Research on gallium-fed GaAs epitaxy shows that source purity can limit electronic performance even within a sophisticated crystal-growth system. A single headline purity figure is therefore an incomplete product specification.",
+        "refs": [
+          "tech_k09_01",
+          "tech_k09_02"
+        ]
+      },
+      {
+        "text": "Rare-earth-doped fibres are a different use of precision chemistry. Erbium or ytterbium ions are deliberately introduced into a glass core, where optical pumping allows amplification or laser emission. Their role is functional rather than that of an impurity. Erbium-based systems commonly operate around 1.55 micrometres and ytterbium systems around 1.06 micrometres. Making the fibre does not itself separate those elements from mined ore.",
+        "refs": [
+          "tech_k09_03"
+        ]
+      }
+    ],
+    "value_chain": [
+      {
+        "name": "Gallium: crude metal to purified source",
+        "description": "C-MET describes refining 4N gallium to 6N through hydrochemical cleaning, vacuum treatment, zone refining and fractional crystallisation. These methods exploit different impurity behaviours. The starting metal still needs to be supplied by an upstream recovery or recycling operation.",
+        "refs": [
+          "tech_k09_01"
+        ]
+      },
+      {
+        "name": "Gallium: purified source to a semiconductor",
+        "description": "Purified gallium then enters compound-semiconductor and crystal-growth processes, followed by device manufacture. C-MET's purification description is evidence for one input capability; it does not establish an operating Indian commercial chain for GaAs wafers, GaN epitaxy or packaged devices.",
+        "refs": [
+          "tech_k09_01",
+          "tech_k09_02"
+        ]
+      },
+      {
+        "name": "Tellurium: recovered metal to qualified electronic material",
+        "description": "C-MET documents high-purity tellurium work and offers 7N tellurium and cadmium technology for adoption. Downstream manufacturers can convert purified materials into compounds such as CdTe or CdZnTe; 5N Plus illustrates these distinct photovoltaic and detector product requirements.",
+        "refs": [
+          "tech_k09_04",
+          "tech_k09_05"
+        ]
+      },
+      {
+        "name": "Rare earths: separated chemical to fibre and system",
+        "description": "An already separated rare-earth chemical is incorporated into a glass preform, drawn into active fibre and integrated into an amplifier or laser. Fibre structure and glass composition help determine performance. The finished system also needs optical pumping, components, packaging and application testing.",
+        "refs": [
+          "tech_k09_03",
+          "tech_k09_06"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "C-MET, Hyderabad",
+        "location": "Telangana, India",
+        "role": "Development of ultrapurification processes for electronic materials.",
+        "status": "Documents a 4N-to-6N gallium route; its 14 November 2024 technology-adoption notice lists 7N tellurium and cadmium. These are process and transfer evidence, not a published current commercial gallium-output figure.",
+        "evidence_date": "14 November 2024 notice; undated gallium page accessed 19 October 2026",
+        "refs": [
+          "tech_k09_01",
+          "tech_k09_04"
+        ]
+      },
+      {
+        "name": "Nuclear Fuel Complex",
+        "location": "Hyderabad, India",
+        "role": "Special-materials and high-purity-materials capability within DAE.",
+        "status": "An official 2020 document lists gallium and tellurium among materials in a stated 99.999–99.9999% purity range. It is historical capability evidence; it supplies neither current mineral-specific output nor customer qualification data.",
+        "evidence_date": "28 August 2020",
+        "refs": [
+          "tech_k09_07"
+        ]
+      },
+      {
+        "name": "CSIR-CGCRI and industrial collaborators",
+        "location": "Kolkata, Kochi and Gujarat, India",
+        "role": "Specialty active fibres, optical amplifiers and fibre-laser development.",
+        "status": "CGCRI records an Er amplifier commercial launch with NeST Photonics in August 2005 and development of a 1 kW Yb fibre laser with Sahajanand Laser Technology and Omega Innovation. Its September 2026 list separately labels commercialised fibres and transferred packaged-laser technology.",
+        "evidence_date": "9 July 2025 development page; 29 September 2026 technology list",
+        "refs": [
+          "tech_k09_06",
+          "tech_k09_08"
+        ]
+      },
+      {
+        "name": "5N Plus",
+        "location": "Canada; international specialty-materials operations",
+        "role": "Non-China benchmark for customer-specific semiconductor compounds.",
+        "status": "Commercial catalogue distinguishes CdTe for solar applications from higher-purity detector compounds such as CdZnTe, illustrating several markets beyond selling purified elemental tellurium.",
+        "evidence_date": "Undated catalogue, accessed 19 October 2026",
+        "refs": [
+          "tech_k09_05"
+        ]
+      }
+    ],
+    "mineral_links": [
+      {
+        "minerals": [
+          "gallium"
+        ],
+        "how": "Builds the purification bridge between recovered or purchased gallium and electronic-material users. The demonstrated refining route does not establish domestic recovery from Bayer liquor or an entire compound-semiconductor factory.",
+        "fit": "Direct purification capability; scale and qualification require separate evidence",
+        "refs": [
+          "tech_k09_01"
+        ]
+      },
+      {
+        "minerals": [
+          "copper"
+        ],
+        "how": "The connection is tellurium recovered as a copper-refining by-product, rather than improving copper cathode purity. Indian tellurium-recovery work at Birla Copper provides an upstream link; electronic purification and compound manufacture add separate downstream steps.",
+        "fit": "By-product connection through tellurium",
+        "refs": [
+          "tech_k09_09",
+          "tech_k09_04",
+          "tech_k09_05"
+        ]
+      },
+      {
+        "minerals": [
+          "erbium",
+          "ytterbium"
+        ],
+        "how": "Converts separated rare-earth chemicals into active optical fibres and then amplifiers or lasers. It creates specialised domestic uses for small material volumes; it is not evidence that India already operates bulk extraction or separation of these heavy rare earths.",
+        "fit": "Direct downstream use; upstream sourcing remains separate",
+        "refs": [
+          "tech_k09_03",
+          "tech_k09_06"
+        ]
+      }
+    ],
+    "expansion": [
+      {
+        "title": "Define a buyer's purity and performance specification",
+        "text": "A credible expansion would start with a named electronic-material customer or fibre-system application. Specify the impurity limits, physical form, batch size and acceptance test. Improving a general purity number without understanding the buyer's process can produce a technically impressive but commercially unusable material.",
+        "refs": [
+          "tech_k09_02",
+          "tech_k09_05"
+        ]
+      },
+      {
+        "title": "Reproduce and qualify Indian batches",
+        "text": "For purified metals, the proposed work is repeatable processing, trace analysis, contamination-controlled handling and comparison with an accepted reference. For active fibres, it is reproducible preforms, drawing and device tests. C-MET's transfer notice and CGCRI's technology statuses provide concrete starting points; an adoption notice should not be recast as a completed commercial expansion.",
+        "refs": [
+          "tech_k09_04",
+          "tech_k09_08"
+        ]
+      },
+      {
+        "title": "Connect recovery, materials and device partners",
+        "text": "A possible tellurium chain would connect a copper-slime processor to a specialist refiner and then a qualified compound user. An Er/Yb chain could begin with imported separated chemicals while Indian firms scale fibres and systems. These are proposed partnership models: useful downstream manufacturing need not wait for every upstream operation to become domestic.",
+        "refs": [
+          "tech_k09_05",
+          "tech_k09_06",
+          "tech_k09_09"
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "title": "Laboratory capability and industrial supply are different",
+        "text": "Historical C-MET reporting describes materials supplied for research needs. A current commercial claim needs repeated batch volumes and customer evidence. NFC's broad purity range likewise cannot be assigned to every listed element as a precise current specification.",
+        "refs": [
+          "tech_k09_07",
+          "tech_k09_10"
+        ]
+      },
+      {
+        "title": "Different products require different plants",
+        "text": "An electronic metal refiner, compound-semiconductor manufacturer and fibre-system producer solve different problems. Public evidence for one should not imply the others. India's expansion is more assessable as several specific products with customers than as a single generic 'high-purity materials' capacity figure.",
+        "refs": [
+          "tech_k09_02",
+          "tech_k09_03",
+          "tech_k09_05"
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Zone refining",
+        "meaning": "Moving a narrow molten region through material to redistribute and separate impurities."
+      },
+      {
+        "term": "Dopant",
+        "meaning": "A deliberately added element that gives a material a desired property."
+      },
+      {
+        "term": "Preform",
+        "meaning": "A glass body made before it is drawn into optical fibre."
+      }
+    ],
+    "related_strategies": [
+      "s07",
+      "s08"
+    ],
+    "sources": [
+      {
+        "id": "tech_k09_01",
+        "title": "C-MET: high-purity gallium process",
+        "url": "https://cmet.gov.in/high-purity-gallium",
+        "type": "Research and public sector",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k09_02",
+        "title": "Gardner and colleagues: gallium purity and electronic mobility in GaAs epitaxy",
+        "url": "https://arxiv.org/abs/1601.05401",
+        "type": "Research and public sector",
+        "published": "2016; revised 26 February 2016"
+      },
+      {
+        "id": "tech_k09_03",
+        "title": "Kasik and colleagues: doped and structured silica fibres for laser sources",
+        "url": "https://arxiv.org/abs/2501.00590",
+        "type": "Research and public sector",
+        "published": "2024 journal paper; preprint revised 3 January 2025"
+      },
+      {
+        "id": "tech_k09_04",
+        "title": "C-MET: technology-adoption notice including 7N tellurium and cadmium",
+        "url": "https://www.cmet.gov.in/sites/default/files/eoi/EoI%20notification%2014.11.2024.pdf",
+        "type": "Research and public sector",
+        "published": "14 November 2024"
+      },
+      {
+        "id": "tech_k09_05",
+        "title": "5N Plus: semiconductor compounds and application-specific purity ranges",
+        "url": "https://www.5nplus.com/en/products/semiconductors/?product=devices",
+        "type": "Companies",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k09_06",
+        "title": "CSIR-CGCRI: fibre-optics technologies and industrial collaborators",
+        "url": "https://www.cgcri.res.in/research/research-divisions/fiber-optics-and-photonics/fopd-technology-developed/",
+        "type": "Research and public sector",
+        "published": "Updated 9 July 2025"
+      },
+      {
+        "id": "tech_k09_07",
+        "title": "Nuclear Fuel Complex: official products and services description in certification tender",
+        "url": "https://www.nfc.gov.in/tenders/2020/NFC-ISO-PT-02-2020.pdf",
+        "type": "Government",
+        "published": "28 August 2020"
+      },
+      {
+        "id": "tech_k09_08",
+        "title": "CSIR-CGCRI: commercialised and transferred technology list",
+        "url": "https://www.cgcri.res.in/technologiescgcri/",
+        "type": "Research and public sector",
+        "published": "Updated 29 September 2026"
+      },
+      {
+        "id": "tech_k09_09",
+        "title": "CSIR-IMMT: tellurium recovery from Birla Copper anode slime",
+        "url": "https://www.immt.res.in/hydro-bio-electrometallurgy-achievements",
+        "type": "Research and public sector",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k09_10",
+        "title": "C-MET: 2018-19 annual report, high-purity materials supplied for R&D",
+        "url": "https://cmet.gov.in/sites/default/files/annual-reports/AnnualReport-2018-19(InEnglish)_0.pdf",
+        "type": "Research and public sector",
+        "published": "2018-19 report"
+      }
+    ],
+    "value_chain_note": "Gallium, tellurium and active optical fibres have separate product chains."
+  },
+  "k10": {
+    "summary": "Hydrometallurgy dissolves and separates elements into useful products. India has process-development experience, pilot facilities and some industrial transfers. That foundation can support several mineral chains; each feed still needs its own validated flowsheet and commercial case.",
+    "what": [
+      {
+        "text": "Hydrometallurgy uses liquids to recover metals: dissolve selected components, remove impurities, separate elements and recover a product. A flowsheet specifies the sequence. IMMT develops these routes and basic engineering packages. Expertise transfers between projects; a single recipe does not work for every ore, slime or recycled powder.",
+        "refs": [
+          "tech_k10_07"
+        ]
+      },
+      {
+        "text": "Solvent extraction transfers selected dissolved species between a water-based liquid and an organic phase containing an extractant. Changing the chemical environment changes the separation. Primary research on rare-earth transport shows that even background anions can alter selectivity toward lighter or heavier elements. India's useful capability is therefore the ability to develop and integrate specific separations, rather than possession of a universal 'critical minerals' process.",
+        "refs": [
+          "tech_k10_02"
+        ]
+      }
+    ],
+    "value_chain": [
+      {
+        "name": "Characterise a specific feed",
+        "description": "Determine composition, mineral form and variability before selecting a route. Feeds containing the same element can require different treatment. BARC’s Dantala flowsheet combines flotation and chemical processing for a particular Rajasthan ore.",
+        "refs": [
+          "tech_k10_03"
+        ]
+      },
+      {
+        "name": "Leach and remove the bulk impurities",
+        "description": "Dissolve targeted elements and remove undissolved solids. IMMT’s platform includes atmospheric and pressure leaching, precipitation and filtration. The design must retain target values while rejecting unwanted species.",
+        "refs": [
+          "tech_k10_01"
+        ]
+      },
+      {
+        "name": "Separate mixed solutions into useful fractions",
+        "description": "Chemical separations create useful fractions. IREL’s 2021 compendium describes mixed-chloride refining at Aluva into selected rare-earth products. This provides a concrete precedent, but its historical product list does not establish today’s qualified output for every element.",
+        "refs": [
+          "tech_k10_02",
+          "tech_k10_04"
+        ]
+      },
+      {
+        "name": "Recover a specified product and prove the plant",
+        "description": "Precipitation, crystallisation or electrolysis produces a chemical or metal. Pilot testing establishes a process package; industrial operation also requires reliable feed, utilities, treatment facilities and customers. IMMT distinguishes pilot studies from transferred routes.",
+        "refs": [
+          "tech_k10_01",
+          "tech_k10_05"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "CSIR-IMMT",
+        "location": "Bhubaneswar, Odisha, India",
+        "role": "Flowsheet development, pilot testing and basic engineering.",
+        "status": "Its technology profile reports a 10-tonne/day chromite-overburden proving plant and separately lists historical industrial transfers, including nickel recovery from refinery electrolyte and cobalt recovery from scrap. A proving-plant figure is not ongoing commercial output.",
+        "evidence_date": "Undated technical profile, accessed 19 October 2026",
+        "refs": [
+          "tech_k10_01"
+        ]
+      },
+      {
+        "name": "CSIR-NML",
+        "location": "Jamshedpur, Jharkhand, India",
+        "role": "Research on metals recovery, secondary resources and recycling.",
+        "status": "The 2025-26 project list includes scandium separation from tin slag, NdFeB magnet recycling, battery-to-battery work and tellurium recovery from copper anode slime. Project entries document research scope and scheduled dates, not completed commercial plants.",
+        "evidence_date": "2025-26 project register",
+        "refs": [
+          "tech_k10_06"
+        ]
+      },
+      {
+        "name": "BARC",
+        "location": "Mumbai, Maharashtra, India",
+        "role": "Ore treatment, rare-earth processing and technology support within DAE.",
+        "status": "Its 2025 report describes a Dantala ore flowsheet recovering about 85% of rare-earth values as mixed oxalates, with separate pilot-scale materials work. Mixed oxalate recovery does not establish individual heavy-rare-earth separation.",
+        "evidence_date": "September–October 2025 newsletter",
+        "refs": [
+          "tech_k10_03"
+        ]
+      },
+      {
+        "name": "IREL, Rare Earths Division",
+        "location": "Aluva, Kerala, India",
+        "role": "Commercial mixed-concentrate refining and selected rare-earth products.",
+        "status": "A 2025 government reply confirms operating extraction and refining facilities. IREL’s 2021 compendium records Nd–Pr, Sm, Dy, Gd and Y compounds at Aluva; historical catalogue inclusion does not establish present customer-qualified volumes.",
+        "evidence_date": "3 April 2025 government reply; 2021 compendium",
+        "refs": [
+          "tech_k10_04",
+          "tech_k10_09"
+        ]
+      }
+    ],
+    "mineral_links": [
+      {
+        "minerals": [
+          "copper"
+        ],
+        "how": "The map connection concerns tellurium contained in copper anode slime. IMMT records recovery work at Birla Copper, while NML lists further selenium/tellurium process development. These are by-product opportunities attached to copper refining, not evidence of a new copper mine.",
+        "fit": "Specific by-product route with historical transfer and current R&D evidence",
+        "refs": [
+          "tech_k10_05",
+          "tech_k10_06"
+        ]
+      },
+      {
+        "minerals": [
+          "nickel",
+          "cobalt"
+        ],
+        "how": "Can recover these metals from selected scrap, spent catalysts, batteries and refinery streams. NML lists transferred nickel-catalyst recovery and developed battery-recycling routes; IMMT’s overburden evidence is pilot-scale. The final metal or salt specification needs separate proof.",
+        "fit": "Demonstrated transfer for selected feeds; other routes remain developmental",
+        "refs": [
+          "tech_k10_01",
+          "tech_k10_08"
+        ]
+      },
+      {
+        "minerals": [
+          "scandium"
+        ],
+        "how": "Selective leaching and separation can investigate scandium-bearing residues. NML's register identifies a tin-slag project and a red-mud utilisation programme. Their existence supports a research link, not a claim that an Indian commercial scandium stream is already supplying customers.",
+        "fit": "Research and scale-up opportunity",
+        "refs": [
+          "tech_k10_06"
+        ]
+      },
+      {
+        "minerals": [
+          "neodymium",
+          "praseodymium",
+          "samarium",
+          "gadolinium",
+          "yttrium"
+        ],
+        "how": "IREL’s historical product literature identifies Nd–Pr combined material and Sm, Gd and Y compounds. NML lists developed neodymium recovery from hard-drive waste. These are specific product precedents, not independent separation of every rare earth.",
+        "fit": "Commercial foundation for listed products, with further development by route",
+        "refs": [
+          "tech_k10_04",
+          "tech_k10_08"
+        ]
+      },
+      {
+        "minerals": [
+          "dysprosium"
+        ],
+        "how": "IREL’s 2021 compendium lists dysprosium oxalate and oxide. This is a stronger precedent than generic R&D, but the source does not establish current throughput, feed provenance or qualification for a particular customer. Expansion needs fresh operating evidence.",
+        "fit": "Historical product evidence; current qualified output unverified",
+        "refs": [
+          "tech_k10_04"
+        ]
+      },
+      {
+        "minerals": [
+          "terbium",
+          "erbium",
+          "holmium",
+          "thulium",
+          "ytterbium",
+          "lutetium"
+        ],
+        "how": "These links identify potential applications of separation expertise to heavy rare earths. The reviewed sources do not establish commercial Indian supply of all six. Recovering a mixed rare-earth product still leaves element-by-element separation, yield and customer qualification to demonstrate.",
+        "fit": "Research carry-over; commercial supply not established by these sources",
+        "refs": [
+          "tech_k10_02",
+          "tech_k10_03",
+          "tech_k10_04"
+        ]
+      }
+    ],
+    "expansion": [
+      {
+        "title": "Choose a feed-and-product pair",
+        "text": "An expansion could select one secure waste stream and one buyer specification. Slime-to-tellurium, electrolyte-to-nickel and magnet recycling are separate projects. Establish the feed’s variability and the customer before designing a larger processing campus.",
+        "refs": [
+          "tech_k10_05",
+          "tech_k10_06"
+        ]
+      },
+      {
+        "title": "Run an integrated continuous pilot",
+        "text": "The proposed next step is a connected campaign measuring recovery, quality, reagent recycling and residue behaviour across representative feeds. Shared pilot infrastructure can avoid rebuilding every experiment. Historical pilot success still needs reproduction with the actual commercial feed and specification.",
+        "refs": [
+          "tech_k10_01",
+          "tech_k10_07"
+        ]
+      },
+      {
+        "title": "Transfer the complete operating package",
+        "text": "Transfer should include equipment design, analytical control, training, treatment facilities and customer trials. An industrial partner must own daily operating risk. IMMT’s transfer history provides a precedent; NML’s register explains why scheduled research should retain its research status until later milestones are demonstrated.",
+        "refs": [
+          "tech_k10_05",
+          "tech_k10_06"
+        ]
+      }
+    ],
+    "constraints": [
+      {
+        "title": "Recoverable chemistry is not automatically economic",
+        "text": "A proposed business case must include reagent consumption, impurity rejection, recycle build-up and saleable yield. Successful extraction alone does not establish a viable plant. No universal capital cost or guaranteed Indian timeline follows from these research results.",
+        "refs": [
+          "tech_k10_02",
+          "tech_k10_07"
+        ]
+      },
+      {
+        "title": "Rare-earth feed composition determines the opportunity",
+        "text": "A plant cannot make an absent element. BARC's mixed recovery and IREL's commercial product list address different feeds and endpoints; neither establishes a complete heavy-rare-earth chain. Any expansion proposal should state which elements enter, which leave as qualified products and where the remainder goes.",
+        "refs": [
+          "tech_k10_03",
+          "tech_k10_04"
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Flowsheet",
+        "meaning": "The sequence of operations that converts a particular feed into specified products."
+      },
+      {
+        "term": "Solvent extraction",
+        "meaning": "Selective transfer of dissolved substances between two liquid phases."
+      },
+      {
+        "term": "Proving plant",
+        "meaning": "A facility used to test an integrated process before commercial scale-up."
+      }
+    ],
+    "related_strategies": [
+      "s01",
+      "s04",
+      "s05",
+      "s07",
+      "s15",
+      "s16"
+    ],
+    "sources": [
+      {
+        "id": "tech_k10_01",
+        "title": "CSIR-IMMT: technical profile of metals recovery, pilots and industrial transfers",
+        "url": "https://www.immt.res.in/webroot/upload/admin/document/document_img_1569401864.PDF",
+        "type": "Research and public sector",
+        "published": "Undated technical profile; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k10_02",
+        "title": "Lovering and colleagues: ion effects on rare-earth solvent-extraction selectivity",
+        "url": "https://arxiv.org/abs/1909.11689",
+        "type": "Research and public sector",
+        "published": "2019 preprint; revised 10 January 2020"
+      },
+      {
+        "id": "tech_k10_03",
+        "title": "BARC Newsletter: 2025 atomic-mineral and rare-earth process developments",
+        "url": "https://barc.gov.in/barc_nl/2025/20250910.pdf",
+        "type": "Research and public sector",
+        "published": "September–October 2025; relevant report on PDF page 18"
+      },
+      {
+        "id": "tech_k10_04",
+        "title": "IREL: 2021 compendium, mixed-chloride refining and historical product list",
+        "url": "https://www.irel.co.in/documents/20126/457486/Compendium%2Bon%2BRare%2BEarths%2Band%2BHeavy%2BMinerals%2BBook.pdf",
+        "type": "Research and public sector",
+        "published": "2021; historical product information on PDF pages 4 and 10"
+      },
+      {
+        "id": "tech_k10_05",
+        "title": "CSIR-IMMT: hydro/electrometallurgy achievements and transfer examples",
+        "url": "https://www.immt.res.in/hydro-bio-electrometallurgy-achievements",
+        "type": "Research and public sector",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k10_06",
+        "title": "CSIR-NML: ongoing projects during April 2025–March 2026",
+        "url": "https://transparency.nmlindia.org/projects/ongoing%20project%20during%202025-26.pdf",
+        "type": "Research and public sector",
+        "published": "2025-26 project register"
+      },
+      {
+        "id": "tech_k10_07",
+        "title": "CSIR-IMMT: hydrometallurgy and basic engineering expertise",
+        "url": "https://www.immt.res.in/hydro-bio-electrometallurgy",
+        "type": "Research and public sector",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k10_08",
+        "title": "CSIR-NML: technology portfolio and developed/transferred route distinctions",
+        "url": "https://www.nmlindia.org/technology-portfolio-csir-nml",
+        "type": "Research and public sector",
+        "published": "Undated; accessed 19 October 2026"
+      },
+      {
+        "id": "tech_k10_09",
+        "title": "Department of Atomic Energy: Parliament reply on operating IREL facilities",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2118380&lang=2&reg=3",
+        "type": "Government",
+        "published": "3 April 2025"
+      }
+    ]
+  }
+}

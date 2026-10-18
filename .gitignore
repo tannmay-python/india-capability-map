@@ -4,3 +4,4 @@ dist/
 node_modules/
 previews/
 *.pdf
+research/part-*.json
