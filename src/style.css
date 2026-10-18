@@ -7,3 +7,55 @@
 
 /* Reduced page furniture; retain labels that explain the data. */
 .topbar{height:78px}main{padding-top:38px}.page-head p{margin-top:12px}.map-section{margin-top:27px}.map-section>.section-top{margin-bottom:18px}.map-section .legend{margin-right:auto}.card-top{justify-content:flex-end}.card-top .pill{max-width:100%;text-align:left}.chem-card h3{margin-top:12px}.prose h2,.cost-card h2,.gap-card h2{margin-top:0}footer{justify-content:flex-end;padding-top:18px;padding-bottom:22px}.mineral-header h1{margin-top:7px}.section-tabs{margin-top:22px}#search-results:empty{margin-top:0}#search-results:empty:after{content:none}@media(max-width:760px){.topbar{height:auto}main{padding-top:28px}.map-section{margin-top:23px}.filters>.select-wrap{flex:1 0 45%}footer>div{max-width:none}.chem-card h3{margin-top:10px}}
+
+/* Overview: the workbook's current capabilities and proposals, read side by side. */
+.overview-note{font-size:12px;color:var(--muted);max-width:85ch;margin:0 0 18px;line-height:1.5}
+.overview-table-wrap{border-top:1px solid var(--ink)}
+.capability-overview{table-layout:fixed}
+.overview-mineral{width:15%}.overview-existing{width:34%}.overview-action{width:33%}.overview-ease{width:8%}.overview-time{width:10%}
+.capability-overview thead th{padding:15px 15px 17px;font-size:12px;font-weight:600;line-height:1.4;vertical-align:bottom;color:var(--muted)}
+.capability-overview thead th:first-child{padding-left:12px}
+.capability-overview .group-band th{padding:13px 12px}
+.capability-overview .mineral-row td,.capability-overview .mineral-row>th{vertical-align:top;padding:24px 15px 27px;height:auto;border-bottom:1px solid var(--border);cursor:default}
+.capability-overview .mineral-row>th{padding-left:12px}
+.capability-overview .mineral-name{white-space:normal;align-items:baseline;gap:8px;font-size:15px;line-height:1.4}
+.capability-overview .mineral-name>.symbol{font-size:12px;width:24px}
+.overview-detail{display:block;margin-top:12px;font-size:10px;color:var(--muted);font-weight:450}
+.overview-detail:hover{text-decoration:underline;text-underline-offset:3px}
+.capability-overview p{font-size:14px;line-height:1.65;margin:0}
+.capability-overview .existing-capability{color:var(--muted)}
+.capability-overview .proposed-capability p{color:var(--ink)}
+.action-stage{display:block;font-size:10px;font-weight:600;color:var(--accent);margin-bottom:8px;line-height:1.4}
+.capability-overview .overview-ease-cell{padding-left:8px;padding-right:8px}
+.capability-overview .overview-time-cell{font-family:var(--mono);font-size:11px;white-space:nowrap;padding-top:27px}
+.capability-overview .overview-ease-cell .pill{font-size:9px;padding:5px 7px}
+.capability-overview .mineral-row:hover{background:transparent}
+.no-minerals{padding:35px 0;color:var(--muted);font-size:14px}
+.about-section>p+p{margin-top:14px}
+@media(min-width:1101px){.capability-overview .existing-capability{padding-right:28px}.capability-overview .proposed-capability{padding-right:27px}}
+@media(max-width:1100px) and (min-width:761px){.overview-mineral{width:16%}.overview-existing{width:32%}.overview-action{width:32%}.overview-ease{width:9%}.overview-time{width:11%}.capability-overview .mineral-row td,.capability-overview .mineral-row>th{padding:20px 10px}.capability-overview p{font-size:13px}.capability-overview .mineral-name{font-size:13px;gap:5px}.overview-detail{font-size:9px}.capability-overview .overview-time-cell{font-size:10px;padding-top:23px}.capability-overview thead th{padding-left:10px;padding-right:10px}.capability-overview .mineral-name>.symbol{width:20px}}
+@media(max-width:760px){
+  .overview-note{font-size:11px;margin-top:4px;margin-bottom:18px;max-width:55ch}
+  .capability-overview,.capability-overview tbody{display:block;width:100%}
+  .capability-overview colgroup{display:none}
+  .capability-overview thead{position:absolute;clip:rect(0,0,0,0);width:1px;height:1px;overflow:hidden}
+  .capability-overview .group-band,.capability-overview .group-band th{display:block;width:100%}
+  .capability-overview .group-band th{padding:13px 10px}
+  .capability-overview .group-band th>div{font-size:11px;gap:7px}
+  .capability-overview .band-count{font-size:9px;white-space:nowrap}
+  .capability-overview .overview-row{display:grid;grid-template-columns:1fr 1fr;padding:22px 0 25px;border-bottom:1px solid var(--border);row-gap:19px;column-gap:18px}
+  .capability-overview .mineral-row>th,.capability-overview .mineral-row>td{display:block;padding:0;border:0;height:auto}
+  .capability-overview .mineral-row>th{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:15px}
+  .capability-overview .mineral-name{font-size:18px;gap:10px}
+  .capability-overview .mineral-name>.symbol{font-size:13px;width:26px}
+  .overview-detail{margin:0;font-size:10px;white-space:nowrap}
+  .capability-overview .existing-capability,.capability-overview .proposed-capability{grid-column:1/-1}
+  .capability-overview td[data-label]:before{content:attr(data-label);display:block;font-size:10px;font-family:var(--sans);font-weight:600;color:var(--muted);line-height:1.4;margin-bottom:7px}
+  .capability-overview .proposed-capability:before{color:var(--accent)}
+  .capability-overview .action-stage{font-size:10px;margin-bottom:5px;font-weight:450}
+  .capability-overview p{font-size:14px;line-height:1.65}
+  .capability-overview .overview-time-cell{font-size:12px;font-family:var(--mono)}
+  .capability-overview .overview-ease-cell .pill{font-size:10px;padding:5px 9px}
+}
+
+@media(min-width:761px){.capability-overview thead th{position:sticky;top:0;z-index:3;background:var(--paper);box-shadow:0 1px 0 var(--border)}}
