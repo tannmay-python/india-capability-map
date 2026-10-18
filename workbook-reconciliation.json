@@ -1,0 +1,12 @@
+{
+  "workbook": "../capability_map_site_kit/India_Capability_Map.xlsx",
+  "checked_values": 702,
+  "differences": [],
+  "normalizations": [
+    {
+      "field": "po/url",
+      "workbook": "(internal)",
+      "site": "No URL; displayed as (internal)"
+    }
+  ]
+}

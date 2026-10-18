@@ -1,0 +1,4489 @@
+{
+  "meta": {
+    "title": "India Capability Map",
+    "subtitle": "Where India can build capability across 26 critical minerals (dashboard groups 1, 2 and 5)",
+    "audience": "Internal (Takshashila HTG). Not for circulation.",
+    "updated": "2026-10-18",
+    "next_recheck": "Early December 2026",
+    "dashboard": "https://indiacriticalminerals.com",
+    "stages": [
+      {
+        "id": "mine",
+        "short": "Mine",
+        "label": "Mining & concentrate"
+      },
+      {
+        "id": "refine",
+        "short": "Refine",
+        "label": "Refining & separation"
+      },
+      {
+        "id": "make",
+        "short": "Make",
+        "label": "Metal, chemical or material"
+      },
+      {
+        "id": "use",
+        "short": "Use",
+        "label": "Components & end use"
+      }
+    ],
+    "india_levels": [
+      {
+        "level": 0,
+        "label": "Nothing yet",
+        "means": "No activity in India at this stage, or only a resource or traces."
+      },
+      {
+        "level": 1,
+        "label": "Some",
+        "means": "Something real but partial: a pilot or demo, a small plant, a by-product not yet recovered, a plant under construction, an overseas stake, or research capability."
+      },
+      {
+        "level": 2,
+        "label": "Substantial",
+        "means": "Commercial-scale capability covering much of India's need, or a complete domestic chain for a strategic niche."
+      }
+    ],
+    "scales": {
+      "complexity": "1-5, the dashboard's extraction and refining scale: 1 simple physical separation; 3 multi-stage hydrometallurgy; 4 near-identical element separation, few plants worldwide; 5 nation-state level.",
+      "ease": "Easy: existing plants or licensing. Moderate: a new circuit or plant using proven technology. Hard: a new mine or a big technology gap.",
+      "time_to_output": "Rough time to meaningful output: 0-3 yrs, 3-7 yrs, 7+ yrs.",
+      "confidence": "High: official or company data. Medium: solid data plus our estimates. Low: depends on unpublished data.",
+      "kinds": "Existing plant, by-product stream, shared process, specialty chemicals, recycling, research know-how, raw material, demand anchor, downstream use, overseas asset."
+    },
+    "notes": [
+      {
+        "title": "About",
+        "text": "Capability map for the 26 minerals in dashboard groups 1, 2 and 5. The question is capability building, not leverage: where India already has strengths it can build on, what each mineral's value chain looks like, which capabilities other countries have built, and how complex and costly they are."
+      },
+      {
+        "title": "Groups",
+        "text": "G1 High-volume base metals (9). G2 Heavy rare earths (8). G5 A widening processing chokepoint (9). As on the dashboard after the October 2026 update, which moved phosphorus from G5 to G1 (fertiliser tonnage, like potash) and tellurium from G2 to G6 (copper by-products). Tellurium is now covered under copper and capability #7."
+      },
+      {
+        "title": "Complexity",
+        "text": "1-5, the dashboard's extraction and refining scale. 1: simple physical separation. 3: multi-stage hydrometallurgy. 4: near-identical element separation, few plants worldwide. 5: nation-state level."
+      },
+      {
+        "title": "Ease for India",
+        "text": "Easy: existing plants or licensing. Moderate: a new circuit or plant using proven technology. Hard: a new mine or a big technology gap."
+      },
+      {
+        "title": "Kind of strength",
+        "text": "Existing plant, by-product stream, shared process, specialty chemicals, recycling, research know-how, raw material, demand anchor, downstream use, overseas asset."
+      },
+      {
+        "title": "Costs",
+        "text": "Indicative: one or two public projects per capability, in the currency and year reported. Not quotes for an Indian plant. # numbers point to the Capabilities tab."
+      },
+      {
+        "title": "Time to output",
+        "text": "Rough time to meaningful output."
+      },
+      {
+        "title": "Confidence",
+        "text": "High: official or company data. Medium: solid data plus our estimates. Low: depends on unpublished data."
+      },
+      {
+        "title": "Our estimates",
+        "text": "Gallium: India's 8.2 Mt alumina x China's yield (900 t Ga / 93 Mt alumina) = ~80 t/yr. Tellurium: 620 kt copper x 44-71 g/t (Japan, Russia) = ~25-45 t/yr. Hafnium: NFC's ~1,140 t ZrO2 x 1.4-3% Hf = ~12-25 t/yr."
+      },
+      {
+        "title": "Context",
+        "text": "India's share of global chemical value chains was 3.5% in 2023, with a US$31 bn chemicals trade deficit; it imports much feedstock and specialty chemicals (NITI Aayog, 2025)."
+      },
+      {
+        "title": "Updated",
+        "text": "18 Oct 2026, aligned with the October 2026 site update: group moves, USGS MCS 2026 figures, and phosphorus's overseas acid plants and Ma'aden deals."
+      },
+      {
+        "title": "Next recheck",
+        "text": "Early December 2026, quarterly thereafter. China's suspension of its export ban to the US (gallium, germanium, antimony) runs to 27 Nov 2026, and its one-year suspension of the October 2025 rare-earth controls (Eu, Ho, Er, Tm, Yb) also ends in November."
+      },
+      {
+        "title": "Sources",
+        "text": "USGS Mineral Commodity Summaries 2026, IEA, IBM, parliamentary replies, PIB, company filings and releases, research institutions. Trade press only where no primary source was found. See the Sources tab."
+      }
+    ],
+    "estimates": [
+      {
+        "mineral": "gallium",
+        "text": "~80 t/yr of gallium in India's Bayer liquor (our estimate)"
+      },
+      {
+        "mineral": "copper",
+        "text": "~25-45 t/yr of tellurium in India's copper (our estimate)"
+      },
+      {
+        "mineral": "zirconium",
+        "text": "~12-25 t/yr of hafnium in NFC's raffinate (our estimate)"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "id": 1,
+      "name": "High-volume base metals",
+      "color": "#620d3c",
+      "tagline": "Defined by scale, not monopoly leverage.",
+      "minerals": [
+        "cobalt",
+        "copper",
+        "lithium",
+        "molybdenum",
+        "nickel",
+        "phosphorus",
+        "potash",
+        "titanium",
+        "zirconium"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Heavy rare earths",
+      "color": "#f1a222",
+      "tagline": "Substitution sometime away.",
+      "minerals": [
+        "dysprosium",
+        "erbium",
+        "holmium",
+        "lutetium",
+        "terbium",
+        "thulium",
+        "ytterbium",
+        "yttrium"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "A widening processing chokepoint",
+      "color": "#7d6b9e",
+      "tagline": "Reserves are everywhere; the processing chokepoint is widening.",
+      "minerals": [
+        "gadolinium",
+        "gallium",
+        "graphite",
+        "neodymium",
+        "praseodymium",
+        "samarium",
+        "scandium",
+        "silicon",
+        "tungsten"
+      ]
+    }
+  ],
+  "minerals": [
+    {
+      "id": "cobalt",
+      "name": "Cobalt",
+      "symbol": "Co",
+      "group": 1,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Cobalt",
+      "next_move": "Scale refining of imported hydroxide and black mass into battery-grade cobalt sulphate.",
+      "next_move_stage": "refine",
+      "value_chain_step": "Refining",
+      "what_india_has": "Hydrometallurgical refining at Nicomet and Rubamin on imported intermediates and scrap; Rubamin also recovers cobalt from spent catalysts; CSIR-IMMT has a superalloy-scrap process; seabed nodule contracts.",
+      "kinds": [
+        "Existing plant",
+        "Recycling"
+      ],
+      "complexity": 3,
+      "ease": "Moderate",
+      "cost": "No reliable public figure for a sulphate refinery. India's recycling scheme implies ~Rs 30 crore per kt/yr of recycling capacity (#15).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "DRC 74%, Indonesia 14% (2025).",
+          "india": "None on land; seabed nodule contracts (366 Mt at 0.14% Co).",
+          "india_level": 0
+        },
+        {
+          "stage": "refine",
+          "world": "China refines most cobalt.",
+          "india": "Nicomet and Rubamin refine imported feed and scrap (~2,060 t/yr).",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "Cobalt sulphate into battery precursors: China 95%+.",
+          "india": "No precursor plant at scale.",
+          "india_level": 0
+        },
+        {
+          "stage": "use",
+          "world": "Batteries, superalloys, carbide tools.",
+          "india": "Imports cobalt chemicals and alloys.",
+          "india_level": 1
+        }
+      ],
+      "strategies": [
+        "s03",
+        "s04",
+        "s05",
+        "s15"
+      ],
+      "chemistry": [
+        "k08",
+        "k10"
+      ],
+      "sources": [
+        "usgs_co",
+        "iea_over",
+        "iea_comm",
+        "nodules",
+        "po",
+        "ibm_co",
+        "immt",
+        "rubamin",
+        "recyc"
+      ]
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "symbol": "Cu",
+      "group": 1,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Copper",
+      "next_move": "Secure concentrate; treat slime fully for tellurium, selenium and PGMs, with commercial tellurium circuits at Dahej and Kutch and 5N purification for CdTe.",
+      "next_move_stage": "refine",
+      "value_chain_step": "Smelting and slime treatment",
+      "what_india_has": "Three large smelter-refiners (Hindalco Dahej, Kutch Copper at 0.5 Mt/yr, Vedanta Silvassa) with slime circuits for precious metals and selenium; Hindalco lists CSIR-IMMT's tellurium process (85-90% recovery) as implemented. India's copper carries ~25-45 t/yr of tellurium (our estimate).",
+      "kinds": [
+        "Existing plant",
+        "By-product stream",
+        "Demand anchor"
+      ],
+      "complexity": 2,
+      "ease": "Moderate",
+      "cost": "Kutch Copper phase 1: ~US$1.2 bn for 0.5 Mt/yr. A tellurium circuit is cheap: US$2.9 m for ~20 t/yr at Rio Tinto's Kennecott (#7).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "High",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Chile 23%, DRC 14%, Peru 12% (2025).",
+          "india": "Small mine output; imports most concentrate.",
+          "india_level": 1
+        },
+        {
+          "stage": "refine",
+          "world": "China 48% of refined copper; DRC, Chile, Japan next.",
+          "india": "620 kt refined in 2025 (2%): Hindalco Dahej, Kutch Copper, Vedanta Silvassa.",
+          "india_level": 2
+        },
+        {
+          "stage": "make",
+          "world": "Rod, wire, alloys. Anode slime yields gold, silver, selenium, tellurium and PGMs; China refines 80% of tellurium.",
+          "india": "Hindalco recovers precious metals from slime; Kutch Copper has 150 t/yr of selenium capacity; tellurium output is unconfirmed.",
+          "india_level": 2
+        },
+        {
+          "stage": "use",
+          "world": "Power grids, motors, electronics, buildings.",
+          "india": "Wire, cable and power-equipment makers; First Solar's 3.3 GW CdTe plant in Tamil Nadu is a buyer for tellurium.",
+          "india_level": 2
+        }
+      ],
+      "strategies": [
+        "s07"
+      ],
+      "chemistry": [
+        "k09",
+        "k10"
+      ],
+      "sources": [
+        "usgs_cu",
+        "adani",
+        "hind_pm",
+        "po",
+        "usgs_te",
+        "fs",
+        "kutch",
+        "hind_te",
+        "rio_te",
+        "immt",
+        "te_pat",
+        "nfc"
+      ]
+    },
+    {
+      "id": "lithium",
+      "name": "Lithium",
+      "symbol": "Li",
+      "group": 1,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Lithium",
+      "next_move": "Mid-stream chemicals first: electrolyte salts and electrolytes, sold to non-China cell makers. Then conversion of imported spodumene.",
+      "next_move_stage": "make",
+      "value_chain_step": "Battery salts and conversion",
+      "what_india_has": "No domestic mine. Lohum refines black mass and spodumene and now mines in Zimbabwe. GFCL makes LiPF6 within a Rs 6,000 crore battery-chemicals programme. Neogen is building 5,500 t/yr of electrolyte salts and 32,000 t/yr of electrolyte.",
+      "kinds": [
+        "Specialty chemicals",
+        "Overseas asset"
+      ],
+      "complexity": 3,
+      "ease": "Moderate",
+      "cost": "Neogen: Rs 1,795 crore for its salts and electrolyte plants. An integrated mine-to-hydroxide project (50 kt/yr refinery): ~A$2.5 bn (Covalent, Australia) (#6).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Australia 32%, China 21%, Chile 19%, Zimbabwe 10%, Argentina 8% (2025).",
+          "india": "No production; Lohum began mining spodumene in Zimbabwe (Sep 2026).",
+          "india_level": 1
+        },
+        {
+          "stage": "refine",
+          "world": "China refines most lithium chemicals. Outside China: carbonate in Chile and Argentina; new hydroxide refineries in Australia (Kwinana) and Germany (Bitterfeld).",
+          "india": "Lohum's 1,000 t/yr LCE refinery (black mass and spodumene).",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "Cathode materials (China ~85%) and electrolyte salts such as LiPF6.",
+          "india": "GFCL makes LiPF6; Neogen runs a 200 t/yr electrolyte line, with 1,500 t/yr of salts due in H2 FY27.",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "EV and storage batteries (China makes 80% of cells).",
+          "india": "Early-stage cell manufacturing.",
+          "india_level": 1
+        }
+      ],
+      "strategies": [
+        "s06",
+        "s10",
+        "s15"
+      ],
+      "chemistry": [
+        "k01",
+        "k02",
+        "k03",
+        "k05"
+      ],
+      "sources": [
+        "usgs_li",
+        "iea_over",
+        "iea_gevo",
+        "covalent2",
+        "amg",
+        "lohum",
+        "gfcl",
+        "neogen",
+        "po",
+        "covalent"
+      ]
+    },
+    {
+      "id": "molybdenum",
+      "name": "Molybdenum",
+      "symbol": "Mo",
+      "group": 1,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Molybdenum",
+      "next_move": "Keep refinery and hydroprocessing catalysts in India for recovery; take in Gulf catalysts as feed.",
+      "next_move_stage": "refine",
+      "value_chain_step": "Spent-catalyst recovery",
+      "what_india_has": "Rubamin processes ~20,000 t/yr of spent catalyst and recovers ~1,500 t/yr of molybdenum; India's ~249 Mt/yr of refining is a steady catalyst stream.",
+      "kinds": [
+        "Recycling",
+        "Existing plant"
+      ],
+      "complexity": 2,
+      "ease": "Easy",
+      "cost": "Recycling plants: ~Rs 30 crore per kt/yr of capacity under India's scheme (#15).",
+      "time_to_output": "0-3 yrs",
+      "confidence": "High",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "China 37%; much molybdenum is a copper by-product.",
+          "india": "Depends on imports.",
+          "india_level": 0
+        },
+        {
+          "stage": "refine",
+          "world": "Concentrate roasted to technical oxide (also the source of rhenium).",
+          "india": "Rubamin recovers ~1,500 t/yr of molybdenum from spent catalysts.",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "Ferromolybdenum, chemicals, catalysts.",
+          "india": "Imports oxide and ferromolybdenum.",
+          "india_level": 0
+        },
+        {
+          "stage": "use",
+          "world": "Alloy steels, refinery catalysts, lubricants.",
+          "india": "Steel and ~249 Mt/yr of oil refining create demand and spent catalyst.",
+          "india_level": 2
+        }
+      ],
+      "strategies": [
+        "s15"
+      ],
+      "chemistry": [
+        "k08"
+      ],
+      "sources": [
+        "usgs_mo",
+        "rubamin",
+        "mopng",
+        "recyc"
+      ]
+    },
+    {
+      "id": "nickel",
+      "name": "Nickel",
+      "symbol": "Ni",
+      "group": 1,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Nickel",
+      "next_move": "Near term: refine imported mixed hydroxide into sulphate. Long term: test Sukinda overburden at pilot scale.",
+      "next_move_stage": "refine",
+      "value_chain_step": "Laterite processing",
+      "what_india_has": "Small refining (Nicomet; Hindustan Copper's nickel sulphate); CSIR-IMMT's 10 t/day proving plant for Sukinda overburden; ferroalloy furnace know-how close to RKEF; seabed nodules (1.14% Ni).",
+      "kinds": [
+        "Raw material",
+        "Research know-how"
+      ],
+      "complexity": 4,
+      "ease": "Hard",
+      "cost": "HPAL is capital-heavy: Vale-Huayou Pomalaa, US$4.5 bn (mine and plant) for 120 kt/yr of nickel (#4).",
+      "time_to_output": "7+ yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Indonesia 67% (2025); Philippines and Russia next.",
+          "india": "None; most of India's 189 Mt nickel resource sits in Sukinda chromite overburden.",
+          "india_level": 0
+        },
+        {
+          "stage": "refine",
+          "world": "Indonesia turns laterite into nickel pig iron, matte and mixed hydroxide (RKEF and HPAL) and leads refining growth.",
+          "india": "Nicomet refines ~6 kt/yr of imported feed; Hindustan Copper recovers nickel from spent electrolyte.",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "Nickel sulphate into battery precursors (China 95%+); stainless steel.",
+          "india": "Stainless steel makers use imported nickel.",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "Stainless steel (most), batteries, superalloys.",
+          "india": "Stainless steel is the main use.",
+          "india_level": 2
+        }
+      ],
+      "strategies": [
+        "s04",
+        "s05",
+        "s15"
+      ],
+      "chemistry": [
+        "k08",
+        "k10"
+      ],
+      "sources": [
+        "usgs_ni",
+        "iea_over",
+        "iea_comm",
+        "ibm_ni",
+        "po",
+        "immt",
+        "nodules",
+        "vale_pom"
+      ]
+    },
+    {
+      "id": "phosphorus",
+      "name": "Phosphorus",
+      "symbol": "P",
+      "group": 1,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Phosphorus",
+      "next_move": "Two tracks: keep fertiliser supply secure through the overseas acid plants and long-term offtakes; add battery-grade purified acid and iron phosphate for LFP.",
+      "next_move_stage": "refine",
+      "value_chain_step": "Acid supply; purification and FePO4",
+      "what_india_has": "Fertiliser acid plants at home (IFFCO, PPL, Coromandel) and co-owned plants abroad: IMACID in Morocco (Chambal with OCP, expanding from 500 to 700 kt/yr of acid) and JIFCO in Jordan (IFFCO with JPMC); five-year Ma'aden deals for 3.1 Mt/yr of DAP; Sudeep's pharma-to-battery iron phosphate; Himadri and GFCL LFP cathode projects.",
+      "kinds": [
+        "Overseas asset",
+        "Existing plant",
+        "Specialty chemicals"
+      ],
+      "complexity": 2,
+      "ease": "Moderate",
+      "cost": "IMACID's expansion to 700 kt/yr of acid (with ~1 Mt/yr of sulphuric acid): US$173 m. LFP cathode: Rs 1,125 crore for 40 kt/yr (Himadri) (#10).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "High",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "China 44% of phosphate rock; Morocco holds 68% of reserves (2025).",
+          "india": "Small rock output; imports about 60% of its phosphorus as rock, acid and fertiliser.",
+          "india_level": 1
+        },
+        {
+          "stage": "refine",
+          "world": "Wet-process phosphoric acid; purified acid: China 75%.",
+          "india": "~2.2 Mt/yr of fertiliser acid against needs of 4.3-4.5 Mt; Indian firms also co-own acid plants in Morocco (IMACID, with OCP) and Jordan (JIFCO). Battery-grade purification is the gap.",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "Iron phosphate and LFP cathode: China 95%+.",
+          "india": "Sudeep (FePO4; 25 kt at Dahej by Mar 2027); Himadri (40 kt LFP); GFCL (LFP).",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "Fertiliser (most), LFP batteries, food and industrial phosphates.",
+          "india": "Fertiliser: DAP imports were 5.6 Mt in 2023-24; five-year deals with Ma'aden for 3.1 Mt/yr of DAP from 2025-26.",
+          "india_level": 2
+        }
+      ],
+      "strategies": [
+        "s06",
+        "s10"
+      ],
+      "chemistry": [
+        "k02",
+        "k03",
+        "k04"
+      ],
+      "sources": [
+        "usgs_p",
+        "iea",
+        "iea_comm",
+        "po",
+        "ls855",
+        "sudeep",
+        "himadri",
+        "gfcl",
+        "imacid",
+        "jifco",
+        "maaden"
+      ]
+    },
+    {
+      "id": "potash",
+      "name": "Potash",
+      "symbol": "K",
+      "group": 1,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Potash",
+      "next_move": "Prove solution mining of Rajasthan potash; scale brine-based SOP.",
+      "next_move_stage": "mine",
+      "value_chain_step": "Solution mining",
+      "what_india_has": "Archean's brine-based SOP; Rajasthan's ~236 Mt of resources and an MECL-RSMML solution-mining study; a large fertiliser-blending industry.",
+      "kinds": [
+        "Raw material",
+        "Existing plant"
+      ],
+      "complexity": 1,
+      "ease": "Hard",
+      "cost": "A new solution mine costs billions of dollars (K+S Bethune, Canada) (#18).",
+      "time_to_output": "7+ yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Canada 31%, Russia 20%, China 13%, Belarus 12%.",
+          "india": "No mining; ~236 Mt of potash resources in Rajasthan.",
+          "india_level": 0
+        },
+        {
+          "stage": "refine",
+          "world": "Flotation or crystallisation to MOP; SOP also from brines.",
+          "india": "Archean makes SOP from Rann of Kutch brine.",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "MOP, SOP and NPK blends.",
+          "india": "Imported 2.9 Mt of MOP in 2023-24; blends NPK at home.",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "Mostly fertiliser.",
+          "india": "Fertiliser; the annual import contract ($383/t in 2026) is a regional price reference.",
+          "india_level": 2
+        }
+      ],
+      "strategies": [
+        "s18"
+      ],
+      "chemistry": [],
+      "sources": [
+        "usgs_k",
+        "ls535",
+        "ls855",
+        "argus_k",
+        "po",
+        "bethune"
+      ]
+    },
+    {
+      "id": "titanium",
+      "name": "Titanium",
+      "symbol": "Ti",
+      "group": 1,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Titanium",
+      "next_move": "Scale sponge beyond 1,000 t/yr and qualify aerospace grades.",
+      "next_move_stage": "make",
+      "value_chain_step": "Sponge (Kroll)",
+      "what_india_has": "Mineral-sands mining and separation (IREL, KMML); KMML's chloride-route TiCl4; a 500 t/yr sponge plant (DMRL process, funded by ISRO) with expansion to 1,000 t under way.",
+      "kinds": [
+        "Existing plant",
+        "Raw material"
+      ],
+      "complexity": 3,
+      "ease": "Moderate",
+      "cost": "KMML's 500 t/yr sponge plant cost ~Rs 100 crore (2011) (#12).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "High",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Ilmenite: China 34%, then Mozambique, South Africa, Australia.",
+          "india": "240 kt of ilmenite in 2025 (2.6%); about 3% of world reserves.",
+          "india_level": 2
+        },
+        {
+          "stage": "refine",
+          "world": "Slag, synthetic rutile and TiCl4 (chloride route).",
+          "india": "KMML runs the chloride route (TiCl4) for pigment.",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "Sponge: China 70%, Japan 14%, Russia 7%, Kazakhstan 4% (2025). Pigment is made widely.",
+          "india": "KMML made 300 t of sponge in 2025 (500 t/yr plant).",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "Pigment (most), aerospace and defence alloys.",
+          "india": "Pigment, defence and space alloys.",
+          "india_level": 1
+        }
+      ],
+      "strategies": [
+        "s11",
+        "s12"
+      ],
+      "chemistry": [
+        "k06"
+      ],
+      "sources": [
+        "usgs_tim",
+        "usgs_ti",
+        "kmml_proc",
+        "ibm_ti",
+        "kmml_ti",
+        "drdo_ti"
+      ]
+    },
+    {
+      "id": "zirconium",
+      "name": "Zirconium",
+      "symbol": "Zr",
+      "group": 1,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Zirconium",
+      "next_move": "Commercial hafnium from NFC's raffinate; secure zircon supply.",
+      "next_move_stage": "refine",
+      "value_chain_step": "Zr-Hf separation",
+      "what_india_has": "NFC's complete nuclear zirconium chain (separation, sponge, Zircaloy). Its Zr-Hf separation leaves hafnium raffinate: ~12-25 t/yr of hafnium (our estimate). C-MET makes hafnium sponge for ISRO.",
+      "kinds": [
+        "Existing plant",
+        "By-product stream"
+      ],
+      "complexity": 4,
+      "ease": "Moderate",
+      "cost": "No public figure; C-MET's pilot proves the chain at small scale (#12).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Zircon: Australia 33%, South Africa 23% (2025).",
+          "india": "IREL and KMML recover zircon from beach sands, but India imports most (~95 kt in 2021-22).",
+          "india_level": 1
+        },
+        {
+          "stage": "refine",
+          "world": "Zircon fused or chlorinated; nuclear-grade Zr-Hf separation in France, the US, Russia and China.",
+          "india": "NFC runs the full nuclear chain (~1,140 t of nuclear-grade ZrO2 in 2021-22).",
+          "india_level": 2
+        },
+        {
+          "stage": "make",
+          "world": "Zirconia, chemicals, Zircaloy; hafnium is a by-product.",
+          "india": "NFC makes Zircaloy; C-MET and VSSC run a hafnium sponge pilot (320 kg/yr).",
+          "india_level": 2
+        },
+        {
+          "stage": "use",
+          "world": "Ceramics (most), foundry, nuclear fuel cladding.",
+          "india": "Ceramics industry; DAE reactors.",
+          "india_level": 2
+        }
+      ],
+      "strategies": [
+        "s11",
+        "s12"
+      ],
+      "chemistry": [
+        "k06"
+      ],
+      "sources": [
+        "usgs_zr",
+        "ibm_zr",
+        "nfc",
+        "mmta_hf",
+        "cmet_hf",
+        "sci_hf"
+      ]
+    },
+    {
+      "id": "dysprosium",
+      "name": "Dysprosium",
+      "symbol": "Dy",
+      "group": 2,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Dysprosium",
+      "next_move": "Recover Dy from magnet scrap and test Neyveli ash; build heavy-REE separation once feed is secured.",
+      "next_move_stage": "refine",
+      "value_chain_step": "Heavy-REE separation",
+      "what_india_has": "IREL's separation know-how (light REEs commercial, heavy ones at pilot scale); a facility at Bhopal that recovers REEs from end-of-life magnets; Neyveli ash and the NLC-BARC pilot; magnet makers coming under the Rs 7,280 crore scheme.",
+      "kinds": [
+        "Research know-how",
+        "Recycling",
+        "Raw material"
+      ],
+      "complexity": 5,
+      "ease": "Hard",
+      "cost": "Caremag (France): EUR 216 m for a plant producing ~600 t/yr of Dy and Tb oxides from recycled magnets and concentrates (#1).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Ion-adsorption clays in China and Myanmar.",
+          "india": "Monazite is light-REE rich; Neyveli lignite ash holds ~2,100 mg/kg of REEs (pilot planned).",
+          "india_level": 0
+        },
+        {
+          "stage": "refine",
+          "world": "China ~91% of REE separation; Lynas began separating heavy REEs in Malaysia in May 2025.",
+          "india": "Token output at IREL.",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "Dy metal and Dy-Fe alloy for magnets.",
+          "india": "None.",
+          "india_level": 0
+        },
+        {
+          "stage": "use",
+          "world": "High-temperature NdFeB magnets for EV motors and wind turbines.",
+          "india": "IREL wants to buy 300 t of Dy oxide (EOI, Feb 2026).",
+          "india_level": 0
+        }
+      ],
+      "strategies": [
+        "s01",
+        "s02",
+        "s03",
+        "s15"
+      ],
+      "chemistry": [
+        "k01",
+        "k04",
+        "k05",
+        "k10"
+      ],
+      "sources": [
+        "usgs_ree",
+        "iea_comm",
+        "lynas",
+        "coal_ree",
+        "eoi",
+        "rs481",
+        "nlc",
+        "pib_repm_cab",
+        "caremag"
+      ]
+    },
+    {
+      "id": "erbium",
+      "name": "Erbium",
+      "symbol": "Er",
+      "group": 2,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Erbium",
+      "next_move": "Downstream: Er-doped fibre and amplifiers for telecom. Buy the oxide (volumes are tiny).",
+      "next_move_stage": "make",
+      "value_chain_step": "Doped fibre",
+      "what_india_has": "CSIR-CGCRI's patented Er-doped and Er/Yb co-doped fibres and EDFA modules, commercialised and available for licensing.",
+      "kinds": [
+        "Research know-how",
+        "Downstream use"
+      ],
+      "complexity": 5,
+      "ease": "Easy",
+      "cost": "Low: licensing into fibre lines; no separation plant.",
+      "time_to_output": "0-3 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Ion-adsorption clays (China, Myanmar); xenotime.",
+          "india": "Traces in monazite and xenotime.",
+          "india_level": 0
+        },
+        {
+          "stage": "refine",
+          "world": "China; its Oct 2025 controls are suspended until Nov 2026.",
+          "india": "None.",
+          "india_level": 0
+        },
+        {
+          "stage": "make",
+          "world": "Er oxide into Er-doped fibre and laser materials.",
+          "india": "CSIR-CGCRI makes Er-doped and Er/Yb fibres (available to license).",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "Optical amplifiers (EDFA), lasers.",
+          "india": "CGCRI's EDFA is commercialised; IREL seeks 0.07 t of Er oxide.",
+          "india_level": 1
+        }
+      ],
+      "strategies": [
+        "s01"
+      ],
+      "chemistry": [
+        "k04",
+        "k05",
+        "k09",
+        "k10"
+      ],
+      "sources": [
+        "usgs_ree",
+        "cgcri",
+        "eoi"
+      ]
+    },
+    {
+      "id": "holmium",
+      "name": "Holmium",
+      "symbol": "Ho",
+      "group": 2,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Holmium",
+      "next_move": "Buy through partners; no plant is justified.",
+      "next_move_stage": null,
+      "value_chain_step": "Procurement",
+      "what_india_has": "Nothing specific beyond IREL's general separation know-how.",
+      "kinds": [
+        "None"
+      ],
+      "complexity": 5,
+      "ease": "Easy",
+      "cost": "None.",
+      "time_to_output": "0-3 yrs",
+      "confidence": "High",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Ion-adsorption clays (China, Myanmar).",
+          "india": "Traces only.",
+          "india_level": 0
+        },
+        {
+          "stage": "refine",
+          "world": "China; its Oct 2025 controls are suspended until Nov 2026.",
+          "india": "None.",
+          "india_level": 0
+        },
+        {
+          "stage": "make",
+          "world": "Ho oxide and metal; Ho:YAG laser crystals.",
+          "india": "None.",
+          "india_level": 0
+        },
+        {
+          "stage": "use",
+          "world": "Medical lasers, magnet pole pieces, nuclear control.",
+          "india": "Imports.",
+          "india_level": 0
+        }
+      ],
+      "strategies": [
+        "s01"
+      ],
+      "chemistry": [
+        "k04",
+        "k05",
+        "k10"
+      ],
+      "sources": [
+        "usgs_ree",
+        "irel"
+      ]
+    },
+    {
+      "id": "lutetium",
+      "name": "Lutetium",
+      "symbol": "Lu",
+      "group": 2,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Lutetium",
+      "next_move": "Grow Lu-177 output to replace imports; export once the new reactor runs.",
+      "next_move_stage": "make",
+      "value_chain_step": "Isotope production",
+      "what_india_has": "BARC/BRIT isotope production in the Dhruva reactor; a dedicated isotope production reactor sanctioned for ~2035.",
+      "kinds": [
+        "Research know-how",
+        "Existing plant"
+      ],
+      "complexity": 5,
+      "ease": "Hard",
+      "cost": "Reactor-scale; not comparable with mineral plants (#17).",
+      "time_to_output": "7+ yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Ion-adsorption clays, xenotime.",
+          "india": "Traces only.",
+          "india_level": 0
+        },
+        {
+          "stage": "refine",
+          "world": "China.",
+          "india": "None for oxide.",
+          "india_level": 0
+        },
+        {
+          "stage": "make",
+          "world": "Lu-177 isotope (made from enriched Yb-176 targets); scintillator crystals.",
+          "india": "BARC made 976 Ci of Lu-177 in 2025-26 and imported 136 Ci.",
+          "india_level": 2
+        },
+        {
+          "stage": "use",
+          "world": "Cancer therapy, PET scanners.",
+          "india": "Nuclear-medicine demand; an isotope reactor is planned (~2035).",
+          "india_level": 2
+        }
+      ],
+      "strategies": [
+        "s01",
+        "s17"
+      ],
+      "chemistry": [
+        "k04",
+        "k05",
+        "k10"
+      ],
+      "sources": [
+        "usgs_ree",
+        "pib_lu"
+      ]
+    },
+    {
+      "id": "terbium",
+      "name": "Terbium",
+      "symbol": "Tb",
+      "group": 2,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Terbium",
+      "next_move": "Recover Tb from magnet scrap; use grain-boundary diffusion to cut Tb per magnet; heavy-REE separation later.",
+      "next_move_stage": "refine",
+      "value_chain_step": "Recycling and separation",
+      "what_india_has": "Same base as dysprosium: IREL's pilot separation, magnet recovery at Bhopal, Neyveli ash and new magnet makers.",
+      "kinds": [
+        "Research know-how",
+        "Recycling"
+      ],
+      "complexity": 5,
+      "ease": "Hard",
+      "cost": "As dysprosium (#1).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Ion-adsorption clays (China, Myanmar).",
+          "india": "Minute traces in monazite.",
+          "india_level": 0
+        },
+        {
+          "stage": "refine",
+          "world": "China ~91% of REE separation; Lynas separates heavy REEs in Malaysia since 2025.",
+          "india": "IREL pilot with token output.",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "Tb metal, Tb-Fe alloy, phosphors.",
+          "india": "None.",
+          "india_level": 0
+        },
+        {
+          "stage": "use",
+          "world": "High-temperature magnets, phosphors, sonar (Terfenol-D).",
+          "india": "IREL wants to buy 200 t of Tb oxide.",
+          "india_level": 0
+        }
+      ],
+      "strategies": [
+        "s01",
+        "s02",
+        "s03",
+        "s15"
+      ],
+      "chemistry": [
+        "k01",
+        "k04",
+        "k05",
+        "k10"
+      ],
+      "sources": [
+        "usgs_ree",
+        "iea_comm",
+        "lynas",
+        "eoi",
+        "rs481",
+        "caremag"
+      ]
+    },
+    {
+      "id": "thulium",
+      "name": "Thulium",
+      "symbol": "Tm",
+      "group": 2,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Thulium",
+      "next_move": "Buy the oxide; explore Tm-doped fibre for lasers.",
+      "next_move_stage": null,
+      "value_chain_step": "Procurement",
+      "what_india_has": "CSIR-CGCRI's doped-fibre know-how (Er, Yb) could extend to Tm.",
+      "kinds": [
+        "Research know-how"
+      ],
+      "complexity": 5,
+      "ease": "Easy",
+      "cost": "Negligible.",
+      "time_to_output": "0-3 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Ion-adsorption clays, xenotime.",
+          "india": "Traces.",
+          "india_level": 0
+        },
+        {
+          "stage": "refine",
+          "world": "China; its Oct 2025 controls are suspended until Nov 2026.",
+          "india": "None.",
+          "india_level": 0
+        },
+        {
+          "stage": "make",
+          "world": "Tm oxide; Tm-doped fibre.",
+          "india": "None.",
+          "india_level": 0
+        },
+        {
+          "stage": "use",
+          "world": "Fibre lasers, portable X-ray.",
+          "india": "IREL seeks 0.14 t of Tm oxide.",
+          "india_level": 0
+        }
+      ],
+      "strategies": [
+        "s01"
+      ],
+      "chemistry": [
+        "k04",
+        "k05",
+        "k10"
+      ],
+      "sources": [
+        "usgs_ree",
+        "eoi",
+        "cgcri"
+      ]
+    },
+    {
+      "id": "ytterbium",
+      "name": "Ytterbium",
+      "symbol": "Yb",
+      "group": 2,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Ytterbium",
+      "next_move": "Downstream: Yb-doped fibre and fibre lasers; isotope targets.",
+      "next_move_stage": "make",
+      "value_chain_step": "Doped fibre",
+      "what_india_has": "CGCRI's Yb-doped fibres for high-power lasers; BARC's Lu-177 production uses Yb targets.",
+      "kinds": [
+        "Research know-how",
+        "Downstream use"
+      ],
+      "complexity": 5,
+      "ease": "Moderate",
+      "cost": "Low: fibre and laser lines, not separation.",
+      "time_to_output": "0-3 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Ion-adsorption clays, xenotime.",
+          "india": "Traces.",
+          "india_level": 0
+        },
+        {
+          "stage": "refine",
+          "world": "China; its Oct 2025 controls are suspended until Nov 2026.",
+          "india": "None at scale.",
+          "india_level": 0
+        },
+        {
+          "stage": "make",
+          "world": "Yb-doped laser fibre; enriched Yb-176 isotope targets.",
+          "india": "CSIR-CGCRI makes Yb-doped double-clad fibre for high-power lasers.",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "Fibre lasers, Lu-177 production, atomic clocks.",
+          "india": "BARC's Lu-177 route uses Yb targets; IREL seeks 2.5 t of Yb oxide.",
+          "india_level": 1
+        }
+      ],
+      "strategies": [
+        "s01",
+        "s17"
+      ],
+      "chemistry": [
+        "k04",
+        "k05",
+        "k09",
+        "k10"
+      ],
+      "sources": [
+        "usgs_ree",
+        "cgcri",
+        "pib_lu",
+        "eoi"
+      ]
+    },
+    {
+      "id": "yttrium",
+      "name": "Yttrium",
+      "symbol": "Y",
+      "group": 2,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Yttrium",
+      "next_move": "Self-supply oxide for coatings and lasers; test Neyveli ash.",
+      "next_move_stage": "refine",
+      "value_chain_step": "Separation",
+      "what_india_has": "IREL's yttrium oxide; NLC-BARC fly-ash pilot (Neyveli ash ~300 mg/kg of Y).",
+      "kinds": [
+        "Existing plant",
+        "Raw material"
+      ],
+      "complexity": 5,
+      "ease": "Moderate",
+      "cost": "Small volumes; separation benchmarks in #1.",
+      "time_to_output": "0-3 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "China dominates ion-adsorption clay supply; xenotime elsewhere.",
+          "india": "Xenotime in beach sands; Neyveli ash holds ~300 mg/kg of Y.",
+          "india_level": 0
+        },
+        {
+          "stage": "refine",
+          "world": "China; under export control since Apr 2025.",
+          "india": "IREL makes yttrium oxide (small).",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "Y oxide, yttria-stabilised zirconia, YAG crystals, phosphors.",
+          "india": "Small; imports.",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "Thermal-barrier coatings, fuel cells, lasers, phosphors.",
+          "india": "IREL seeks 6 t of Y oxide.",
+          "india_level": 1
+        }
+      ],
+      "strategies": [
+        "s01",
+        "s02",
+        "s11"
+      ],
+      "chemistry": [
+        "k04",
+        "k05",
+        "k10"
+      ],
+      "sources": [
+        "usgs_y",
+        "irel",
+        "coal_ree",
+        "eoi",
+        "nlc"
+      ]
+    },
+    {
+      "id": "gadolinium",
+      "name": "Gadolinium",
+      "symbol": "Gd",
+      "group": 5,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Gadolinium",
+      "next_move": "Pharma-grade Gd oxide and contrast-agent chemistry.",
+      "next_move_stage": "refine",
+      "value_chain_step": "High-purity oxide",
+      "what_india_has": "IREL's Gd oxide and BARC's purification; a generic-pharma industry with the chelate chemistry.",
+      "kinds": [
+        "Existing plant",
+        "Specialty chemicals"
+      ],
+      "complexity": 5,
+      "ease": "Moderate",
+      "cost": "Small plant; no public figure.",
+      "time_to_output": "3-7 yrs",
+      "confidence": "Low",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "From bastnaesite, monazite and clays (China 69% of REE mining).",
+          "india": "Monazite (IREL).",
+          "india_level": 1
+        },
+        {
+          "stage": "refine",
+          "world": "China ~91% of REE separation; under export control since Apr 2025.",
+          "india": "IREL makes Gd oxide and has made 50 kg of 99.99% nuclear-grade oxide.",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "High-purity oxide; gadolinium chelates for contrast agents.",
+          "india": "A large generic-drug industry (third by volume) could make the chelates.",
+          "india_level": 0
+        },
+        {
+          "stage": "use",
+          "world": "MRI contrast agents, nuclear shielding, phosphors.",
+          "india": "Demand from hospitals and nuclear programmes.",
+          "india_level": 0
+        }
+      ],
+      "strategies": [
+        "s01",
+        "s02",
+        "s11"
+      ],
+      "chemistry": [
+        "k01",
+        "k04",
+        "k10"
+      ],
+      "sources": [
+        "usgs_ree",
+        "iea_comm",
+        "irel",
+        "ibm_ree",
+        "pharma"
+      ]
+    },
+    {
+      "id": "gallium",
+      "name": "Gallium",
+      "symbol": "Ga",
+      "group": 5,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Gallium",
+      "next_move": "Commercial gallium circuits at the big refineries, with 6N refining.",
+      "next_move_stage": "refine",
+      "value_chain_step": "Bayer-liquor recovery",
+      "what_india_has": "8.2 Mt/yr of alumina refining (~80 t/yr of gallium in the liquor at China's yield, our estimate); the NALCO-HWB/BARC ion-exchange demo plant; C-MET's 6N purification; Indian resin makers.",
+      "kinds": [
+        "By-product stream",
+        "Specialty chemicals"
+      ],
+      "complexity": 4,
+      "ease": "Moderate",
+      "cost": "Modest: Rio Tinto's pilot and 4 t/yr demo drew C$26 m of public money; commercial scale is ~40 t/yr (#8).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "High",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "By-product of alumina (Bayer liquor) and zinc.",
+          "india": "8.2 Mt of alumina made in 2025.",
+          "india_level": 1
+        },
+        {
+          "stage": "refine",
+          "world": "China ~99% of primary gallium; ~9 t/yr elsewhere. New plants: Rio Tinto (Canada), Alcoa (Australia).",
+          "india": "NALCO-HWB ion-exchange demo plant at Damanjodi (ground broken Nov 2025).",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "6N-7N gallium; GaAs and GaN wafers.",
+          "india": "C-MET purifies to 6N; NFC.",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "RF chips, LEDs, power electronics, radar.",
+          "india": "Semiconductor and defence demand, all imported.",
+          "india_level": 0
+        }
+      ],
+      "strategies": [
+        "s08"
+      ],
+      "chemistry": [
+        "k01",
+        "k05",
+        "k09"
+      ],
+      "sources": [
+        "usgs_ga",
+        "usgs_al",
+        "hwb",
+        "rio_ga",
+        "alcoa_ga",
+        "cmet_ga",
+        "nfc",
+        "nalco_mou",
+        "ionex"
+      ]
+    },
+    {
+      "id": "graphite",
+      "name": "Graphite",
+      "symbol": "C",
+      "group": 5,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Graphite",
+      "next_move": "Synthetic graphite anode for non-China cell makers; secure premium coke.",
+      "next_move_stage": "make",
+      "value_chain_step": "Anode material",
+      "what_india_has": "Large electrode makers with graphitisation know-how (HEG 100 kt, Graphite India 80 kt); TACC's 20 kt/yr anode plant near Indore; Epsilon's planned 100 kt/yr at Bellary; GFCL is setting up an anode facility.",
+      "kinds": [
+        "Shared process",
+        "Existing plant"
+      ],
+      "complexity": 3,
+      "ease": "Moderate",
+      "cost": "~US$11-13k per t/yr: Epsilon US$650 m for 50 kt (US) and US$1.1 bn for 100 kt (India) (#9).",
+      "time_to_output": "0-3 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "China 78% of natural graphite (2025); then Madagascar, Brazil, Mozambique.",
+          "india": "17 kt mined in 2025.",
+          "india_level": 1
+        },
+        {
+          "stage": "refine",
+          "world": "Flake spheroidised and purified; coke graphitised (synthetic).",
+          "india": "Graphitisation at HEG and Graphite India (electrodes).",
+          "india_level": 2
+        },
+        {
+          "stage": "make",
+          "world": "Anode material: China over 90%; Korea and Indonesia smaller.",
+          "india": "TACC (20 kt/yr) and Epsilon (100 kt/yr planned) are building anode plants.",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "Li-ion anodes, electrodes, refractories.",
+          "india": "HEG (100 kt) and Graphite India (80 kt) make electrodes, mostly for export.",
+          "india_level": 2
+        }
+      ],
+      "strategies": [
+        "s09",
+        "s15"
+      ],
+      "chemistry": [
+        "k01",
+        "k07"
+      ],
+      "sources": [
+        "usgs_gr",
+        "iea_gevo",
+        "heg",
+        "gil",
+        "tacc",
+        "eps",
+        "gfcl",
+        "usitc"
+      ]
+    },
+    {
+      "id": "neodymium",
+      "name": "Neodymium",
+      "symbol": "Nd",
+      "group": 5,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Neodymium",
+      "next_move": "Oxide to metal to magnet at scale (the magnet scheme), plus magnet-scrap recycling.",
+      "next_move_stage": "make",
+      "value_chain_step": "Metal and magnets",
+      "what_india_has": "IREL's separation (Odisha, Kerala) and Toyotsu's Vizag plant; mini metal plants (La, Ce, Nd) at Bhopal; BARC and DMRL magnet know-how; 20 bidders for the integrated oxide-to-magnet scheme; IREL plans to buy 1,000 t of Nd/NdPr oxide.",
+      "kinds": [
+        "Existing plant",
+        "Research know-how"
+      ],
+      "complexity": 5,
+      "ease": "Hard",
+      "cost": "Rs 7,280 crore of incentives for 6,000 t/yr; a 2,000 t/yr magnet plant costs over EUR 100 m (Neo, Estonia) (#2, #3).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "China 69%, US 13%, Australia 7%, Myanmar 6% (2025).",
+          "india": "2.9 kt of REO in 2025; 13 Mt of monazite plus ~1.2 Mt of REO in hard rock.",
+          "india_level": 1
+        },
+        {
+          "stage": "refine",
+          "world": "China ~91% of separation; Malaysia (Lynas) second.",
+          "india": "IREL made ~40 t of Nd in FY25 (target 500 t in FY27); Toyotsu (Vizag) separates La, Ce, Pr, Nd.",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "NdPr metal and magnets: China 94% of sintered magnets.",
+          "india": "Mini Nd-metal plant at Bhopal; Rs 7,280 crore magnet scheme (6,000 t/yr; 20 bids).",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "EV motors, wind turbines, electronics.",
+          "india": "Magnet demand ~4,000 t/yr, mostly imported.",
+          "india_level": 1
+        }
+      ],
+      "strategies": [
+        "s01",
+        "s02",
+        "s03",
+        "s11",
+        "s15"
+      ],
+      "chemistry": [
+        "k01",
+        "k04",
+        "k10"
+      ],
+      "sources": [
+        "usgs_ree",
+        "iea_comm",
+        "ls1788",
+        "ibm_ree",
+        "trei",
+        "rs481",
+        "pib_repm_cab",
+        "pib_repm",
+        "po",
+        "neo_narva",
+        "eoi"
+      ]
+    },
+    {
+      "id": "praseodymium",
+      "name": "Praseodymium",
+      "symbol": "Pr",
+      "group": 5,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Praseodymium",
+      "next_move": "As neodymium.",
+      "next_move_stage": "make",
+      "value_chain_step": "Metal and magnets",
+      "what_india_has": "As neodymium: separated alongside Nd at IREL and Toyotsu.",
+      "kinds": [
+        "Existing plant"
+      ],
+      "complexity": 5,
+      "ease": "Hard",
+      "cost": "As neodymium (#2, #3).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Co-mined with Nd (China 69% of REE mining).",
+          "india": "Monazite (IREL).",
+          "india_level": 1
+        },
+        {
+          "stage": "refine",
+          "world": "China ~91% of separation; Malaysia (Lynas) second.",
+          "india": "Separated with Nd at IREL and Toyotsu.",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "NdPr metal for magnets.",
+          "india": "As neodymium.",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "NdFeB magnets.",
+          "india": "As neodymium.",
+          "india_level": 1
+        }
+      ],
+      "strategies": [
+        "s01",
+        "s02",
+        "s03",
+        "s11",
+        "s15"
+      ],
+      "chemistry": [
+        "k01",
+        "k04",
+        "k10"
+      ],
+      "sources": [
+        "usgs_ree",
+        "iea_comm",
+        "trei",
+        "pib_repm_cab"
+      ]
+    },
+    {
+      "id": "samarium",
+      "name": "Samarium",
+      "symbol": "Sm",
+      "group": 5,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Samarium",
+      "next_move": "Scale SmCo magnets and Sm metal; qualify with defence and space buyers.",
+      "next_move_stage": "make",
+      "value_chain_step": "Sm metal and magnets",
+      "what_india_has": "IREL's Sm oxide and 3 t/yr SmCo magnet plant (Vizag); BARC and DMRL SmCo technology.",
+      "kinds": [
+        "Existing plant",
+        "Research know-how"
+      ],
+      "complexity": 5,
+      "ease": "Moderate",
+      "cost": "Small plants; magnet benchmarks in #3.",
+      "time_to_output": "0-3 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "From bastnaesite and monazite (China 69% of REE mining).",
+          "india": "Monazite (IREL).",
+          "india_level": 1
+        },
+        {
+          "stage": "refine",
+          "world": "China; under export control since Apr 2025.",
+          "india": "IREL separates Sm oxide.",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "Sm metal and SmCo alloy.",
+          "india": "IREL seeks 1 t of Sm metal; BARC and DMRL have SmCo know-how.",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "SmCo magnets for defence, space, high-temperature motors.",
+          "india": "IREL's Vizag plant makes 3 t/yr of SmCo magnets for DAE, defence and space.",
+          "india_level": 1
+        }
+      ],
+      "strategies": [
+        "s01",
+        "s02",
+        "s03",
+        "s11"
+      ],
+      "chemistry": [
+        "k04",
+        "k10"
+      ],
+      "sources": [
+        "usgs_ree",
+        "irel",
+        "rs481",
+        "eoi",
+        "ibm_ree"
+      ]
+    },
+    {
+      "id": "scandium",
+      "name": "Scandium",
+      "symbol": "Sc",
+      "group": 5,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Scandium",
+      "next_move": "Build recovery only with an anchor buyer (aerospace alloys, fuel cells).",
+      "next_move_stage": "refine",
+      "value_chain_step": "Residue recovery",
+      "what_india_has": "NALCO's fly-ash pilot with CSIR-IMMT; red mud at the alumina refineries; CSIR-NML projects on scandium from tin slag and Al-Sc alloys.",
+      "kinds": [
+        "By-product stream",
+        "Research know-how"
+      ],
+      "complexity": 5,
+      "ease": "Hard",
+      "cost": "Small: Rio Tinto's expansion to 9 t/yr drew ~C$25 m from Canada (#16).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "By-product only: ~80 t/yr of oxide worldwide (2025).",
+          "india": "Red mud from 8.2 Mt/yr of alumina; fly ash.",
+          "india_level": 1
+        },
+        {
+          "stage": "refine",
+          "world": "China leads; Philippine HPAL feed refined in Japan; Canada (Rio Tinto, from TiO2 waste).",
+          "india": "NALCO fly-ash pilot (50 kg/day, Aug 2026); red-mud pilot planned.",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "Sc oxide; Al-Sc master alloy.",
+          "india": "CSIR-NML research on Al-Sc alloys.",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "Fuel cells, aerospace Al-Sc alloys, lasers.",
+          "india": "Aerospace and defence alloy users.",
+          "india_level": 0
+        }
+      ],
+      "strategies": [
+        "s04",
+        "s08",
+        "s16"
+      ],
+      "chemistry": [
+        "k05",
+        "k10"
+      ],
+      "sources": [
+        "usgs_sc",
+        "rio_sc",
+        "pib_nalco",
+        "usgs_al",
+        "nml"
+      ]
+    },
+    {
+      "id": "silicon",
+      "name": "Silicon",
+      "symbol": "Si",
+      "group": 5,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Silicon",
+      "next_move": "Silicon metal from ferrosilicon know-how, then polysilicon under the planned MNRE scheme.",
+      "next_move_stage": "refine",
+      "value_chain_step": "Silicon metal",
+      "what_india_has": "Ferroalloy furnace know-how; 213 GW of module and 32 GW of cell capacity as a captive market; integrated PLI awards to Indosol and Reliance.",
+      "kinds": [
+        "Shared process",
+        "Demand anchor"
+      ],
+      "complexity": 4,
+      "ease": "Moderate",
+      "cost": "No polysilicon-only figure; PLI-II's 39.6 GW carries Rs 93,041 crore of planned investment (#13).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "Quartz is plentiful.",
+          "india": "Quartz available.",
+          "india_level": 2
+        },
+        {
+          "stage": "refine",
+          "world": "China makes ~80% of silicon materials (metal and ferrosilicon).",
+          "india": "Ferrosilicon only (59 kt of silicon content in 2025); no silicon metal.",
+          "india_level": 1
+        },
+        {
+          "stage": "make",
+          "world": "Polysilicon: China dominant.",
+          "india": "No polysilicon; PLI-II awarded 15.4 GW of integrated capacity; MNRE is preparing a polysilicon scheme.",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "Solar wafers, chips, aluminium alloys, silicones.",
+          "india": "213 GW of module and 32 GW of cell capacity, all on imported polysilicon.",
+          "india_level": 2
+        }
+      ],
+      "strategies": [
+        "s09",
+        "s13",
+        "s15"
+      ],
+      "chemistry": [
+        "k01",
+        "k06",
+        "k07"
+      ],
+      "sources": [
+        "usgs_si",
+        "po",
+        "pli2",
+        "dte_poly",
+        "nml"
+      ]
+    },
+    {
+      "id": "tungsten",
+      "name": "Tungsten",
+      "symbol": "W",
+      "group": 5,
+      "dashboard_url": "https://indiacriticalminerals.com/#mineral/Tungsten",
+      "next_move": "Chemical (APT) recycling so scrap is processed at home; mine later.",
+      "next_move_stage": "refine",
+      "value_chain_step": "APT and recycling",
+      "what_india_has": "Sandvik's carbide-recycling plant at Chiplun; HZL's tungsten block; a large tooling industry that generates scrap.",
+      "kinds": [
+        "Recycling",
+        "Raw material"
+      ],
+      "complexity": 3,
+      "ease": "Moderate",
+      "cost": "No public APT-plant figure (#14).",
+      "time_to_output": "3-7 yrs",
+      "confidence": "Medium",
+      "stages": [
+        {
+          "stage": "mine",
+          "world": "China 79%; then Vietnam and Kazakhstan. Korea's Sangdong began processing in 2026.",
+          "india": "HZL won a block in Andhra Pradesh (Nov 2025); Degana tendered.",
+          "india_level": 0
+        },
+        {
+          "stage": "refine",
+          "world": "APT conversion: China dominant; Austria, Vietnam and Germany outside.",
+          "india": "None.",
+          "india_level": 0
+        },
+        {
+          "stage": "make",
+          "world": "Tungsten powder, carbide, heavy alloys.",
+          "india": "Sandvik's Chiplun plant recycles carbide into powder.",
+          "india_level": 1
+        },
+        {
+          "stage": "use",
+          "world": "Cutting tools, mining bits, defence, electronics.",
+          "india": "Tool and defence demand; India exports tungsten scrap.",
+          "india_level": 2
+        }
+      ],
+      "strategies": [
+        "s14",
+        "s15"
+      ],
+      "chemistry": [],
+      "sources": [
+        "usgs_w",
+        "almonty",
+        "hzl_w",
+        "ls535",
+        "chiplun",
+        "ibm_w"
+      ]
+    }
+  ],
+  "strategies": [
+    {
+      "id": "s01",
+      "number": 1,
+      "slug": "rare-earth-separation",
+      "name": "Rare-earth separation",
+      "what": "Hundreds of solvent-extraction stages split chemically near-identical rare earths into pure oxides.",
+      "minerals_text": "Nd, Pr, Sm, Gd, Dy, Tb, Y, Er, Ho, Tm, Yb, Lu (the same chemistry splits Zr-Hf and Co-Ni)",
+      "minerals": [
+        "neodymium",
+        "praseodymium",
+        "samarium",
+        "gadolinium",
+        "dysprosium",
+        "terbium",
+        "yttrium",
+        "erbium",
+        "holmium",
+        "thulium",
+        "ytterbium",
+        "lutetium"
+      ],
+      "outside_china": "China ~91%. Malaysia (Lynas, heavy REEs since 2025); France (Caremag, 2026); Australia (Iluka, being built).",
+      "complexity": "4-5",
+      "cost": "Iluka Eneabba (Australia): A$1.7-1.8 bn for ~17.5 kt/yr of REO, incl. up to ~5.5 kt NdPr and ~0.75 kt Dy/Tb. Caremag (France): EUR 216 m, incl. ~600 t/yr of Dy/Tb oxides.",
+      "india_base": "IREL (light REEs, commercial; heavy REEs at pilot scale); Toyotsu (Vizag); solvent-extraction skills in pharma and chemical firms.",
+      "gap": "Heavy-REE feed and cascades; scale.",
+      "sources": [
+        "iea_comm",
+        "lynas",
+        "caremag",
+        "iluka22",
+        "iluka24",
+        "irel",
+        "trei"
+      ]
+    },
+    {
+      "id": "s02",
+      "number": 2,
+      "slug": "rare-earth-metal-making-metallisation",
+      "name": "Rare-earth metal making (metallisation)",
+      "what": "Turning oxides into metal: molten-salt electrolysis for Nd and Pr; calcium reduction of fluorides for Dy, Tb and Gd. The step before alloys and magnets.",
+      "minerals_text": "Nd, Pr, Dy, Tb, Sm, Gd, Y",
+      "minerals": [
+        "neodymium",
+        "praseodymium",
+        "dysprosium",
+        "terbium",
+        "samarium",
+        "gadolinium",
+        "yttrium"
+      ],
+      "outside_china": "Little capacity outside China; exact shares are not published.",
+      "complexity": "4",
+      "cost": "India's magnet scheme funds oxide to metal to alloy to magnet: Rs 7,280 crore (Rs 6,450 crore sales incentives + Rs 750 crore capital subsidy) for 6,000 t/yr.",
+      "india_base": "Mini plants for La, Ce and Nd metal at the Bhopal theme park; BARC and DMRL know-how; scheme bidders must include this step.",
+      "gap": "Commercial electrolysis cells; fluoride chemistry for heavy-REE metals.",
+      "sources": [
+        "pib_repm_cab",
+        "rs481"
+      ]
+    },
+    {
+      "id": "s03",
+      "number": 3,
+      "slug": "permanent-magnet-making",
+      "name": "Permanent magnet making",
+      "what": "Alloying, strip casting, jet milling, pressing, sintering and coating (NdFeB); reduction-diffusion and sintering (SmCo).",
+      "minerals_text": "Nd, Pr, Dy, Tb, Sm (and Co for SmCo)",
+      "minerals": [
+        "neodymium",
+        "praseodymium",
+        "dysprosium",
+        "terbium",
+        "samarium",
+        "cobalt"
+      ],
+      "outside_china": "China 94% of sintered magnets. Outside: Japan and Europe, with new plants such as Neo's in Estonia.",
+      "complexity": "4",
+      "cost": "Neo (Estonia): over EUR 100 m for 2,000 t/yr, ~EUR 250 m to reach 5,000 t/yr. India's scheme: Rs 7,280 crore for 6,000 t/yr.",
+      "india_base": "IREL's 3 t/yr SmCo plant (Vizag); 20 bids for the magnet scheme (Aug 2026); DMRL and BARC know-how.",
+      "gap": "Scale; equipment; Dy/Tb-saving diffusion; qualification with motor makers.",
+      "sources": [
+        "iea_comm",
+        "neo_narva",
+        "pib_repm_cab",
+        "pib_repm",
+        "rs481"
+      ]
+    },
+    {
+      "id": "s04",
+      "number": 4,
+      "slug": "laterite-nickel-rkef-and-hpal-indonesia-s-route",
+      "name": "Laterite nickel: RKEF and HPAL (Indonesia's route)",
+      "what": "RKEF furnaces smelt laterite into nickel pig iron, ferronickel or matte; HPAL leaches it in autoclaves into mixed hydroxide (MHP) for batteries.",
+      "minerals_text": "Ni, Co (Sc as an HPAL by-product)",
+      "minerals": [
+        "nickel",
+        "cobalt",
+        "scandium"
+      ],
+      "outside_china": "Indonesia (67% of mined nickel; leads refining growth); Philippines (HPAL feed refined in Japan).",
+      "complexity": "3-4",
+      "cost": "Vale-Huayou Pomalaa (Indonesia): US$4.5 bn for mine and HPAL making 120 kt/yr Ni and 15 kt/yr Co in MHP.",
+      "india_base": "No laterite at scale; Sukinda overburden; CSIR-IMMT 10 t/day proving plant; ferroalloy furnaces.",
+      "gap": "Ore; HPAL know-how and capital.",
+      "sources": [
+        "usgs_ni",
+        "iea_over",
+        "vale_pom",
+        "usgs_sc",
+        "immt",
+        "ibm_ni"
+      ]
+    },
+    {
+      "id": "s05",
+      "number": 5,
+      "slug": "nickel-and-cobalt-refining-to-battery-chemicals",
+      "name": "Nickel and cobalt refining to battery chemicals",
+      "what": "Leaching intermediates (MHP, matte, hydroxide), solvent extraction, crystallising nickel and cobalt sulphate.",
+      "minerals_text": "Ni, Co",
+      "minerals": [
+        "nickel",
+        "cobalt"
+      ],
+      "outside_china": "China refines most cobalt; Indonesia is adding nickel refining; Finland and Japan are long-standing refiners.",
+      "complexity": "3",
+      "cost": "No reliable public figure found.",
+      "india_base": "Nicomet (~6 kt/yr Ni), Rubamin (Co), Hindustan Copper (nickel sulphate), battery recyclers.",
+      "gap": "Feed contracts for MHP and hydroxide.",
+      "sources": [
+        "iea_over",
+        "ibm_co",
+        "ibm_ni",
+        "rubamin"
+      ]
+    },
+    {
+      "id": "s06",
+      "number": 6,
+      "slug": "lithium-conversion-and-electrolyte-salts",
+      "name": "Lithium conversion and electrolyte salts",
+      "what": "Calcining and leaching spodumene, purifying and crystallising hydroxide or carbonate; fluorine chemistry for LiPF6.",
+      "minerals_text": "Li (with P and F for LiPF6)",
+      "minerals": [
+        "lithium",
+        "phosphorus"
+      ],
+      "outside_china": "China refines most. Outside: Chile and Argentina (carbonate); Australia (Covalent, 50 kt/yr hydroxide, 2025); Germany (AMG, 20 kt/yr, 2024).",
+      "complexity": "3",
+      "cost": "Covalent (Australia), an integrated mine-to-hydroxide project with a 50 kt/yr refinery: Wesfarmers' half-share of capex A$1.2-1.3 bn (2023 guidance). Neogen (India): Rs 1,795 crore for salts and electrolyte plants.",
+      "india_base": "Lohum (1,000 t/yr LCE); GFCL (LiPF6; Rs 6,000 crore battery-chemicals capex by FY28); Neogen (salts due H2 FY27).",
+      "gap": "Spodumene supply; scale; customer qualification.",
+      "sources": [
+        "iea_over",
+        "covalent",
+        "covalent2",
+        "amg",
+        "neogen",
+        "gfcl",
+        "lohum"
+      ]
+    },
+    {
+      "id": "s07",
+      "number": 7,
+      "slug": "copper-smelting-and-anode-slime-treatment",
+      "name": "Copper smelting and anode-slime treatment",
+      "what": "Smelting concentrate, electrorefining copper, then treating anode slime for gold, silver, selenium, tellurium and PGMs.",
+      "minerals_text": "Cu, with Te, Se and PGMs from slime",
+      "minerals": [
+        "copper"
+      ],
+      "outside_china": "China 48% of refined copper; DRC, Chile, Japan. Tellurium from slime: Japan, Russia, Sweden, Canada, US (Rio Tinto).",
+      "complexity": "2-3",
+      "cost": "Kutch Copper phase 1: ~US$1.2 bn for 0.5 Mt/yr. Tellurium circuit at Kennecott: US$2.9 m for ~20 t/yr.",
+      "india_base": "Hindalco (Dahej), Kutch Copper (0.5 Mt/yr), Vedanta (Silvassa); CSIR-IMMT's tellurium process listed at Hindalco.",
+      "gap": "Concentrate supply; commercial tellurium circuits and 5N refining.",
+      "sources": [
+        "usgs_cu",
+        "usgs_te",
+        "kutch",
+        "rio_te",
+        "hind_te",
+        "immt"
+      ]
+    },
+    {
+      "id": "s08",
+      "number": 8,
+      "slug": "gallium-recovery-and-high-purity-refining",
+      "name": "Gallium recovery and high-purity refining",
+      "what": "Ion-exchange resins pull gallium from Bayer liquor; electrolysis and zone refining take it to 6N-7N.",
+      "minerals_text": "Ga (the same alumina streams carry V and Sc)",
+      "minerals": [
+        "gallium",
+        "scandium"
+      ],
+      "outside_china": "China ~99% of primary output; ~9 t/yr elsewhere. New: Rio Tinto (Canada) pilot and demo; Alcoa (Australia, with Japanese and US partners) has a final investment decision.",
+      "complexity": "3-4",
+      "cost": "Rio Tinto: C$26 m of public support for a pilot and a demo of up to 4 t/yr; commercial scale ~40 t/yr (~5% of world output).",
+      "india_base": "NALCO-HWB/BARC demo plant (Damanjodi, Nov 2025); C-MET 6N purification; NFC; Ion Exchange India resins.",
+      "gap": "A commercial plant and offtake.",
+      "sources": [
+        "usgs_ga",
+        "hwb",
+        "rio_ga",
+        "alcoa_ga",
+        "cmet_ga",
+        "ionex"
+      ]
+    },
+    {
+      "id": "s09",
+      "number": 9,
+      "slug": "graphite-anode-material",
+      "name": "Graphite anode material",
+      "what": "Synthetic: coke graphitised at ~3,000 C. Natural: flake spheroidised and purified. Both are coated.",
+      "minerals_text": "Graphite (and Si for silicon-carbon anodes)",
+      "minerals": [
+        "graphite",
+        "silicon"
+      ],
+      "outside_china": "China over 90% of anode material; Korea and Indonesia smaller (US anode imports in 2025: China 55%, Indonesia 31%, Korea 14%).",
+      "complexity": "3",
+      "cost": "Epsilon: US$650 m for 50 kt/yr (North Carolina); US$1.1 bn for 100 kt/yr (Bellary, India).",
+      "india_base": "HEG and Graphite India (graphitisation); TACC (20 kt/yr, Indore); Epsilon; GFCL anode facility.",
+      "gap": "Coke precursors; low-cost power; customer qualification.",
+      "sources": [
+        "iea_gevo",
+        "usgs_gr",
+        "eps",
+        "tacc",
+        "heg",
+        "gil",
+        "gfcl"
+      ]
+    },
+    {
+      "id": "s10",
+      "number": 10,
+      "slug": "purified-phosphoric-acid-and-lfp-precursors",
+      "name": "Purified phosphoric acid and LFP precursors",
+      "what": "Purifying wet-process acid by solvent extraction, then precipitating iron phosphate and making LFP cathode.",
+      "minerals_text": "P (with Li and Fe)",
+      "minerals": [
+        "phosphorus",
+        "lithium"
+      ],
+      "outside_china": "China 75% of purified acid and 95%+ of LFP cathode; Morocco plans battery materials on its phosphate base.",
+      "complexity": "2-3",
+      "cost": "Himadri: Rs 1,125 crore for 40 kt/yr of LFP cathode (Odisha).",
+      "india_base": "Fertiliser acid (~2.2 Mt/yr at home, plus JV plants in Morocco and Jordan); Sudeep (FePO4); Himadri and GFCL (LFP).",
+      "gap": "Battery-grade purification; rock supply.",
+      "sources": [
+        "iea",
+        "iea_comm",
+        "iea_gevo",
+        "himadri",
+        "sudeep",
+        "gfcl",
+        "po",
+        "imacid",
+        "jifco"
+      ]
+    },
+    {
+      "id": "s11",
+      "number": 11,
+      "slug": "mineral-sands-separation",
+      "name": "Mineral-sands separation",
+      "what": "Gravity, magnetic and electrostatic separation of beach sand into ilmenite, rutile, zircon, monazite and sillimanite.",
+      "minerals_text": "Ti, Zr, REEs (via monazite), Hf (via zircon)",
+      "minerals": [
+        "titanium",
+        "zirconium",
+        "neodymium",
+        "praseodymium",
+        "samarium",
+        "gadolinium",
+        "yttrium"
+      ],
+      "outside_china": "China, Mozambique, South Africa, Australia.",
+      "complexity": "1-2",
+      "cost": "India already runs these plants.",
+      "india_base": "IREL and KMML (KMML separates ilmenite, rutile, leucoxene, monazite and sillimanite); ~2.6% of world ilmenite.",
+      "gap": "Small output; monazite processing capacity.",
+      "sources": [
+        "usgs_tim",
+        "kmml_proc",
+        "irel"
+      ]
+    },
+    {
+      "id": "s12",
+      "number": 12,
+      "slug": "kroll-reduction-to-sponge",
+      "name": "Kroll reduction to sponge",
+      "what": "Chlorinating feed to TiCl4 or ZrCl4, reducing with magnesium, then vacuum-distilling to sponge.",
+      "minerals_text": "Ti, Zr, Hf",
+      "minerals": [
+        "titanium",
+        "zirconium"
+      ],
+      "outside_china": "Titanium sponge: China 70%, Japan 14%, Russia 7%, Kazakhstan 4%. Nuclear zirconium: France, US, Russia.",
+      "complexity": "4",
+      "cost": "KMML's 500 t/yr titanium sponge plant: ~Rs 100 crore (2011).",
+      "india_base": "KMML (500 t/yr Ti, expanding to 1,000 t); NFC (Zr sponge); C-MET and VSSC (Hf sponge pilot).",
+      "gap": "Scale; aerospace qualification.",
+      "sources": [
+        "usgs_ti",
+        "drdo_ti",
+        "kmml_ti",
+        "nfc",
+        "cmet_hf",
+        "mmta_hf"
+      ]
+    },
+    {
+      "id": "s13",
+      "number": 13,
+      "slug": "silicon-metal-and-polysilicon",
+      "name": "Silicon metal and polysilicon",
+      "what": "Arc furnaces reduce quartz to silicon metal; the Siemens process refines it to 9N-11N polysilicon.",
+      "minerals_text": "Si",
+      "minerals": [
+        "silicon"
+      ],
+      "outside_china": "China ~80% of silicon materials and dominant in polysilicon; smaller producers in Norway, Germany, the US and Malaysia.",
+      "complexity": "2-4",
+      "cost": "No polysilicon-only figure; PLI-II's 39.6 GW (incl. 15.4 GW integrated) carries Rs 93,041 crore of planned investment.",
+      "india_base": "Ferrosilicon makers; integrated PLI units (Indosol, Reliance); CSIR-NML PV-panel recycling.",
+      "gap": "Polysilicon technology; cheap power.",
+      "sources": [
+        "usgs_si",
+        "pli2",
+        "dte_poly",
+        "nml"
+      ]
+    },
+    {
+      "id": "s14",
+      "number": 14,
+      "slug": "tungsten-chemistry-apt-and-carbide-recycling",
+      "name": "Tungsten chemistry (APT) and carbide recycling",
+      "what": "Leaching concentrate or scrap, purifying, crystallising ammonium paratungstate (APT), then reducing and carburising to powder.",
+      "minerals_text": "W",
+      "minerals": [
+        "tungsten"
+      ],
+      "outside_china": "China dominant; Austria, Vietnam, Germany; Korea's Sangdong mine (concentrate from 2026).",
+      "complexity": "3",
+      "cost": "No public APT-plant figure found.",
+      "india_base": "Sandvik's Chiplun carbide recycling; HZL tungsten block; tooling scrap.",
+      "gap": "A chemical APT plant; ore.",
+      "sources": [
+        "usgs_w",
+        "chiplun",
+        "hzl_w",
+        "almonty"
+      ]
+    },
+    {
+      "id": "s15",
+      "number": 15,
+      "slug": "recycling-batteries-magnets-catalysts-pv",
+      "name": "Recycling (batteries, magnets, catalysts, PV)",
+      "what": "Shredding and hydrometallurgy of black mass; magnet recovery; spent-catalyst leaching; PV-panel recovery.",
+      "minerals_text": "Li, Co, Ni, graphite, Nd, Pr, Dy, Tb, Mo, W, Te, Si",
+      "minerals": [
+        "lithium",
+        "cobalt",
+        "nickel",
+        "graphite",
+        "neodymium",
+        "praseodymium",
+        "dysprosium",
+        "terbium",
+        "molybdenum",
+        "tungsten",
+        "silicon"
+      ],
+      "outside_china": "Battery recycling: China has over three-quarters of pre-treatment and 90% of material-recovery capacity; Europe, Japan, Korea and the US smaller.",
+      "complexity": "3",
+      "cost": "India's scheme expects ~Rs 8,000 crore for 270+ kt/yr of capacity (~Rs 30 crore per kt/yr), yielding ~40 kt/yr of critical minerals.",
+      "india_base": "Lohum, Rubamin, the Bhopal magnet facility, CSIR-NML; Rs 1,500 crore incentive scheme (2025).",
+      "gap": "Collection and feed; heavy-REE recovery.",
+      "sources": [
+        "iea26",
+        "recyc",
+        "rubamin",
+        "rs481",
+        "nml",
+        "lohum"
+      ]
+    },
+    {
+      "id": "s16",
+      "number": 16,
+      "slug": "scandium-from-residues",
+      "name": "Scandium from residues",
+      "what": "Leaching red mud, TiO2 waste acid or HPAL streams; solvent extraction; precipitating scandium oxide.",
+      "minerals_text": "Sc",
+      "minerals": [
+        "scandium"
+      ],
+      "outside_china": "China leads; Philippines and Japan (HPAL feed); Canada (Rio Tinto, from TiO2 waste).",
+      "complexity": "3-4",
+      "cost": "Rio Tinto: ~C$25 m from the Canada Growth Fund toward 9 t/yr.",
+      "india_base": "NALCO fly-ash pilot (50 kg/day); red-mud pilot planned; CSIR-IMMT; CSIR-NML.",
+      "gap": "An anchor buyer.",
+      "sources": [
+        "usgs_sc",
+        "rio_sc",
+        "pib_nalco",
+        "nml"
+      ]
+    },
+    {
+      "id": "s17",
+      "number": 17,
+      "slug": "medical-isotopes-lu-177",
+      "name": "Medical isotopes (Lu-177)",
+      "what": "Irradiating enriched Yb-176 targets in a reactor and separating Lu-177.",
+      "minerals_text": "Lu, Yb",
+      "minerals": [
+        "lutetium",
+        "ytterbium"
+      ],
+      "outside_china": "Research and isotope reactors in several countries.",
+      "complexity": "5",
+      "cost": "Reactor-scale; India has sanctioned an isotope production reactor (~2035).",
+      "india_base": "BARC/BRIT (Dhruva): 976 Ci in 2025-26.",
+      "gap": "Reactor capacity; enriched targets.",
+      "sources": [
+        "pib_lu"
+      ]
+    },
+    {
+      "id": "s18",
+      "number": 18,
+      "slug": "potash-mining",
+      "name": "Potash mining",
+      "what": "Shaft or solution mining, then flotation or crystallisation to MOP; SOP from brines.",
+      "minerals_text": "Potash",
+      "minerals": [
+        "potash"
+      ],
+      "outside_china": "Canada 31%, Russia 20%, China 13%, Belarus 12%.",
+      "complexity": "1-2",
+      "cost": "A solution mine costs billions of dollars (K+S Bethune, Canada; ~2.9 Mt/yr by 2023).",
+      "india_base": "Archean (SOP from brine); Rajasthan resources (~236 Mt); MECL-RSMML study.",
+      "gap": "Deep solution-mining know-how.",
+      "sources": [
+        "usgs_k",
+        "bethune",
+        "ls535",
+        "po"
+      ]
+    }
+  ],
+  "chemistry": [
+    {
+      "id": "k01",
+      "slug": "fluorochemicals-and-hf",
+      "name": "Fluorochemicals and HF",
+      "who": "GFCL (India's largest integrated fluoropolymer maker; fluorspar mine in Morocco); Navin Fluorine (AHF project at Dahej).",
+      "carries_over_to": "LiPF6 electrolyte salt; HF purification of graphite; rare-earth fluorides for metal making; etching chemicals for gallium and silicon devices.",
+      "minerals_text": "Li, graphite, Nd, Pr, Dy, Tb, Gd, Ga, Si",
+      "minerals": [
+        "lithium",
+        "graphite",
+        "neodymium",
+        "praseodymium",
+        "dysprosium",
+        "terbium",
+        "gadolinium",
+        "gallium",
+        "silicon"
+      ],
+      "fit": "Direct for LiPF6; adjacent for the rest",
+      "sources": [
+        "gfcl",
+        "navin"
+      ]
+    },
+    {
+      "id": "k02",
+      "slug": "battery-electrolytes-and-salts",
+      "name": "Battery electrolytes and salts",
+      "who": "Neogen (electrolyte line running; salts due H2 FY27); GFCL (LiPF6).",
+      "carries_over_to": "Electrolyte salts and solvents for non-China cell makers.",
+      "minerals_text": "Li, P",
+      "minerals": [
+        "lithium",
+        "phosphorus"
+      ],
+      "fit": "Direct",
+      "sources": [
+        "neogen",
+        "gfcl"
+      ]
+    },
+    {
+      "id": "k03",
+      "slug": "phosphate-chemistry",
+      "name": "Phosphate chemistry",
+      "who": "Fertiliser acid makers (~2.2 Mt/yr at home; IFFCO and Chambal also co-own acid plants in Jordan and Morocco); Sudeep (pharma iron phosphate upgraded to battery grade); Himadri and GFCL (LFP).",
+      "carries_over_to": "Purified phosphoric acid, iron phosphate, LFP cathode.",
+      "minerals_text": "P, Li",
+      "minerals": [
+        "phosphorus",
+        "lithium"
+      ],
+      "fit": "Direct",
+      "sources": [
+        "po",
+        "sudeep",
+        "himadri",
+        "gfcl",
+        "imacid",
+        "jifco"
+      ]
+    },
+    {
+      "id": "k04",
+      "slug": "liquid-liquid-extraction-and-purification-pharma-agrochemicals",
+      "name": "Liquid-liquid extraction and purification (pharma, agrochemicals)",
+      "who": "India's drug industry (third largest by volume); API makers; Sudeep Pharma.",
+      "carries_over_to": "Solvent-extraction cascades for rare earths and purified phosphoric acid; high-purity salts.",
+      "minerals_text": "REEs, P, Gd",
+      "minerals": [
+        "neodymium",
+        "praseodymium",
+        "samarium",
+        "gadolinium",
+        "dysprosium",
+        "terbium",
+        "yttrium",
+        "erbium",
+        "holmium",
+        "thulium",
+        "ytterbium",
+        "lutetium",
+        "phosphorus"
+      ],
+      "fit": "Adjacent",
+      "sources": [
+        "pharma",
+        "sudeep"
+      ]
+    },
+    {
+      "id": "k05",
+      "slug": "ion-exchange-resins",
+      "name": "Ion-exchange resins",
+      "who": "Ion Exchange India (Ankleshwar; hydrometallurgy and nuclear-grade resins); HWB-BARC's special resin.",
+      "carries_over_to": "Gallium from Bayer liquor; scandium; heavy-REE polishing; lithium from brine.",
+      "minerals_text": "Ga, Sc, Y, heavy REEs, Li",
+      "minerals": [
+        "gallium",
+        "scandium",
+        "yttrium",
+        "dysprosium",
+        "terbium",
+        "erbium",
+        "holmium",
+        "thulium",
+        "ytterbium",
+        "lutetium",
+        "lithium"
+      ],
+      "fit": "Direct for gallium (demo); adjacent for the rest",
+      "sources": [
+        "ionex",
+        "hwb"
+      ]
+    },
+    {
+      "id": "k06",
+      "slug": "chlorination-and-chloride-chemistry",
+      "name": "Chlorination and chloride chemistry",
+      "who": "KMML (TiCl4 for pigment and sponge); India's chlor-alkali industry.",
+      "carries_over_to": "TiCl4 and ZrCl4 for Kroll sponge; chlorosilanes for polysilicon; HCl leaching.",
+      "minerals_text": "Ti, Zr, Hf, Si",
+      "minerals": [
+        "titanium",
+        "zirconium",
+        "silicon"
+      ],
+      "fit": "Direct for titanium",
+      "sources": [
+        "kmml_proc",
+        "kmml_ti"
+      ]
+    },
+    {
+      "id": "k07",
+      "slug": "carbon-and-graphitisation",
+      "name": "Carbon and graphitisation",
+      "who": "HEG and Graphite India (electrodes); TACC; Epsilon.",
+      "carries_over_to": "Synthetic graphite anode; carbon coatings.",
+      "minerals_text": "Graphite, Si",
+      "minerals": [
+        "graphite",
+        "silicon"
+      ],
+      "fit": "Direct",
+      "sources": [
+        "heg",
+        "gil",
+        "tacc",
+        "eps"
+      ]
+    },
+    {
+      "id": "k08",
+      "slug": "catalysts-and-spent-catalyst-recovery",
+      "name": "Catalysts and spent-catalyst recovery",
+      "who": "Rubamin (Mo, Co, Ni from spent catalyst); Hindustan Platinum (PGM refining).",
+      "carries_over_to": "Molybdenum and cobalt recovery; catalyst-grade chemicals.",
+      "minerals_text": "Mo, Co, Ni",
+      "minerals": [
+        "molybdenum",
+        "cobalt",
+        "nickel"
+      ],
+      "fit": "Direct",
+      "sources": [
+        "rubamin",
+        "hpl"
+      ]
+    },
+    {
+      "id": "k09",
+      "slug": "high-purity-and-electronic-materials",
+      "name": "High-purity and electronic materials",
+      "who": "C-MET (6N gallium); NFC (special materials); CSIR-CGCRI (doped fibres).",
+      "carries_over_to": "6N-7N gallium and tellurium; Er- and Yb-doped fibres.",
+      "minerals_text": "Ga, Te, Er, Yb",
+      "minerals": [
+        "gallium",
+        "erbium",
+        "ytterbium",
+        "copper"
+      ],
+      "fit": "Direct, small scale",
+      "sources": [
+        "cmet_ga",
+        "nfc",
+        "cgcri"
+      ]
+    },
+    {
+      "id": "k10",
+      "slug": "hydrometallurgy-and-process-r-d",
+      "name": "Hydrometallurgy and process R&D",
+      "who": "CSIR-IMMT, CSIR-NML, BARC, IREL.",
+      "carries_over_to": "Tellurium from slime; nickel from overburden; magnet and battery recycling; REE separation flowsheets.",
+      "minerals_text": "Te, Ni, Co, REEs, Sc",
+      "minerals": [
+        "copper",
+        "nickel",
+        "cobalt",
+        "scandium",
+        "neodymium",
+        "praseodymium",
+        "samarium",
+        "gadolinium",
+        "dysprosium",
+        "terbium",
+        "yttrium",
+        "erbium",
+        "holmium",
+        "thulium",
+        "ytterbium",
+        "lutetium"
+      ],
+      "fit": "Research",
+      "sources": [
+        "immt",
+        "nml",
+        "irel"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "adani",
+      "title": "Adani Enterprises Annual Report FY26: Kutch Copper",
+      "url": "https://www.adanienterprises.com/digital-reports/enterprises/2026/natural-resources.html",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "copper"
+        }
+      ]
+    },
+    {
+      "id": "kutch",
+      "title": "Adani Group, Mar 2024: Kutch Copper begins operations (US$1.2 bn, 0.5 Mt/yr)",
+      "url": "https://connect.adani.com/media/2024/mar24/ael",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "copper"
+        },
+        {
+          "kind": "strategy",
+          "id": "s07"
+        }
+      ]
+    },
+    {
+      "id": "alcoa_ga",
+      "title": "Alcoa: Wagerup gallium project factsheet",
+      "url": "https://www.alcoa.com/australia/en/pdf/Gallium-Project-Factsheet.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "gallium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s08"
+        }
+      ]
+    },
+    {
+      "id": "almonty",
+      "title": "Almonty Industries, news release, Jul 2026: Sangdong processing begins",
+      "url": "https://almonty.com/wp-content/uploads/2026/07/ALM_NR260701.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "tungsten"
+        },
+        {
+          "kind": "strategy",
+          "id": "s14"
+        }
+      ]
+    },
+    {
+      "id": "amg",
+      "title": "AMG press release, 19 Sep 2024: Bitterfeld lithium hydroxide refinery opens",
+      "url": "https://www.presseportal.de/en/print.htx?nr=5868359",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "lithium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s06"
+        }
+      ]
+    },
+    {
+      "id": "covalent2",
+      "title": "Covalent Lithium, Aug 2025: first product at Kwinana lithium hydroxide refinery",
+      "url": "https://www.covalentlithium.com/news/covalent-lithium-achieves-first-product-at-kwinana-lithium-hydroxide-refinery",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "lithium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s06"
+        }
+      ]
+    },
+    {
+      "id": "eps",
+      "title": "Epsilon Advanced Materials press release: North Carolina and Karnataka anode plants",
+      "url": "https://www.epsilonam.com/pdf/EAM-NC-Announcement-press-release_Final.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "graphite"
+        },
+        {
+          "kind": "strategy",
+          "id": "s09"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k07"
+        }
+      ]
+    },
+    {
+      "id": "fs",
+      "title": "First Solar press release, 11 Jan 2024: 3.3 GW India facility",
+      "url": "https://www.businesswire.com/news/home/20240111067742/en",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "copper"
+        }
+      ]
+    },
+    {
+      "id": "gil",
+      "title": "Graphite India results presentation, May 2026",
+      "url": "https://investors.graphiteindia.com/documents/6a184388ebfc8GILEP31032026.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "graphite"
+        },
+        {
+          "kind": "strategy",
+          "id": "s09"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k07"
+        }
+      ]
+    },
+    {
+      "id": "gfcl",
+      "title": "Gujarat Fluorochemicals investor presentation (NSE filing, 12 Aug 2026)",
+      "url": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_12082026150128_GFCL_Investor_Presentation_12August2026.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "lithium"
+        },
+        {
+          "kind": "mineral",
+          "id": "phosphorus"
+        },
+        {
+          "kind": "mineral",
+          "id": "graphite"
+        },
+        {
+          "kind": "strategy",
+          "id": "s06"
+        },
+        {
+          "kind": "strategy",
+          "id": "s09"
+        },
+        {
+          "kind": "strategy",
+          "id": "s10"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k01"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k02"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k03"
+        }
+      ]
+    },
+    {
+      "id": "heg",
+      "title": "HEG investor presentation (NSE filing, 23 Jul 2026)",
+      "url": "https://nsearchives.nseindia.com/corporate/HEG_23072026190629_Stxintimation_Presentation230726.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "graphite"
+        },
+        {
+          "kind": "strategy",
+          "id": "s09"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k07"
+        }
+      ]
+    },
+    {
+      "id": "himadri",
+      "title": "Himadri Speciality Chemical, BSE filing, 6 Dec 2023: LFP cathode plant",
+      "url": "https://bseindia.com/xml-data/corpfiling/AttachHis/28fce6ad-2072-4fa3-98c3-8b3c7fcd7ee7.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "phosphorus"
+        },
+        {
+          "kind": "strategy",
+          "id": "s10"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k03"
+        }
+      ]
+    },
+    {
+      "id": "hind_te",
+      "title": "Hindalco Integrated Annual Report 2022-23: intellectual capital",
+      "url": "https://hindalco.com/integrated-annual-report2022-23/pdf/intellectual-capital.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "copper"
+        },
+        {
+          "kind": "strategy",
+          "id": "s07"
+        }
+      ]
+    },
+    {
+      "id": "hind_pm",
+      "title": "Hindalco: precious metals (Dahej)",
+      "url": "https://hindalco.com/businesses/copper/precious-metals",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "copper"
+        }
+      ]
+    },
+    {
+      "id": "hpl",
+      "title": "Hindustan Platinum: refining services",
+      "url": "https://hindustanplatinum.com/services-refining/",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "chemistry",
+          "id": "k08"
+        }
+      ]
+    },
+    {
+      "id": "hzl_w",
+      "title": "Hindustan Zinc, successful bidder for tungsten block (NSE filing, 14 Nov 2025)",
+      "url": "https://nsearchives.nseindia.com/corporate/HINDZINCNSE_14112025180725_SEIntimation_-_Successful_Bidder.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "tungsten"
+        },
+        {
+          "kind": "strategy",
+          "id": "s14"
+        }
+      ]
+    },
+    {
+      "id": "iluka22",
+      "title": "Iluka Resources, ASX release, 4 Apr 2022: Eneabba refinery funding and capacity",
+      "url": "https://announcements.asx.com.au/asxpdf/20220404/pdf/457n00z958ghfd.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "strategy",
+          "id": "s01"
+        }
+      ]
+    },
+    {
+      "id": "ionex",
+      "title": "Ion Exchange (India): resins (Ankleshwar; hydrometallurgy and nuclear-grade)",
+      "url": "https://ionexchangeglobal.com/products/resins",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "gallium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s08"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k05"
+        }
+      ]
+    },
+    {
+      "id": "jifco",
+      "title": "JPMC: Jordan India Fertilizer Company (JIFCO), set up in 2008 with IFFCO to produce phosphoric acid",
+      "url": "https://www.jpmc.com.jo/en/our-partner/jordan-india-fertilizers-co-jifco",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "phosphorus"
+        },
+        {
+          "kind": "strategy",
+          "id": "s10"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k03"
+        }
+      ]
+    },
+    {
+      "id": "nalco_mou",
+      "title": "NALCO, 10 May 2016: R&D agreement with BARC (gallium from Bayer liquor)",
+      "url": "https://nalcoindia.com/?p=8152",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "gallium"
+        }
+      ]
+    },
+    {
+      "id": "navin",
+      "title": "Navin Fluorine, NSE filing, 13 Feb 2024: Q3 FY24 call (AHF project at Dahej)",
+      "url": "https://nsearchives.nseindia.com/corporate/NAVINFLUOR_13022024121102_Q3signed.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "chemistry",
+          "id": "k01"
+        }
+      ]
+    },
+    {
+      "id": "neogen",
+      "title": "Neogen Chemicals investor presentation (NSE filing, 26 Jul 2026)",
+      "url": "https://nsearchives.nseindia.com/corporate/NEOGEN_26072026165930_EP.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "lithium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s06"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k02"
+        }
+      ]
+    },
+    {
+      "id": "nlc",
+      "title": "NLC India press release (NSE filing, 29 Oct 2025): MoU with BARC on rare earths from fly ash",
+      "url": "https://nsearchives.nseindia.com/corporate/NLCINDIA_29102025172528_PressRelease29102025_Signed.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "dysprosium"
+        },
+        {
+          "kind": "mineral",
+          "id": "yttrium"
+        }
+      ]
+    },
+    {
+      "id": "rio_te",
+      "title": "Rio Tinto via Business Wire, 11 May 2022: tellurium production at Kennecott",
+      "url": "https://www.businesswire.com/news/home/20220511005416/en/Rio-Tinto-starts-tellurium-production-at-Kennecott",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "copper"
+        },
+        {
+          "kind": "strategy",
+          "id": "s07"
+        }
+      ]
+    },
+    {
+      "id": "rio_ga",
+      "title": "Rio Tinto via Business Wire, 2 Mar 2026: gallium pilot and demonstration plant in Quebec",
+      "url": "https://www.businesswire.com/news/home/20260302061849/en",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "gallium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s08"
+        }
+      ]
+    },
+    {
+      "id": "rio_sc",
+      "title": "Rio Tinto, Form 6-K, Nov 2025: Canada Growth Fund investment in scandium",
+      "url": "https://www.sec.gov/Archives/edgar/data/863064/000086306425000023/ex1d11canadagrowth.htm",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "scandium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s16"
+        }
+      ]
+    },
+    {
+      "id": "rubamin",
+      "title": "Rubamin: spent catalyst recycling",
+      "url": "https://www.rubamin.com/spent-catalyst-recycling",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "cobalt"
+        },
+        {
+          "kind": "mineral",
+          "id": "molybdenum"
+        },
+        {
+          "kind": "strategy",
+          "id": "s05"
+        },
+        {
+          "kind": "strategy",
+          "id": "s15"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k08"
+        }
+      ]
+    },
+    {
+      "id": "sudeep",
+      "title": "Sudeep Pharma investor presentation (NSE filing, 4 Aug 2026)",
+      "url": "https://nsearchives.nseindia.com/corporate/SUDEEPPHARMALIMITED_04082026190407_Submission_of_Investor_Presentation_04082026.pdf",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "phosphorus"
+        },
+        {
+          "kind": "strategy",
+          "id": "s10"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k03"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k04"
+        }
+      ]
+    },
+    {
+      "id": "tacc",
+      "title": "TACC press release (PR Newswire), 7 Nov 2025: 20,000 t/yr anode plant",
+      "url": "https://uniindia.com/tacc-positions-india-as-a-global-hub-for-advanced-energy-materials/prnewswire/news/3634842.html",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "graphite"
+        },
+        {
+          "kind": "strategy",
+          "id": "s09"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k07"
+        }
+      ]
+    },
+    {
+      "id": "trei",
+      "title": "Toyotsu Rare Earths India: company site",
+      "url": "https://trei.co.in/",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "neodymium"
+        },
+        {
+          "kind": "mineral",
+          "id": "praseodymium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s01"
+        }
+      ]
+    },
+    {
+      "id": "vale_pom",
+      "title": "Vale press room: Indonesia growth projects, Pomalaa (HPAL)",
+      "url": "https://saladeimprensa.vale.com/indonesia-growth-projects-pomalaa",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "nickel"
+        },
+        {
+          "kind": "strategy",
+          "id": "s04"
+        }
+      ]
+    },
+    {
+      "id": "chiplun",
+      "title": "Wolfram Bergbau (Sandvik): Chiplun recycling site",
+      "url": "https://www.wolfram.at/en/about-us/sustainability/chiplun/",
+      "type": "Companies",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "tungsten"
+        },
+        {
+          "kind": "strategy",
+          "id": "s14"
+        }
+      ]
+    },
+    {
+      "id": "drdo_ti",
+      "title": "DRDO: indigenous production of titanium sponge (500 t/yr plant at KMML, Rs 100 crore)",
+      "url": "https://drdo.gov.in/drdo/indigenous-production-titanium-sponge",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "titanium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s12"
+        }
+      ]
+    },
+    {
+      "id": "maaden",
+      "title": "Embassy of India, Riyadh, Jul 2025: long-term agreements with Ma'aden for 3.1 Mt/yr of DAP (IPL, KRIBHCO, CIL)",
+      "url": "https://www.eoiriyadh.gov.in/section/press-releases/visit-of-the-union-minister-of-health-and-family-welfare-and-minister-of-chemicals-and-fertilizers-shri-j-p-nadda-to-the-kingdom-of-saudi-arabia-concludes-today/",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "phosphorus"
+        }
+      ]
+    },
+    {
+      "id": "hwb",
+      "title": "Heavy Water Board press release, 24 Nov 2025: ion-exchange demo plant at NALCO",
+      "url": "https://hwb.gov.in/sites/default/files/Press/HWB_Press_Release_for_Metal-G20112025.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "gallium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s08"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k05"
+        }
+      ]
+    },
+    {
+      "id": "ibm_co",
+      "title": "IBM, Indian Minerals Yearbook 2022: Cobalt",
+      "url": "https://ibm.gov.in/writereaddata/files/171015789265eef0449c986Cobalt_2022.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "cobalt"
+        },
+        {
+          "kind": "strategy",
+          "id": "s05"
+        }
+      ]
+    },
+    {
+      "id": "ibm_ti",
+      "title": "IBM, Indian Minerals Yearbook 2022: Ilmenite and Rutile",
+      "url": "https://ibm.gov.in/writereaddata/files/17125768836613d9733769fIlmenite_Rutile_2022.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "titanium"
+        }
+      ]
+    },
+    {
+      "id": "ibm_ni",
+      "title": "IBM, Indian Minerals Yearbook 2022: Nickel",
+      "url": "https://ibm.gov.in/writereaddata/files/170988010865eab32c0db25Nickel_2022.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "nickel"
+        },
+        {
+          "kind": "strategy",
+          "id": "s04"
+        },
+        {
+          "kind": "strategy",
+          "id": "s05"
+        }
+      ]
+    },
+    {
+      "id": "ibm_ree",
+      "title": "IBM, Indian Minerals Yearbook 2022: Rare Earths",
+      "url": "https://ibm.gov.in/writereaddata/files/17125771666613da8e2e6a6Rare_Earths_2022.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "gadolinium"
+        },
+        {
+          "kind": "mineral",
+          "id": "neodymium"
+        },
+        {
+          "kind": "mineral",
+          "id": "samarium"
+        }
+      ]
+    },
+    {
+      "id": "ibm_w",
+      "title": "IBM, Indian Minerals Yearbook 2022: Tungsten",
+      "url": "https://ibm.gov.in/writereaddata/files/170989619465eaf20275d31Tungsten_2022.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "tungsten"
+        }
+      ]
+    },
+    {
+      "id": "ibm_zr",
+      "title": "IBM, Indian Minerals Yearbook 2022: Zircon",
+      "url": "https://ibm.gov.in/writereaddata/files/17125811186613e9feea8ffZircon_2022.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "zirconium"
+        }
+      ]
+    },
+    {
+      "id": "ls1788",
+      "title": "Lok Sabha Unstarred Q.1788 (DAE), 13 Dec 2023: rare earth resources",
+      "url": "https://eparlib.nic.in/bitstream/123456789/2970627/1/AU1788.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "neodymium"
+        }
+      ]
+    },
+    {
+      "id": "ls535",
+      "title": "Lok Sabha Unstarred Q.535 (Mines), 3 Dec 2025: Rajasthan blocks and resources",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/3016121/1/AU535_rZga4s.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "potash"
+        },
+        {
+          "kind": "mineral",
+          "id": "tungsten"
+        },
+        {
+          "kind": "strategy",
+          "id": "s18"
+        }
+      ]
+    },
+    {
+      "id": "ls855",
+      "title": "Lok Sabha Unstarred Q.855 (Fertilizers): DAP and MOP imports",
+      "url": "https://eparlib.sansad.in/bitstream/123456789/2983575/1/AU855_UVRFQY.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "phosphorus"
+        },
+        {
+          "kind": "mineral",
+          "id": "potash"
+        }
+      ]
+    },
+    {
+      "id": "pharma",
+      "title": "Ministry of Chemicals and Fertilizers / PIB, Aug 2024: India, the world's pharmacy",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/aug/doc2024822379301.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "gadolinium"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k04"
+        }
+      ]
+    },
+    {
+      "id": "coal_ree",
+      "title": "Ministry of Coal / PIB, 28 Jul 2025: rare earths in coal ash (Neyveli)",
+      "url": "https://coal.nic.in/sites/default/files/2025-08/PIB2149191.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "dysprosium"
+        },
+        {
+          "kind": "mineral",
+          "id": "yttrium"
+        }
+      ]
+    },
+    {
+      "id": "mopng",
+      "title": "Ministry of Petroleum and Natural Gas: refining capacity",
+      "url": "https://mopng.gov.in/en/refining/refining-capacity",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "molybdenum"
+        }
+      ]
+    },
+    {
+      "id": "nodules",
+      "title": "MoES / PIB, 21 Aug 2025: India's seabed nodule and sulphide contracts",
+      "url": "https://www.moes.gov.in/sites/default/files/PIB2159345.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "cobalt"
+        },
+        {
+          "kind": "mineral",
+          "id": "nickel"
+        }
+      ]
+    },
+    {
+      "id": "pib_lu",
+      "title": "PIB, 12 Aug 2026: Lu-177 production and imports",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2298191&lang=1&reg=3",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "lutetium"
+        },
+        {
+          "kind": "mineral",
+          "id": "ytterbium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s17"
+        }
+      ]
+    },
+    {
+      "id": "pib_repm",
+      "title": "PIB, 13 Aug 2026: MHI receives 20 bids under the rare earth magnet scheme",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2299078&reg=1&lang=1",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "neodymium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s03"
+        }
+      ]
+    },
+    {
+      "id": "pib_nalco",
+      "title": "PIB, 18 Aug 2026: NALCO fly-ash pilot and red-mud pilot",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300985&lang=2&reg=48",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "scandium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s16"
+        }
+      ]
+    },
+    {
+      "id": "pib_repm_cab",
+      "title": "PIB, 26 Nov 2025: Cabinet approves Rs 7,280 crore scheme for sintered rare earth permanent magnets",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2194684&reg=48&lang=2",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "dysprosium"
+        },
+        {
+          "kind": "mineral",
+          "id": "neodymium"
+        },
+        {
+          "kind": "mineral",
+          "id": "praseodymium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s02"
+        },
+        {
+          "kind": "strategy",
+          "id": "s03"
+        }
+      ]
+    },
+    {
+      "id": "niti_chem",
+      "title": "PIB, 3 Jul 2025: NITI Aayog report on the chemical industry and global value chains",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2141832&reg=3&lang=2",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "about",
+          "id": "context"
+        }
+      ]
+    },
+    {
+      "id": "pli2",
+      "title": "PIB, Apr 2023: PLI Tranche II allocates 39,600 MW of solar manufacturing (15,400 MW fully integrated)",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1911380",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "silicon"
+        },
+        {
+          "kind": "strategy",
+          "id": "s13"
+        }
+      ]
+    },
+    {
+      "id": "recyc",
+      "title": "PMO, 3 Sep 2025: Rs 1,500 crore critical mineral recycling scheme",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-1500-crore-incentive-scheme-to-promote-critical-mineral-recycling-in-the-country/",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "cobalt"
+        },
+        {
+          "kind": "mineral",
+          "id": "molybdenum"
+        },
+        {
+          "kind": "strategy",
+          "id": "s15"
+        }
+      ]
+    },
+    {
+      "id": "rs481",
+      "title": "Rajya Sabha Unstarred Q.481 (DAE), 23 Jul 2026: IREL, SmCo plant, Bhopal facility",
+      "url": "https://cdnbbsr.s3waas.gov.in/s35b8e4fd39d9786228649a8a8bec4e008/uploads/2026/08/20260818539464909.pdf",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "dysprosium"
+        },
+        {
+          "kind": "mineral",
+          "id": "terbium"
+        },
+        {
+          "kind": "mineral",
+          "id": "neodymium"
+        },
+        {
+          "kind": "mineral",
+          "id": "samarium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s02"
+        },
+        {
+          "kind": "strategy",
+          "id": "s03"
+        },
+        {
+          "kind": "strategy",
+          "id": "s15"
+        }
+      ]
+    },
+    {
+      "id": "usitc",
+      "title": "USITC news release, 12 Mar 2026: active anode material from China (negative)",
+      "url": "https://www.usitc.gov/press_room/news_release/2026/er0312_68281.htm",
+      "type": "Government",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "graphite"
+        }
+      ]
+    },
+    {
+      "id": "iea_comm",
+      "title": "IEA commentary, 23 Oct 2025: export controls and supply concentration (REE separation ~91%, sintered magnets 94%, precursors/LFP 95%+)",
+      "url": "https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality",
+      "type": "IEA",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "cobalt"
+        },
+        {
+          "kind": "mineral",
+          "id": "nickel"
+        },
+        {
+          "kind": "mineral",
+          "id": "phosphorus"
+        },
+        {
+          "kind": "mineral",
+          "id": "dysprosium"
+        },
+        {
+          "kind": "mineral",
+          "id": "terbium"
+        },
+        {
+          "kind": "mineral",
+          "id": "gadolinium"
+        },
+        {
+          "kind": "mineral",
+          "id": "neodymium"
+        },
+        {
+          "kind": "mineral",
+          "id": "praseodymium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s01"
+        },
+        {
+          "kind": "strategy",
+          "id": "s03"
+        },
+        {
+          "kind": "strategy",
+          "id": "s10"
+        }
+      ]
+    },
+    {
+      "id": "iea",
+      "title": "IEA, Global Critical Minerals Outlook 2025: Executive summary",
+      "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary",
+      "type": "IEA",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "phosphorus"
+        },
+        {
+          "kind": "strategy",
+          "id": "s10"
+        }
+      ]
+    },
+    {
+      "id": "iea_over",
+      "title": "IEA, Global Critical Minerals Outlook 2025: overview of outlook for key minerals",
+      "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals",
+      "type": "IEA",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "cobalt"
+        },
+        {
+          "kind": "mineral",
+          "id": "lithium"
+        },
+        {
+          "kind": "mineral",
+          "id": "nickel"
+        },
+        {
+          "kind": "strategy",
+          "id": "s04"
+        },
+        {
+          "kind": "strategy",
+          "id": "s05"
+        },
+        {
+          "kind": "strategy",
+          "id": "s06"
+        }
+      ]
+    },
+    {
+      "id": "iea26",
+      "title": "IEA, Global Critical Minerals Outlook 2026: executive summary (recycling capacity shares)",
+      "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
+      "type": "IEA",
+      "used_by": [
+        {
+          "kind": "strategy",
+          "id": "s15"
+        }
+      ]
+    },
+    {
+      "id": "iea_gevo",
+      "title": "IEA, Global EV Outlook 2025: electric vehicle batteries (China: 80% of cells, ~85% of cathode, >90% of anode)",
+      "url": "https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-batteries",
+      "type": "IEA",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "lithium"
+        },
+        {
+          "kind": "mineral",
+          "id": "graphite"
+        },
+        {
+          "kind": "strategy",
+          "id": "s09"
+        },
+        {
+          "kind": "strategy",
+          "id": "s10"
+        }
+      ]
+    },
+    {
+      "id": "po",
+      "title": "Processing Outlook sheet (Takshashila, Oct 2026), which carries its own primary sources",
+      "url": null,
+      "type": "Internal",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "cobalt"
+        },
+        {
+          "kind": "mineral",
+          "id": "copper"
+        },
+        {
+          "kind": "mineral",
+          "id": "lithium"
+        },
+        {
+          "kind": "mineral",
+          "id": "nickel"
+        },
+        {
+          "kind": "mineral",
+          "id": "phosphorus"
+        },
+        {
+          "kind": "mineral",
+          "id": "potash"
+        },
+        {
+          "kind": "mineral",
+          "id": "neodymium"
+        },
+        {
+          "kind": "mineral",
+          "id": "silicon"
+        },
+        {
+          "kind": "strategy",
+          "id": "s10"
+        },
+        {
+          "kind": "strategy",
+          "id": "s18"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k03"
+        }
+      ]
+    },
+    {
+      "id": "argus_k",
+      "title": "Argus, 18 May 2026: BPC-IPL India potash contract at $383/t CFR",
+      "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2828100-bpc-ipl-set-new-india-mop-contract-at-383-t-cfr",
+      "type": "Press and analysts",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "potash"
+        }
+      ]
+    },
+    {
+      "id": "bethune",
+      "title": "Canadian Mining Journal: K+S Bethune potash solution mine",
+      "url": "https://canadianminingjournal.com/featured-article/bethune-potash-mine-feeds-future-ks",
+      "type": "Press and analysts",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "potash"
+        },
+        {
+          "kind": "strategy",
+          "id": "s18"
+        }
+      ]
+    },
+    {
+      "id": "dte_poly",
+      "title": "Down To Earth, 7 Aug 2026: MNRE weighs polysilicon PLI (quotes MNRE Secretary)",
+      "url": "https://www.downtoearth.org.in/energy/mnre-weighs-support-scheme-for-polysilicon-to-back-10-gw-capacity-in-solar-manufacturing",
+      "type": "Press and analysts",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "silicon"
+        },
+        {
+          "kind": "strategy",
+          "id": "s13"
+        }
+      ]
+    },
+    {
+      "id": "neo_narva",
+      "title": "ERR News, 2023: construction of Neo's magnet factory in Narva begins",
+      "url": "https://news.err.ee/1609020791/construction-of-magnet-factory-in-narva-begins",
+      "type": "Press and analysts",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "neodymium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s03"
+        }
+      ]
+    },
+    {
+      "id": "caremag",
+      "title": "Fastmarkets: Caremag raises EUR 216 m for its Lacq rare earths plant",
+      "url": "https://fastmarkets.com/insights/caremag-raises-216-million-to-build-rare-earths-plant-in-france",
+      "type": "Press and analysts",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "dysprosium"
+        },
+        {
+          "kind": "mineral",
+          "id": "terbium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s01"
+        }
+      ]
+    },
+    {
+      "id": "covalent",
+      "title": "Mining Weekly, 15 Feb 2023: Covalent (Wesfarmers-SQM) capex guidance",
+      "url": "https://www.miningweekly.com/article/covalent-delays-first-lithium-hydroxide-2023-02-15",
+      "type": "Press and analysts",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "lithium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s06"
+        }
+      ]
+    },
+    {
+      "id": "lynas",
+      "title": "Mining Weekly, 16 May 2025: Lynas begins first heavy rare earth output outside China",
+      "url": "https://www.miningweekly.com/article/lynas-begins-first-heavy-rare-earth-output-outside-china-2025-05-16",
+      "type": "Press and analysts",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "dysprosium"
+        },
+        {
+          "kind": "mineral",
+          "id": "terbium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s01"
+        }
+      ]
+    },
+    {
+      "id": "mmta_hf",
+      "title": "MMTA / CPM Group: hafnium demand and capacity",
+      "url": "https://mmta.co.uk/hafnium-demand-dynamics-and-capacity-constraints/",
+      "type": "Press and analysts",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "zirconium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s12"
+        }
+      ]
+    },
+    {
+      "id": "iluka24",
+      "title": "Reuters via Kitco, 6 Dec 2024: Eneabba refinery cost rises to A$1.7-1.8 bn",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-12-06/australia-grants-further-257m-ilukas-rare-earths-refinery-amid-cost",
+      "type": "Press and analysts",
+      "used_by": [
+        {
+          "kind": "strategy",
+          "id": "s01"
+        }
+      ]
+    },
+    {
+      "id": "lohum",
+      "title": "Reuters via Kitco, 9 Sep 2026: Lohum ships first lithium ore from Zimbabwe",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-09-09/lohum-ships-first-lithium-ore-zimbabwe-starts-overseas-mining",
+      "type": "Press and analysts",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "lithium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s06"
+        },
+        {
+          "kind": "strategy",
+          "id": "s15"
+        }
+      ]
+    },
+    {
+      "id": "imacid",
+      "title": "SKP Securities, 18 May 2026: Chambal Fertilisers Q4 FY26 update (IMACID, the joint venture with OCP, expanding phosphoric acid from 500 to 700 kt/yr; US$173 m)",
+      "url": "https://www.valoremadvisors.com/assets/admin/research_file/1779165361_Chambal_-_Q4FY26_Results_Update_-_SKP.pdf",
+      "type": "Press and analysts",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "phosphorus"
+        },
+        {
+          "kind": "strategy",
+          "id": "s10"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k03"
+        }
+      ]
+    },
+    {
+      "id": "cmet_hf",
+      "title": "C-MET: hafnium sponge plant",
+      "url": "https://cmet.gov.in/hdsp022-0",
+      "type": "Research and public sector",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "zirconium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s12"
+        }
+      ]
+    },
+    {
+      "id": "cmet_ga",
+      "title": "C-MET: high-purity gallium",
+      "url": "https://cmet.gov.in/high-purity-gallium",
+      "type": "Research and public sector",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "gallium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s08"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k09"
+        }
+      ]
+    },
+    {
+      "id": "cgcri",
+      "title": "CSIR-CGCRI technology profile: rare-earth doped optical fibres and EDFA",
+      "url": "https://www.nal.res.in/themes/stark/industrymeet2019/logos/CGCRI_Tech_Profile_AEISS%20(1).pdf",
+      "type": "Research and public sector",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "erbium"
+        },
+        {
+          "kind": "mineral",
+          "id": "thulium"
+        },
+        {
+          "kind": "mineral",
+          "id": "ytterbium"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k09"
+        }
+      ]
+    },
+    {
+      "id": "immt",
+      "title": "CSIR-IMMT: hydro/bio/electrometallurgy achievements",
+      "url": "https://www.immt.res.in/hydro-bio-electrometallurgy-achievements",
+      "type": "Research and public sector",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "cobalt"
+        },
+        {
+          "kind": "mineral",
+          "id": "copper"
+        },
+        {
+          "kind": "mineral",
+          "id": "nickel"
+        },
+        {
+          "kind": "strategy",
+          "id": "s04"
+        },
+        {
+          "kind": "strategy",
+          "id": "s07"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k10"
+        }
+      ]
+    },
+    {
+      "id": "nml",
+      "title": "CSIR-NML: ongoing projects 2025-26",
+      "url": "https://transparency.nmlindia.org/projects/ongoing%20project%20during%202025-26.pdf",
+      "type": "Research and public sector",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "scandium"
+        },
+        {
+          "kind": "mineral",
+          "id": "silicon"
+        },
+        {
+          "kind": "strategy",
+          "id": "s13"
+        },
+        {
+          "kind": "strategy",
+          "id": "s15"
+        },
+        {
+          "kind": "strategy",
+          "id": "s16"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k10"
+        }
+      ]
+    },
+    {
+      "id": "eoi",
+      "title": "IREL, expression of interest for rare earth oxides, 23 Feb 2026",
+      "url": "https://irel.co.in/documents/20126/0/EOI+(9).pdf/643918ee-f3e6-b75b-25a4-3f2137d798c0?t=1771829332982",
+      "type": "Research and public sector",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "dysprosium"
+        },
+        {
+          "kind": "mineral",
+          "id": "erbium"
+        },
+        {
+          "kind": "mineral",
+          "id": "terbium"
+        },
+        {
+          "kind": "mineral",
+          "id": "thulium"
+        },
+        {
+          "kind": "mineral",
+          "id": "ytterbium"
+        },
+        {
+          "kind": "mineral",
+          "id": "yttrium"
+        },
+        {
+          "kind": "mineral",
+          "id": "neodymium"
+        },
+        {
+          "kind": "mineral",
+          "id": "samarium"
+        }
+      ]
+    },
+    {
+      "id": "irel",
+      "title": "IREL, Rare Earths Division Aluva: products",
+      "url": "https://www.irel.co.in/rare-earths-division-aluva",
+      "type": "Research and public sector",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "holmium"
+        },
+        {
+          "kind": "mineral",
+          "id": "yttrium"
+        },
+        {
+          "kind": "mineral",
+          "id": "gadolinium"
+        },
+        {
+          "kind": "mineral",
+          "id": "samarium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s01"
+        },
+        {
+          "kind": "strategy",
+          "id": "s11"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k10"
+        }
+      ]
+    },
+    {
+      "id": "kmml_proc",
+      "title": "KMML: process (chloride-route TiO2, mineral separation, sponge)",
+      "url": "https://www.kmml.com/process",
+      "type": "Research and public sector",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "titanium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s11"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k06"
+        }
+      ]
+    },
+    {
+      "id": "kmml_ti",
+      "title": "KMML: titanium sponge plant (500 t/yr; expansion to 1,000 t)",
+      "url": "https://www.kmml.com/initiatives/1",
+      "type": "Research and public sector",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "titanium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s12"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k06"
+        }
+      ]
+    },
+    {
+      "id": "nfc",
+      "title": "Nuclear Fuel Complex: special materials and technologies transferred",
+      "url": "https://www.nfc.gov.in/special-materials.html",
+      "type": "Research and public sector",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "copper"
+        },
+        {
+          "kind": "mineral",
+          "id": "zirconium"
+        },
+        {
+          "kind": "mineral",
+          "id": "gallium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s12"
+        },
+        {
+          "kind": "chemistry",
+          "id": "k09"
+        }
+      ]
+    },
+    {
+      "id": "te_pat",
+      "title": "Patent family of Indian application 2459/DEL/2013: tellurium from anode slime",
+      "url": "https://patents.justia.com/patent/20150053572",
+      "type": "Research and public sector",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "copper"
+        }
+      ]
+    },
+    {
+      "id": "sci_hf",
+      "title": "Scientific.net, Nano Hybrids and Composites vol.17: hafnium from NFC zirconium raffinate (C-MET/VSSC)",
+      "url": "https://www.scientific.net/NHC.17.55",
+      "type": "Research and public sector",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "zirconium"
+        }
+      ]
+    },
+    {
+      "id": "usgs_al",
+      "title": "USGS, Mineral Commodity Summaries 2026: Bauxite and alumina",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-bauxite-alumina.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "gallium"
+        },
+        {
+          "kind": "mineral",
+          "id": "scandium"
+        }
+      ]
+    },
+    {
+      "id": "usgs_co",
+      "title": "USGS, Mineral Commodity Summaries 2026: Cobalt",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cobalt.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "cobalt"
+        }
+      ]
+    },
+    {
+      "id": "usgs_cu",
+      "title": "USGS, Mineral Commodity Summaries 2026: Copper",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-copper.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "copper"
+        },
+        {
+          "kind": "strategy",
+          "id": "s07"
+        }
+      ]
+    },
+    {
+      "id": "usgs_ga",
+      "title": "USGS, Mineral Commodity Summaries 2026: Gallium",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "gallium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s08"
+        }
+      ]
+    },
+    {
+      "id": "usgs_gr",
+      "title": "USGS, Mineral Commodity Summaries 2026: Graphite (natural)",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-graphite.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "graphite"
+        },
+        {
+          "kind": "strategy",
+          "id": "s09"
+        }
+      ]
+    },
+    {
+      "id": "usgs_li",
+      "title": "USGS, Mineral Commodity Summaries 2026: Lithium",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "lithium"
+        }
+      ]
+    },
+    {
+      "id": "usgs_mo",
+      "title": "USGS, Mineral Commodity Summaries 2026: Molybdenum",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-molybdenum.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "molybdenum"
+        }
+      ]
+    },
+    {
+      "id": "usgs_ni",
+      "title": "USGS, Mineral Commodity Summaries 2026: Nickel",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nickel.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "nickel"
+        },
+        {
+          "kind": "strategy",
+          "id": "s04"
+        }
+      ]
+    },
+    {
+      "id": "usgs_p",
+      "title": "USGS, Mineral Commodity Summaries 2026: Phosphate rock",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-phosphate.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "phosphorus"
+        }
+      ]
+    },
+    {
+      "id": "usgs_k",
+      "title": "USGS, Mineral Commodity Summaries 2026: Potash",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-potash.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "potash"
+        },
+        {
+          "kind": "strategy",
+          "id": "s18"
+        }
+      ]
+    },
+    {
+      "id": "usgs_ree",
+      "title": "USGS, Mineral Commodity Summaries 2026: Rare earths",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "dysprosium"
+        },
+        {
+          "kind": "mineral",
+          "id": "erbium"
+        },
+        {
+          "kind": "mineral",
+          "id": "holmium"
+        },
+        {
+          "kind": "mineral",
+          "id": "lutetium"
+        },
+        {
+          "kind": "mineral",
+          "id": "terbium"
+        },
+        {
+          "kind": "mineral",
+          "id": "thulium"
+        },
+        {
+          "kind": "mineral",
+          "id": "ytterbium"
+        },
+        {
+          "kind": "mineral",
+          "id": "gadolinium"
+        },
+        {
+          "kind": "mineral",
+          "id": "neodymium"
+        },
+        {
+          "kind": "mineral",
+          "id": "praseodymium"
+        },
+        {
+          "kind": "mineral",
+          "id": "samarium"
+        }
+      ]
+    },
+    {
+      "id": "usgs_sc",
+      "title": "USGS, Mineral Commodity Summaries 2026: Scandium",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-scandium.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "scandium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s04"
+        },
+        {
+          "kind": "strategy",
+          "id": "s16"
+        }
+      ]
+    },
+    {
+      "id": "usgs_si",
+      "title": "USGS, Mineral Commodity Summaries 2026: Silicon",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silicon.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "silicon"
+        },
+        {
+          "kind": "strategy",
+          "id": "s13"
+        }
+      ]
+    },
+    {
+      "id": "usgs_te",
+      "title": "USGS, Mineral Commodity Summaries 2026: Tellurium",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tellurium.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "copper"
+        },
+        {
+          "kind": "strategy",
+          "id": "s07"
+        }
+      ]
+    },
+    {
+      "id": "usgs_ti",
+      "title": "USGS, Mineral Commodity Summaries 2026: Titanium and titanium dioxide",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-titanium.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "titanium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s12"
+        }
+      ]
+    },
+    {
+      "id": "usgs_tim",
+      "title": "USGS, Mineral Commodity Summaries 2026: Titanium mineral concentrates",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-titanium-minerals.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "titanium"
+        },
+        {
+          "kind": "strategy",
+          "id": "s11"
+        }
+      ]
+    },
+    {
+      "id": "usgs_w",
+      "title": "USGS, Mineral Commodity Summaries 2026: Tungsten",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "tungsten"
+        },
+        {
+          "kind": "strategy",
+          "id": "s14"
+        }
+      ]
+    },
+    {
+      "id": "usgs_y",
+      "title": "USGS, Mineral Commodity Summaries 2026: Yttrium",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-yttrium.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "yttrium"
+        }
+      ]
+    },
+    {
+      "id": "usgs_zr",
+      "title": "USGS, Mineral Commodity Summaries 2026: Zirconium and hafnium",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-zirconium-hafnium.pdf",
+      "type": "USGS",
+      "used_by": [
+        {
+          "kind": "mineral",
+          "id": "zirconium"
+        }
+      ]
+    }
+  ]
+}

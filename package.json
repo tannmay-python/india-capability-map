@@ -1,0 +1,1 @@
+{"name":"india-capability-map","private":true,"version":"1.0.0","scripts":{"build":"python3 scripts/import-workbook.py && node scripts/build.mjs","start":"python3 -m http.server 8768 --directory dist","check":"node --check src/app.js"},"type":"module"}
