@@ -27,4 +27,4 @@ The workbook labels this an internal resource. Standard GitHub Pages hosting is 
 
 ## Use
 
-Select a mineral name or its details link for the full two-lane chain and proposed action. The overview shows full workbook descriptions; filters hide unmatched minerals. The strategies page includes a capability matrix, time horizons and chemistry foundations. Press `/` to search all content, `Esc` to close search, and left/right arrows to move between minerals. Each mineral page has an A4 landscape print stylesheet.
+Select a mineral name or its details link for the full two-lane chain and proposed action. The overview shows full workbook descriptions; filters hide unmatched minerals. The strategies page includes a capability matrix and time horizons. Existing capabilities is a separate section containing all 10 chemistry foundations, their mineral links and sources. Press `/` to search all content, `Esc` to close search, and left/right arrows to move between minerals. Each mineral page has an A4 landscape print stylesheet.
